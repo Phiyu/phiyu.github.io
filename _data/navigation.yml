@@ -1,0 +1,41 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Honors & Publications"
+    url: /honors/
+
+  - title: "Blog"
+    url: /blog/
+
+  - title: "TA Archive"
+    url: /ta/
+
+  - title: "CV"
+    url: /cv/
+
+#   - title: "中文 🇨🇳"
+#     url: /zh/
+
+# zh:
+#   - title: "首页"
+#     url: /zh/
+
+#   - title: "科研经历"
+#     url: /zh/research/
+
+#   - title: "获奖与文章"
+#     url: /zh/honors/
+
+#   - title: "学习资料"
+#     url: /zh/resources/
+
+#   - title: "博客"
+#     url: /zh/blog/
+
+#   - title: "English 🇺🇸"
+#     url: /
