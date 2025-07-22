@@ -14,7 +14,6 @@ This repository hosts the personal academic homepage of **Kevin Yu**, an undergr
   - Honors & Publications
   - Teaching Resources (TA Archive)
   - CV download
-  - Blog with LaTeX support
 - Custom navigation bar
 - Ready for custom domain deployment
 
@@ -27,14 +26,3 @@ This repository hosts the personal academic homepage of **Kevin Yu**, an undergr
 - `assets/` – Images, CSS, and JS files
 - `_data/navigation.yml` – Menu structure
 - `CNAME` – Custom domain support
-
----
-
-## 🚀 Getting Started Locally
-
-To preview the site on your local machine:
-
-1. Install [Jekyll](https://jekyllrb.com/docs/installation/) and Ruby dependencies:
-
-```bash
-bundle install

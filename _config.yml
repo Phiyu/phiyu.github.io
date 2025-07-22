@@ -12,7 +12,7 @@
 
 remote_theme                  : "mmistakes/minimal-mistakes"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-remote-theme
 
@@ -121,9 +121,12 @@ author:
   location         : "Hefei, Anhui, China"
   email            : yuhongfei@mail.ustc.edu.cn
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: "mailto:yuhongfei@mail.ustc.edu.cn"
+    - label: "Contact Me"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto: phiyuhf@outlook.com"
+    - label: "QQ"
+      icon: "fas fa-fw fa-comment"
+      url: "https://qm.qq.com/q/6MxJIHQGoE"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phiyu"
@@ -141,6 +144,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phiyu"
+    - label: "USTC"
+      icon: "fas fa-fw fa-university"
+      url: "https://www.ustc.edu.cn/"
 
 
 # Reading Files

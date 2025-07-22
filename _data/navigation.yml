@@ -9,11 +9,11 @@ main:
   - title: "Honors & Publications"
     url: /honors/
 
+  - title: "Courses & TA"
+    url: /ta/
+
   - title: "Blog"
     url: /blog/
-
-  - title: "TA Archive"
-    url: /ta/
 
   - title: "CV"
     url: /cv/

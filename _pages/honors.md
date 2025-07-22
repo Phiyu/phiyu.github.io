@@ -15,4 +15,4 @@ Below is a selection of academic honors and scholarships I have received during 
 
 ## Publications
 
-*Still cooking up my first paper 🍳 In the meantime, check out what I’ve been working on [here](/research/)!*
+*Still cooking up my first paper 🍳 In the meantime, check out what I’ve been working on [here](research/#ongoing-project)!*
