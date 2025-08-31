@@ -25,4 +25,5 @@ author_profile: true
   ### 🖊️ Research Report Weekly
   - 2025.8.11 - 2025.8.17
   - [2025.8.25 - 2025.8.31](/research/report/250831)
+  - <a href="/assets/html/250831.html" target="_blank">2025.8.25 - 2025.8.31</a>
 
