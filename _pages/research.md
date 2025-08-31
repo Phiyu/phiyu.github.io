@@ -24,5 +24,5 @@ author_profile: true
 
   ### 🖊️ Research Report Weekly
   - 2025.8.11 - 2025.8.17
-  - [2025.8.25 - 2025.8.31](/report/250831)
+  - [2025.8.25 - 2025.8.31](/research/report/250831)
 
