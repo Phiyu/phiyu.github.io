@@ -22,3 +22,7 @@ author_profile: true
     *📅 2025.8 – present*  <br>
     **🧑‍🏫 Supervisor**: *Prof. [Huiyuan Wang](https://inspirehep.net/authors/1038276)*
 
+  ### 🖊️ Research Report Weekly
+  - 2025.8.11 - 2025.8.17
+  - [2025.8.25 - 2025.8.31](/report/250831)
+
