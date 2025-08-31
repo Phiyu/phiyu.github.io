@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Research Report 250831"
-permalink: /research/report/250831
+title: "2025.8.11 - 2025.8.17"
+permalink: /research/report/250817
 author_profile: true
 ---
 
 <!DOCTYPE html><html><head>
-      <title>0831</title>
+      <title>0817</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -32,46 +32,44 @@ author_profile: true
       <div class="crossnote markdown-preview  ">
       <div>
 <h1 id="weekly-research-summary">Weekly Research Summary </h1>
-<h2 id="date-2025825-2025831">Date: 2025.8.25-2025.8.31 </h2>
+<h2 id="date-2025811-2025817">Date: 2025.8.11-2025.8.17 </h2>
 <h3 id="1-overview"><strong>1. Overview</strong> </h3>
-<p>Last week I focus on classifying galaxies (<code>/home/yangyao/work/projects/obs/dwarf_assembly_bias/workspace/data/obs</code>) and measure their 2PCCF with tidal field.</p>
+<p>Last week I focus on reading the paper (Zhang et al. 2025) and codes (/ChenYangyao/dwarf_assembly_bias). I reviewed a number of main concepts of astrophysics and cosmology and tried to be a "researcher" but not a student.</p>
 <hr>
 <h3 id="2-activities-and-progress"><strong>2. Activities and Progress</strong> </h3>
 <h4 id="21-code-review"><strong>2.1 Code Review</strong> </h4>
 <ul>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked=""> Write <code>class_dwarf.py</code> to process the data.</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked=""> Calculate 2PCCF of other 2 kinds of galaxies (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>7</mn><mo>⩽</mo><msub><mi mathvariant="normal">Σ</mi><mo>∗</mo></msub><mo>&lt;</mo><mn>15</mn></mrow><annotation encoding="application/x-tex">7\leqslant\Sigma_*&lt;15</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7811em;vertical-align:-0.1367em;"></span><span class="mord">7</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel amsrm">⩽</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord">Σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1757em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">15</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>15</mn><mo>⩽</mo><msub><mi mathvariant="normal">Σ</mi><mo>∗</mo></msub><mo>&lt;</mo><mn>25</mn></mrow><annotation encoding="application/x-tex">15\leqslant\Sigma_* &lt;25</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7811em;vertical-align:-0.1367em;"></span><span class="mord">15</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel amsrm">⩽</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord">Σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1757em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">25</span></span></span></span>)</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked=""> Study main codes of <code>dwarf_assembly_bias</code> (e.g. <code>galaxy_web_cross_from_obs_sample.py</code> and codes in <code>\src\samples\</code>).</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked=""> View <code>pyhipp</code>.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked=""> Download data and run <code>galaxy_web_cross_from_obs_sample.py</code>, successfully got a fig.</li>
 </ul>
 <h4 id="22-theoretical-insights"><strong>2.2 Theoretical Insights</strong> </h4>
 <ul>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked=""> Physical meaning of the 8 properties of the galaxy. Here's a short note I wrote before:</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked=""> Reading <a href="https://www.nature.com/articles/s41586-025-08965-5#MOESM4">Zhang et al. (2025)</a>, concentrating on Fig.2 to understand the result.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked=""> Supplemented my understanding of some main concepts (e.g. dwarf galaxy, bias, etc.).</li>
 </ul>
 <hr>
-<h3 id="3-challenges"><strong>3. Challenges</strong> </h3>
-<p>When I try to reproduce the Fig2. in Ziwen's paper, and further estimate the other 2 kinds of galaxies, I encountered some problems.</p>
+<h3 id="3-challenges-and-solutions"><strong>3. Challenges and Solutions</strong> </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Unfamiliar with numbers of 'new' functions in Python, especially in long codes and lots of class.</li>
+</ul>
 <blockquote>
-<p>Problem: The <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ξ</mi><mo stretchy="false">(</mo><mi>r</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\xi(r)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.04601em;">ξ</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mclose">)</span></span></span></span> between dwarf galaxies and void/sheet tidal field cannot match with the result in the paper:<br>
-<strong>My result</strong><br>
-<img src="fig/0831-2.png" alt="1"><br>
-<strong>Result in the paper</strong><br>
-<img src="fig/0831-3.webp" alt="2"><br>
-BUT I compare my result with the result from the data in Yangyao's Github (diffuse sample), and they seemly matched:<br>
-<img src="fig/0831-4.png" alt="3"></p>
-<p>Further, I also check my data with Extended Data Table 1 in the paper and they are totally same:<br>
-<strong>My data (diffuse, low-mid-surface-density, high-mid-surface-density, compact)</strong><br>
-<img src="fig/0831-5.png" alt="4"><br>
-<strong>Extended Data Table 1</strong><br>
-<img src="fig/0831-6.png" alt="5"></p>
-<p>I wonder whether there's any detail I have not noticed?</p>
-<p>Finally, here're the result of four kinds of dwarf with four kinds of web types.<br>
-<img src="fig/0831-7.png" alt="6"></p>
+<p>I do not clearly know whether I need to understand all codes in Yangyao's repo. I only fully(?) know how <code>galaxy_web_cross_from_obs_sample.py</code> works.</p>
 </blockquote>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Don't know how to get access to other data.</li>
+</ul>
+<blockquote>
+<p>I only learn the data transfer via Globus before, when I need the data in Quijote.</p>
+</blockquote>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Poor with astrophysics (e.g. lack of understanding on various of galaxies).</li>
+</ul>
 <hr>
 <h3 id="4-ai-tools-utilized"><strong>4. AI Tools Utilized</strong> </h3>
 <ul>
 <li>Chat-GPt-4o. <em>Via Copilot to help me reading codes</em></li>
 <li>Gemini-2.5Pro. <em>Explain physical concepts so that I can quickly get a picture of a physical terms.</em></li>
-<li>Claude Sonnet 4. <em>Coding...</em></li>
 </ul>
 </div>
       </div>
