@@ -31,12 +31,10 @@ I have been striving to grow in all three areas throughout my undergraduate rese
 
 - Python (NumPy, Matplotlib)
 - LaTeX (scientific writing, equations, CV formatting)
-- Developed a small research package during URP at NAOC
 
 ### 🔭 Observational & Survey Literacy
 
 - Currently studying Galaxy Astronomy and Physical Cosmology
-- Familiar with the concept of wide-angle effects in redshift-space distortions (RSD)
 - Interested in connecting simulations with real survey strategies
 
 ---
