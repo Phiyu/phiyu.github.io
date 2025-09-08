@@ -5,4 +5,5 @@ permalink: /cv/
 author_profile: true
 ---
 
-[Click To Download My CV (PDF)(Unfinished!!!)](/assets/pdf/CV.pdf)
+> Latest Update: Sep.9, 2025
+[Click To Download My CV (PDF)(Unfinished!!!)](/assets/pdf/CV_250909.pdf)

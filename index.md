@@ -7,11 +7,9 @@ permalink: /
 
 ## 👋 Hi, welcome to my homepage~
 
-I am a third-year undergraduate student majoring in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023),  and a member of the Wang Shouguan Astronomy Talent Program.
+I am a third-year undergraduate student majoring in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023),  and a member of the Wang Shouguan Talent Program in Astronomy.
 
-I am broadly interested in **cosmology**, **gravitation** and **theoretical astrophysics**, with a long-term goal of pursuing a PhD in physics or astronomy.
-
-<!-- I have participated in the [Undergraduate Research Program (URP)](https://www.nao.cas.cn/yjsjy/bsrc/urp/) at the National Astronomical Observatories of China (NAOC), where I studied fundamental cosmology, linear perturbation theory, and large-scale simulations. This research produced a detailed report and a simple Python package for visualization and analysis. -->
+I am broadly interested in **Large-scale Structure, N-body Simulation** and **Cosmology Data Analysis**, with a long-term goal of pursuing a PhD in physics or astronomy.
 
 ---
 
@@ -29,8 +27,9 @@ I have been striving to grow in all three areas throughout my undergraduate rese
 
 ### 💻 Coding & Computational Skills
 
-- Python (NumPy, Matplotlib)
+- Python (NumPy, SciPy, Matplotlib)
 - LaTeX (scientific writing, equations, CV formatting)
+- Git, Shell, etc.
 
 ### 🔭 Observational & Survey Literacy
 
