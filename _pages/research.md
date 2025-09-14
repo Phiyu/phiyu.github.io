@@ -26,4 +26,5 @@ author_profile: true
   - [2025.8.11 - 2025.8.17](/research/report/250817)
   - [2025.8.25 - 2025.8.31](/research/report/250831)
   - [2025.9.1 - 2025.9.7](/research/report/250907)
+  - [2025.9.8 - 2025.9.14](/research/report/250914)
 
