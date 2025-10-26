@@ -9,13 +9,13 @@ permalink: /
 
 I am a third-year undergraduate student majoring in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023),  and a member of the Wang Shouguan Talent Program in Astronomy.
 
-I am broadly interested in **Large-scale Structure, N-body Simulation** and **Cosmology Data Analysis**, with a long-term goal of pursuing a PhD in physics or astronomy.
+I am broadly interested in **Large-scale Structure, Dark Matter** as well as **Dark Energy**, with a long-term goal of pursuing a PhD in physics or astronomy.
 
 ---
 
 ## 🧠 Research Strengths & Skills
 
-As my advisor once told me: 
+As one of my advisors once told me: 
 > "A good cosmologist should have a solid theoretical foundation, strong coding skills, and a good understanding of astronomical observations."
 
 I have been striving to grow in all three areas throughout my undergraduate research journey.
@@ -48,7 +48,7 @@ I have been striving to grow in all three areas throughout my undergraduate rese
 | Thermodynamics & Statistical Physics | _Statistical Physics of Particles_, Kardar                                  |
 | **General Relativity & Cosmology**  | _[General Relativity](http://www.damtp.cam.ac.uk/user/tong/gr.html)_, [David Tong](https://www.damtp.cam.ac.uk/user/tong/)                                    |
 | 🟡 **Quantum Field Theory**  | _Quantum Field Theory_, Srednicki                         |
-| 🟡 **Large Scale Structure in the Universe**   | _Galaxy Formation and Evolution_, [Houjun](https://www.umass.edu/astronomy/about/directory/houjun-mo)                                |
+| 🟡 **Large Scale Structure in the Universe**   | _Galaxy Formation and Evolution_, [Houjun Mo](https://www.umass.edu/astronomy/about/directory/houjun-mo)                                |
 | 🟡 **Physical Cosmology** | _Modern Cosmology_, [Dodelson](https://www.cmu.edu/physics/people/faculty/dodelson.html)                                  |
 
 > _Note_: <br> 🟡 = In progress  **Course Name** = Graduate-level

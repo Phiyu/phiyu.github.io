@@ -12,8 +12,8 @@ main:
   - title: "Courses & TA"
     url: /ta/
 
-  - title: "Blog"
-    url: /blog/
+  # - title: "Blog"
+  #   url: /blog/
 
   - title: "CV"
     url: /cv/
