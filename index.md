@@ -5,7 +5,7 @@ author_profile: true
 permalink: /
 ---
 
-## 👋 Hi, welcome to my homepage~
+# 👋 Hi, welcome to my homepage~
 
 I am a third-year undergraduate student majoring in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023),  and a member of the Wang Shouguan Talent Program in Astronomy.
 
@@ -33,7 +33,7 @@ I have been striving to grow in all three areas throughout my undergraduate rese
 
 ### 🔭 Observational & Survey Literacy
 
-- Currently studying Galaxy Astronomy and Physical Cosmology
+- Currently studying Physical Cosmology
 - Interested in connecting simulations with real survey strategies
 
 ---

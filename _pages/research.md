@@ -12,7 +12,8 @@ author_profile: true
     *📅 2025.8 – present*  <br>
     **🧑‍🏫 Supervisor**: *Prof. [Huiyuan Wang](https://inspirehep.net/authors/1038276)*
 
-    Reproducing the Method: Reproducing the method in the paper *Unexpected clustering pattern in dwarf galaxies challenges formation models* (Zhang et al., 2025) and researching the relation between the abnormal dwarf clustering and halo ages.
+    - Reproducing the Method: Reproducing the method in the paper \textit{Unexpected clustering pattern in dwarf galaxies challenges formation models} (Zhang et al., 2025) and researching the relation between the abnormal dwarf clustering and halo ages.
+    - Data Analysis: Using TNG and ELUCID simulation data to analyze the relation between halo ages and the dwarf galaxy clustering anomaly.
 
   <!-- ### 🖊️ Research Report Weekly
   - [2025.8.11 - 2025.8.17](/research/report/250817)

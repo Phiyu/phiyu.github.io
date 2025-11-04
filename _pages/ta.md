@@ -42,7 +42,10 @@ author_profile: true
 | College Physics Experiment III | 2025 Spring    |   |
 
 
-
+## Seminar
+| Seminar Topic   | Dates     | Organizer  |
+|---------------------|--------------|-----------------|
+| [Introduction to Gravitational Wave Science](https://indico.global/event/15622/) | 18 Oct 2025, 09:00 → 24 Jan 2026, 12:00   | QFT Group at SEU  |
 
 
 
