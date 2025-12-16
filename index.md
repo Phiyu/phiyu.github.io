@@ -5,11 +5,11 @@ author_profile: true
 permalink: /
 ---
 
-# 👋 Hi, welcome to my homepage~
+# 👋 Hi, welcome to my homepage ~
 
-I am a third-year undergraduate student majoring in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023),  and a member of the Wang Shouguan Talent Program in Astronomy.
+I am a third-year undergraduate student majoring in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy.
 
-I am broadly interested in **Large-scale Structure, Dark Matter** as well as **Dark Energy**, with a long-term goal of pursuing a PhD in physics or astronomy.
+I am broadly interested in **Large-scale Structure, Dark Energy** as well as **Dark Matter**, with a long-term goal of pursuing a PhD in physics or astronomy. I am currently interested in Effective Field Theory (EFT) in cosmology, especially in Large-Scale Structure (LSS) and Dark Energy (DE).
 
 ---
 
@@ -47,7 +47,6 @@ I have been striving to grow in all three areas throughout my undergraduate rese
 | Electrodynamics                  | 《电动力学》，郭硕鸿 <br> [《经典场论新讲》](https://newquanta.com/wp-content/uploads/2023/03/e7bb8fe585b8e59cbae8aebae696b0e8aeb2e696b0.pdf)， [陈童](https://newquanta.com/)                      |
 | Thermodynamics & Statistical Physics | _Statistical Physics of Particles_, Kardar                                  |
 | **General Relativity & Cosmology**  | _[General Relativity](http://www.damtp.cam.ac.uk/user/tong/gr.html)_, [David Tong](https://www.damtp.cam.ac.uk/user/tong/)                                    |
-| 🟡 **Quantum Field Theory**  | _Quantum Field Theory_, Srednicki                         |
 | 🟡 **Large Scale Structure in the Universe**   | _Galaxy Formation and Evolution_, [Houjun Mo](https://www.umass.edu/astronomy/about/directory/houjun-mo)                                |
 | 🟡 **Physical Cosmology** | _Modern Cosmology_, [Dodelson](https://www.cmu.edu/physics/people/faculty/dodelson.html)                                  |
 
