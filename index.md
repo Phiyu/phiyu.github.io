@@ -9,7 +9,7 @@ permalink: /
 
 I am a third-year undergraduate student majoring in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy.
 
-I am broadly interested in **Large-scale Structure, Dark Energy** as well as **Dark Matter**, with a long-term goal of pursuing a PhD in physics or astronomy. I am currently interested in Effective Field Theory (EFT) in cosmology, especially in Large-Scale Structure (LSS) and Dark Energy (DE).
+I am broadly interested in **Large-scale Structure, Dark Energy** as well as **Dark Matter**, with a long-term goal of pursuing a PhD in physics or astronomy. I am currently interested in Effective Field Theory (EFT) of cosmology, especially of Large-Scale Structure (LSS) and Dark Energy (DE).
 
 ---
 
