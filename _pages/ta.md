@@ -40,6 +40,14 @@ author_profile: true
 | Electronic Circuits | 2025 Spring    | Zhong Zheng, Yan Song  |
 | Computational Physics B | 2025 Spring    | Zhiyong Zhang, Yifeng Wei  |
 | College Physics Experiment III | 2025 Spring    |   |
+| Introduction to Astrophysics | 2025 Fall | Guilin Liu, Hongyan Zhou |
+| Space and Time | 2025 Fall | Wen Zhao |
+| Large Scale Structure in the Universe | 2025 Fall | Huiyuan Wang |
+| Physical Cosmology | 2025 Fall | Wenjuan Fang |
+| Introduction to Astromechanics and Astrometry | 2026 Spring | Yanning Fu |
+| Foundation of Stellar Physics | 2026 Spring | Chuncheng Wang, Yu Wang | 
+| Observational Astrophysics | 2026 Spring | Qingfeng Zhu, Lulu Fan |
+| Lecture Course on Astrophysics Frontiers | 2026 Spring | |
 
 
 
@@ -59,12 +67,16 @@ author_profile: true
 
 | Course Name         | Semester | Instructor     | Tutorial Session       |
 |---------------------|-----------------|-----------------|--------------|
-| [Theoretical Mechanics](https://icourse.club/course/4523/)          | 2025 Fall      | [Jiejie Zhu](https://inspirehep.net/authors/982070)    | NULL   |
+| [Theoretical Mechanics](https://icourse.club/course/4523/)          | 2025 Fall      | [Jiejie Zhu](https://inspirehep.net/authors/982070)    | [课程资料](/assets/2025秋朱界杰理论力学A.zip)   |
+| [Electrodynamics](https://icourse.club/course/4778/)          | 2026 Spring      | [Wandong Liu](https://www.researchgate.net/profile/Wandong-Liu)    | NULL   |
 
 ------
 
 ### An Archive for USTCers!:
-这可能是这个网站唯一一个全中文部分，展示了我学习过程中所写过的一些值得分享给大家且可能给大家带来帮助的文件.
+
+**2026年1月重磅推出：[USTC物理课程往年试卷](https://ustcphyexam.github.io/) 网站，欢迎访问！**
+
+这可能是这个网站唯一一个全中文部分，展示了我学习过程中所写过的一些值得分享给大家且可能给大家带来帮助的文件. 
 
 > 实际上很多课程我都只写了一个自己看得懂的期末速记，就不放上来丢人了. 此外历年真题可能涉及侵权，有需要的同学可以[邮箱联系我](mailto:yuhongfei@mail.ustc.edu.cn)（请注明学号）.
 

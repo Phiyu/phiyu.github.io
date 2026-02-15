@@ -5,5 +5,5 @@ permalink: /cv/
 author_profile: true
 ---
 
-> Latest Update: Nov.4, 2025
-[Click To Download My CV (PDF)](/assets/pdf/CV_251216.pdf)
+> Latest Update: Jan. 6, 2026
+[Click To Download My CV (PDF)](/assets/pdf/CV_260106.pdf)
