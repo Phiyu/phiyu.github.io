@@ -5,6 +5,22 @@ permalink: /ta/
 author_profile: true
 ---
 
+## Teaching Assistant
+
+| Course Name         | Semester | Instructor     | Tutorial Session       |
+|---------------------|-----------------|-----------------|--------------|
+| [Theoretical Mechanics](https://icourse.club/course/4523/)          | 2025 Fall      | [Jiejie Zhu](https://inspirehep.net/authors/982070)    | [课程资料](/assets/2025秋朱界杰理论力学A.zip)   |
+| [Electrodynamics](https://icourse.club/course/4778/)          | 2026 Spring      | [Wandong Liu](https://www.researchgate.net/profile/Wandong-Liu)    | NULL   |
+
+
+## Seminar
+
+| Seminar Topic   | Dates                          | Organizer          |
+|-----------------|--------------------------------|--------------------|
+| [Introduction to Gravitational Wave Science](https://indico.global/event/15622/) | 18 Oct 2025, 09:00 → 24 Jan 2026, 12:00 | QFT Group at SEU |
+
+
+
 ## Physics and Mathematics Coursework
 
 - Mathematics
@@ -51,11 +67,6 @@ author_profile: true
 
 
 
-## Seminar
-
-| Seminar Topic   | Dates                          | Organizer          |
-|-----------------|--------------------------------|--------------------|
-| [Introduction to Gravitational Wave Science](https://indico.global/event/15622/) | 18 Oct 2025, 09:00 → 24 Jan 2026, 12:00 | QFT Group at SEU |
 
 
 
@@ -63,12 +74,8 @@ author_profile: true
 
 
 
-## Teaching Assistant
 
-| Course Name         | Semester | Instructor     | Tutorial Session       |
-|---------------------|-----------------|-----------------|--------------|
-| [Theoretical Mechanics](https://icourse.club/course/4523/)          | 2025 Fall      | [Jiejie Zhu](https://inspirehep.net/authors/982070)    | [课程资料](/assets/2025秋朱界杰理论力学A.zip)   |
-| [Electrodynamics](https://icourse.club/course/4778/)          | 2026 Spring      | [Wandong Liu](https://www.researchgate.net/profile/Wandong-Liu)    | NULL   |
+
 
 ------
 
