@@ -9,7 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 body {
-  background-color: rgba(238, 243, 247, 0.82);
+  background-color: rgba(238, 243, 247, 0);
 }
 
 .masthead,
@@ -26,17 +26,17 @@ body {
 .author__urls-wrapper .author__urls,
 .archive__item,
 .feature__item .archive__item {
-  background-color: rgba(238, 243, 247, 0.82);
+  background-color: rgba(238, 243, 247, 0);
   border-radius: 10px;
 }
 
 .masthead {
   backdrop-filter: blur(4px);
-  background-color: rgba(238, 243, 247, 0.82) !important;
+  background-color: rgba(238, 243, 247, 0) !important;
 }
 
 .greedy-nav {
-  background-color: rgba(238, 243, 247, 0.82) !important;
+  background-color: rgba(238, 243, 247, 0) !important;
 }
 
 .page__title,
