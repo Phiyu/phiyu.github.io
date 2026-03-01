@@ -48,20 +48,6 @@ Below is a selection of academic honors and scholarships I have received during 
 <details markdown="1">
 <summary><strong>Click to expand / collapse</strong></summary>
 
-- Mathematics
-
-| Course Name         | Semester      | Instructor      |
-|---------------------|--------------|-----------------|
-| Mathematical Analysis B1  | 2023 Fall    | Jianwei Wang  |
-| Mathematical Analysis B2  | 2024 Spring    | Juan Li  |
-| Linear Algebra B1  | 2024 Spring   | Xiaowei Xu  |
-| Function of Complex Variable A  | 2024 Fall    | Leiye Xu  |
-| Probability Theory and Mathematical Statistics  | 2024 Fall    | Yu Chen  |
-| Equations of Mathematical Physics A  | 2025 Spring    | Leiye Xu  |
-| Computational Method (Numerical Analysis)  | 2025 Spring    | Weihua Tong |
-
-
-
 - Physics
 
 | Course Name         | Semester      | Instructor      |
@@ -90,6 +76,18 @@ Below is a selection of academic honors and scholarships I have received during 
 | Observational Astrophysics | 2026 Spring | Qingfeng Zhu, Lulu Fan |
 | Lecture Course on Astrophysics Frontiers | 2026 Spring | |
 
+- Mathematics
+
+| Course Name         | Semester      | Instructor      |
+|---------------------|--------------|-----------------|
+| Mathematical Analysis B1  | 2023 Fall    | Jianwei Wang  |
+| Mathematical Analysis B2  | 2024 Spring    | Juan Li  |
+| Linear Algebra B1  | 2024 Spring   | Xiaowei Xu  |
+| Function of Complex Variable A  | 2024 Fall    | Leiye Xu  |
+| Probability Theory and Mathematical Statistics  | 2024 Fall    | Yu Chen  |
+| Equations of Mathematical Physics A  | 2025 Spring    | Leiye Xu  |
+| Computational Method (Numerical Analysis)  | 2025 Spring    | Weihua Tong |
+
 </details>
 
 
@@ -106,7 +104,7 @@ Below is a selection of academic honors and scholarships I have received during 
 
 ------
 
-### An Archive for USTCers!:
+## An Archive for USTCers! (中文资料库):
 
 **2026年1月重磅推出：[USTC物理课程往年试卷](https://ustcphyexam.github.io/) 网站，欢迎访问！**
 

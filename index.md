@@ -3,55 +3,64 @@ layout: single
 title: "About me"
 author_profile: true
 permalink: /
+home_links:
+	- title: "Research"
+		excerpt: "Current projects and research experience in cosmology."
+		url: "/research/"
+		btn_label: "View"
+		btn_class: "btn--primary"
+	- title: "Undergrad"
+		excerpt: "Coursework, TA work, seminars, and academic honors."
+		url: "/undergrad/"
+		btn_label: "View"
+		btn_class: "btn--primary"
+	- title: "Publications"
+		excerpt: "Progress toward first publication and project outputs."
+		url: "/pub/"
+		btn_label: "View"
+		btn_class: "btn--primary"
+	- title: "CV"
+		excerpt: "Full CV with education, research, and activities."
+		url: "/assets/pdf/CV_260106.pdf"
+		btn_label: "Download"
+		btn_class: "btn--primary"
 ---
 
-# 👋 Hi, welcome to my homepage ~
+Hongfei **Yu** (于洪飞)
 
-I am a third-year undergraduate student majoring in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy.
+I am an undergraduate student in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy.
 
-I am broadly interested in **Large-scale Structure, Dark Energy** and **Dark Matter**, with a long-term goal of pursuing a PhD in physics or astronomy. I am currently interested in Effective Field Theory (EFT) of cosmology, especially of Large-Scale Structure (LSS) and Dark Energy (DE).
+My interests are in **Large-Scale Structure, Dark Energy, and Dark Matter**, with a current focus on EFT-based approaches in cosmology. I am building my profile as an early-career researcher through coursework, coding, and hands-on research projects.
 
----
+## Quick Links
 
-## 🧠 Research Strengths & Skills
+{% include feature_row id="home_links" type="left" %}
 
-As one of my advisors once told me: 
-> "A good cosmologist should have a solid theoretical foundation, strong coding skills, and a good understanding of astronomical observations."
+## Current Research Focus
 
-I have been striving to grow in all three areas throughout my undergraduate research journey.
+- **Cosmology & LSS:** statistical and physical modeling of structure formation and galaxy-halo relations.
+- **Theory + Computation:** using Python-based workflows to reproduce and analyze simulation results.
+- **Survey Connection:** learning to connect theory and simulations with real observational strategies.
 
-### 📘 Theoretical Foundations
+## Highlights
 
-- Solid background in classical and modern physics, including general relativity and cosmology
-- Strong self-learning ability and curiosity about modern theoretical developments
+- **Research experience:** project in modern cosmology with NAOC (2024–2025), including N-body and power-spectrum reproduction work.
+- **Teaching assistantship:** Theoretical Mechanics (2025 Fall), Electrodynamics (2026 Spring).
+- **Academic training:** strong coursework in GR & Cosmology, LSS, and Physical Cosmology, plus a full physics/math foundation.
+- **Honors:** Excellent Freshman Scholarship (Gold), Excellent Student Scholarship (Bronze, 2024 & 2025).
 
-### 💻 Coding & Computational Skills
+## Publications
 
-- Python (NumPy, SciPy, Matplotlib)
-- LaTeX (scientific writing, equations, CV formatting)
-- Git, Shell, etc.
+I am currently preparing for my **first publication**.
+For project details, please visit [Research](/research/) and [Publications](/pub/).
 
-### 🔭 Observational & Survey Literacy
+## Beyond Physics
 
-- Currently studying Physical Cosmology
-- Interested in connecting simulations with real survey strategies
+Outside research, I enjoy badminton, volleyball, and orchestral performance as a percussionist.
 
----
-
-## 🎯 Future Goals
-
-I am preparing for graduate study and actively developing my research abilities in both theory and computation. I enjoy challenges, adapt quickly to new topics, and communicate clearly in both written and spoken settings.
-
----
-
-## 🎻 Outside Science
-
-In my free time, I enjoy:
-- 🏸 Badminton !
 ![Man's Doubles](/assets/images/badminton.JPG)
-- 🏐 Volleyball !
-- 🎵 USTC Student Symphony Orchestra (As a percussionist).
 ![2024 Fall - Winter Concert](/assets/images/24Fall.jpg)
-(I am currently the president of USSO.)
 
-*Thanks for visiting! Feel free to check out my [CV](/cv/) to learn more.*
+I currently serve as president of the USTC Student Symphony Orchestra.
+
+*Thanks for visiting — you can find a full profile in my [CV](/assets/pdf/CV_260106.pdf).* 
