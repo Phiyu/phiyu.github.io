@@ -6,8 +6,8 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Publications"
-    url: /pub/
+  # - title: "Publications"
+  #   url: /pub/
 
   - title: "Undergrad Education"
     url: /undergrad/

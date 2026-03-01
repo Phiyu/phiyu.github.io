@@ -1,5 +1,5 @@
 ---
-layout: double
+layout: single
 title: "Undergrad Education"
 permalink: /undergrad/
 author_profile: true
