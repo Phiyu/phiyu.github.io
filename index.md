@@ -38,22 +38,6 @@ I have been striving to grow in all three areas throughout my undergraduate rese
 
 ---
 
-## 📚 Core Coursework
-
-| Course Name                      | Reference Textbook                                   |
-|----------------------------------|-------------------------------------------------------|
-| Theoretical Mechanics            | 《经典力学》，[高显](https://spa.sysu.edu.cn/zh-hans/teacher/128) <br> _Mechanics_, Landau                             |
-| Quantum Mechanics                | _Intro To Quantum Mechanics_, Griffiths <br> _Modern Quantum Mechanics_, Sakurai                                  |
-| Electrodynamics                  | 《电动力学》，郭硕鸿 <br> [《经典场论新讲》](https://newquanta.com/wp-content/uploads/2023/03/e7bb8fe585b8e59cbae8aebae696b0e8aeb2e696b0.pdf)， [陈童](https://newquanta.com/)                      |
-| Thermodynamics & Statistical Physics | _Statistical Physics of Particles_, Kardar                                  |
-| **General Relativity & Cosmology**  | _[General Relativity](http://www.damtp.cam.ac.uk/user/tong/gr.html)_, [David Tong](https://www.damtp.cam.ac.uk/user/tong/)                                    |
-| **Large Scale Structure in the Universe**   | _Galaxy Formation and Evolution_, [Houjun Mo](https://www.umass.edu/astronomy/about/directory/houjun-mo)                                |
-| **Physical Cosmology** | _Modern Cosmology_, [Dodelson](https://www.cmu.edu/physics/people/faculty/dodelson.html)                                  |
-
-> _Note_: <br> 🟡 = In progress  **Course Name** = Graduate-level
-
----
-
 ## 🎯 Future Goals
 
 I am preparing for graduate study and actively developing my research abilities in both theory and computation. I enjoy challenges, adapt quickly to new topics, and communicate clearly in both written and spoken settings.

@@ -117,16 +117,13 @@ analytics:
 author:
   name             : "Hongfei Yu"
   avatar           : /assets/images/art-photo.PNG # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "An undergraduate major in physics (Cosmology) / Member of the DESI Collaboration (Sponsor: Prof. Wenjuan Fang)."
+  bio              : "Cosmology!"
   location         : "Hefei, Anhui, China"
-  email            : yuhongfei@mail.ustc.edu.cn
+  email            : phiyuhf@outlook.com
   links:
-    - label: "Contact Me"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto: phiyuhf@outlook.com"
-    - label: "QQ"
-      icon: "fas fa-fw fa-comment"
-      url: "https://qm.qq.com/q/6MxJIHQGoE"
+    # - label: "QQ"
+    #   icon: "fas fa-fw fa-comment"
+    #   url: "https://qm.qq.com/q/6MxJIHQGoE"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phiyu"

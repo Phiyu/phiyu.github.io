@@ -6,11 +6,11 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Honors & Publications"
-    url: /honors/
+  - title: "Publications"
+    url: /pub/
 
-  - title: "Edu & TA"
-    url: /ta/
+  - title: "Undergrad Education"
+    url: /undergrad/
 
   # - title: "Blog"
   #   url: /blog/

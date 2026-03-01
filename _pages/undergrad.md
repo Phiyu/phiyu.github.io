@@ -1,9 +1,19 @@
 ---
-layout: single
-title: "Course and Teaching Assistant"
-permalink: /ta/
+layout: double
+title: "Undergrad Education"
+permalink: /undergrad/
 author_profile: true
 ---
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Teaching Assistant](#teaching-assistant)
+- [Seminar](#seminar)
+- [Core Coursework](#core-coursework)
+- [Honors](#honors)
+- [Physics and Mathematics Coursework](#physics-and-mathematics-coursework)
+  - [An Archive for USTCers!:](#an-archive-for-ustcers)
 
 ## Teaching Assistant
 
@@ -19,9 +29,32 @@ author_profile: true
 |-----------------|--------------------------------|--------------------|
 | [Introduction to Gravitational Wave Science](https://indico.global/event/15622/) | 18 Oct 2025, 09:00 → 24 Jan 2026, 12:00 | QFT Group at SEU |
 
+## Core Coursework
+
+| Course Name                      | Reference Textbook                                   |
+|----------------------------------|-------------------------------------------------------|
+| Theoretical Mechanics            | 《经典力学》，[高显](https://spa.sysu.edu.cn/zh-hans/teacher/128) <br> _Mechanics_, Landau                             |
+| Quantum Mechanics                | _Intro To Quantum Mechanics_, Griffiths <br> _Modern Quantum Mechanics_, Sakurai                                  |
+| Electrodynamics                  | 《电动力学》，郭硕鸿 <br> [《经典场论新讲》](https://newquanta.com/wp-content/uploads/2023/03/e7bb8fe585b8e59cbae8aebae696b0e8aeb2e696b0.pdf)， [陈童](https://newquanta.com/)                      |
+| Thermodynamics & Statistical Physics | _Statistical Physics of Particles_, Kardar                                  |
+| **General Relativity & Cosmology**  | _[General Relativity](http://www.damtp.cam.ac.uk/user/tong/gr.html)_, [David Tong](https://www.damtp.cam.ac.uk/user/tong/)                                    |
+| **Large Scale Structure in the Universe**   | _Galaxy Formation and Evolution_, [Houjun Mo](https://www.umass.edu/astronomy/about/directory/houjun-mo)                                |
+| **Physical Cosmology** | _Modern Cosmology_, [Dodelson](https://www.cmu.edu/physics/people/faculty/dodelson.html)          
+
+## Honors
+
+Below is a selection of academic honors and scholarships I have received during my undergraduate studies:
+
+- 🎖️ **2023 Excellent Freshman Scholarship – Gold Award**
+- 🎖️ **2024 Excellent Student Scholarship – Bronze Award**
+- 🎖️ **2025 Excellent Student Scholarship – Bronze Award**
+
 
 
 ## Physics and Mathematics Coursework
+
+<details markdown="1">
+<summary><strong>Click to expand / collapse</strong></summary>
 
 - Mathematics
 
@@ -64,6 +97,8 @@ author_profile: true
 | Foundation of Stellar Physics | 2026 Spring | Chuncheng Wang, Yu Wang | 
 | Observational Astrophysics | 2026 Spring | Qingfeng Zhu, Lulu Fan |
 | Lecture Course on Astrophysics Frontiers | 2026 Spring | |
+
+</details>
 
 
 
