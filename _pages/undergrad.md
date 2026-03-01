@@ -3,17 +3,9 @@ layout: single
 title: "Undergrad Education"
 permalink: /undergrad/
 author_profile: true
+toc: true
+toc_label: "Contents"
 ---
-
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Teaching Assistant](#teaching-assistant)
-- [Seminar](#seminar)
-- [Core Coursework](#core-coursework)
-- [Honors](#honors)
-- [Physics and Mathematics Coursework](#physics-and-mathematics-coursework)
-  - [An Archive for USTCers!:](#an-archive-for-ustcers)
 
 ## Teaching Assistant
 
