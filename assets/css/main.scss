@@ -7,3 +7,68 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+body {
+  background-color: #eef3f7;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("/assets/images/background.jpg") center center / cover no-repeat;
+  opacity: 0.2;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.masthead,
+.page,
+.sidebar,
+.initial-content,
+.archive {
+  background-color: transparent;
+}
+
+.page__content,
+.page__inner-wrap,
+.author__content,
+.author__urls-wrapper .author__urls,
+.archive__item,
+.feature__item .archive__item {
+  background-color: rgba(255, 255, 255, 0.72);
+  border-radius: 10px;
+}
+
+.masthead {
+  backdrop-filter: blur(4px);
+  background-color: rgba(238, 243, 247, 0.82);
+}
+
+.page__title,
+.archive__item-title,
+.author__name {
+  color: #2f4b66;
+}
+
+a,
+.page__content a {
+  color: #3b648a;
+}
+
+a:hover,
+.page__content a:hover {
+  color: #264b70;
+}
+
+.btn--primary {
+  background-color: #577fa6;
+}
+
+.btn--primary:hover {
+  background-color: #466b8f;
+}
+
+.feature__item .archive__item-teaser img {
+  border-radius: 10px;
+}
