@@ -9,17 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 body {
-  background-color: #eef3f7;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: url("/assets/images/background.jpg") center center / cover no-repeat;
-  opacity: 0.2;
-  z-index: -1;
-  pointer-events: none;
+  background-color: rgba(238, 243, 247, 0.82);
 }
 
 .masthead,
@@ -36,37 +26,45 @@ body::before {
 .author__urls-wrapper .author__urls,
 .archive__item,
 .feature__item .archive__item {
-  background-color: rgba(255, 255, 255, 0.72);
+  background-color: rgba(238, 243, 247, 0.82);
   border-radius: 10px;
 }
 
 .masthead {
   backdrop-filter: blur(4px);
-  background-color: rgba(238, 243, 247, 0.82);
+  background-color: rgba(238, 243, 247, 0.82) !important;
+}
+
+.greedy-nav {
+  background-color: rgba(238, 243, 247, 0.82) !important;
 }
 
 .page__title,
 .archive__item-title,
 .author__name {
-  color: #2f4b66;
+  color: #000000;
 }
 
 a,
 .page__content a {
-  color: #3b648a;
+  color: #141414 !important;
 }
 
 a:hover,
 .page__content a:hover {
-  color: #264b70;
+  color: #264b70 !important;
 }
 
+.btn,
 .btn--primary {
-  background-color: #577fa6;
+  background-color: #577fa6 !important;
+  border-color: #577fa6 !important;
 }
 
+.btn:hover,
 .btn--primary:hover {
-  background-color: #466b8f;
+  background-color: #466b8f !important;
+  border-color: #466b8f !important;
 }
 
 .feature__item .archive__item-teaser img {

@@ -104,7 +104,7 @@ Below is a selection of academic honors and scholarships I have received during 
 
 ------
 
-## An Archive for USTCers! (中文资料库):
+## Archive for USTCers!:
 
 **2026年1月重磅推出：[USTC物理课程往年试卷](https://ustcphyexam.github.io/) 网站，欢迎访问！**
 
