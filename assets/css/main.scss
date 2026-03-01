@@ -10,7 +10,25 @@ search: false
 
 body {
   background-color: rgba(238, 243, 247, 0);
+  position: relative;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+
 
 .masthead,
 .page,
@@ -32,7 +50,7 @@ body {
 
 .masthead {
   backdrop-filter: blur(4px);
-  background-color: rgba(238, 243, 247, 0) !important;
+  background-color: rgba(184, 168, 217, 0.75) !important;
 }
 
 .greedy-nav {
@@ -52,19 +70,19 @@ a,
 
 a:hover,
 .page__content a:hover {
-  color: #264b70 !important;
+  color: #6d5b97 !important;
 }
 
 .btn,
 .btn--primary {
-  background-color: #577fa6 !important;
-  border-color: #577fa6 !important;
+  background-color: #a89cc8 !important;
+  border-color: #a89cc8 !important;
 }
 
 .btn:hover,
 .btn--primary:hover {
-  background-color: #466b8f !important;
-  border-color: #466b8f !important;
+  background-color: #8e7db8 !important;
+  border-color: #8e7db8 !important;
 }
 
 .feature__item .archive__item-teaser img {

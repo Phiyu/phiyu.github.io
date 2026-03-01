@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
   <title id="title">Undergrad Icon</title>
-  <desc id="desc">Blue gray undergrad card icon with graduation cap symbol</desc>
+  <desc id="desc">Light purple undergrad card icon with graduation cap symbol</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e3edf7"/>
-      <stop offset="100%" stop-color="#c5d8e8"/>
+      <stop offset="0%" stop-color="#f7f4fd"/>
+      <stop offset="100%" stop-color="#ebe3f7"/>
     </linearGradient>
   </defs>
   <rect width="640" height="360" rx="28" fill="url(#bg)"/>
-  <polygon points="320,92 440,148 320,204 200,148" fill="#5f7f9f"/>
-  <rect x="280" y="202" width="80" height="30" rx="8" fill="#4f6f8f"/>
-  <path d="M440 150v64" stroke="#4f6f8f" stroke-width="8"/>
-  <circle cx="440" cy="219" r="10" fill="#4f6f8f"/>
-  <text x="320" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#2d4d6c">UNDERGRAD</text>
+  <polygon points="320,92 440,148 320,204 200,148" fill="#9d8fbe"/>
+  <rect x="280" y="202" width="80" height="30" rx="8" fill="#8e7db8"/>
+  <path d="M440 150v64" stroke="#8e7db8" stroke-width="8"/>
+  <circle cx="440" cy="219" r="10" fill="#8e7db8"/>
+  <text x="320" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#4a3d65">UNDERGRAD</text>
 </svg>

@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
   <title id="title">CV Icon</title>
-  <desc id="desc">Blue gray CV card icon with document symbol</desc>
+  <desc id="desc">Light purple CV card icon with document symbol</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#dbe8f3"/>
-      <stop offset="100%" stop-color="#c0d4e6"/>
+      <stop offset="0%" stop-color="#f6f3fc"/>
+      <stop offset="100%" stop-color="#e9e1f6"/>
     </linearGradient>
   </defs>
   <rect width="640" height="360" rx="28" fill="url(#bg)"/>
-  <rect x="238" y="80" width="164" height="200" rx="14" fill="#f6f9fc"/>
-  <rect x="266" y="120" width="108" height="14" rx="7" fill="#6b8baa"/>
-  <rect x="266" y="152" width="108" height="14" rx="7" fill="#8aa4bc"/>
-  <rect x="266" y="184" width="108" height="14" rx="7" fill="#8aa4bc"/>
-  <rect x="266" y="216" width="74" height="14" rx="7" fill="#8aa4bc"/>
-  <text x="320" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#2d4d6c">CURRICULUM VITAE</text>
+  <rect x="238" y="80" width="164" height="200" rx="14" fill="#fdfcfe"/>
+  <rect x="266" y="120" width="108" height="14" rx="7" fill="#a89cc8"/>
+  <rect x="266" y="152" width="108" height="14" rx="7" fill="#c4b8dd"/>
+  <rect x="266" y="184" width="108" height="14" rx="7" fill="#c4b8dd"/>
+  <rect x="266" y="216" width="74" height="14" rx="7" fill="#c4b8dd"/>
+  <text x="320" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#4a3d65">CURRICULUM VITAE</text>
 </svg>
