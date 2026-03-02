@@ -6,6 +6,9 @@ main:
   - title: "Research"
     url: /research/
 
+  # - title: "Simulation"
+  #   url: /sim/
+
   # - title: "Publications"
   #   url: /pub/
 

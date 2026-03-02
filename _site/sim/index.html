@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Hongfei Yu (于洪飞) - Yu’s Academic Page</title>
+<!-- begin _includes/seo.html --><title>Cosmological Simulations &amp; Tidal Field Data - Yu’s Academic Page</title>
 <meta name="description" content="Personal homepage of Yu, undergraduate student in physics.">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Yu's Academic Page">
-<meta property="og:title" content="Hongfei Yu (于洪飞)">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Cosmological Simulations &amp; Tidal Field Data">
+<meta property="og:url" content="http://localhost:4000/sim/">
 
 
   <meta property="og:description" content="Personal homepage of Yu, undergraduate student in physics.">
@@ -42,20 +42,10 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/sim/">
 
 
 
-
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-    "name": "Hongfei Yu",
-    "url": "http://localhost:4000/"
-}
-</script>
 
 
 
@@ -289,7 +279,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Hongfei Yu (于洪飞)">
+    <meta itemprop="headline" content="Cosmological Simulations &amp; Tidal Field Data">
     
     
     
@@ -298,7 +288,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/" itemprop="url">Hongfei <strong>Yu</strong> (于洪飞)
+            <a href="http://localhost:4000/sim/" itemprop="url">Cosmological Simulations &amp; Tidal Field Data
 </a>
           </h1>
           
@@ -309,162 +299,126 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>I am an undergraduate student in Astronomy at the <a href="https://en.ustc.edu.cn/">University of Science and Technology of China</a> (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy.</p>
+        <h2 id="readme">README</h2>
 
-<p>My interests are in <strong>Large-Scale Structure (LSS), Dark Energy, and Dark Matter</strong>, with a current focus on Effective Field Theory (EFT) of LSS theory and its application in cosmology. I am building my profile as an great PhD candidate through coursework, coding, and hands-on research projects.</p>
+<p>This page hosts a collection of <strong>tidal field datasets</strong> derived from cosmological simulations. Tidal tensor fields capture the anisotropic gravitational environment, crucial for understanding structure formation, galaxy-halo relations, and large-scale structure studies.</p>
 
-<h2 id="current-research-focus">Current Research Focus</h2>
-
+<p><strong>Current Dataset Status:</strong></p>
 <ul>
-  <li><strong>Cosmology &amp; LSS:</strong> statistical and physical modeling of structure formation and galaxy-halo relations.</li>
-  <li><strong>Cosmological Parameter Constraint:</strong> using Metro-Carlo Markov Chain (MCMC) to constrain cosmology (parameters and models) with observation.</li>
-  <li><strong>AI for Cosmology:</strong> combining Machine Learning (ML) with theoretical and computational methods to probe fundamental physics with cosmological data.</li>
+  <li><strong>TNG-100</strong>: 2 snapshots with multiple grid resolutions and particle assignment schemes</li>
+  <li><strong>ELUCID</strong>: 2 snapshots from the gravity-only constrained N-body simulation</li>
 </ul>
 
-<h2 id="highlights">Highlights</h2>
-
+<p><strong>Data Specifications:</strong>
+Each tidal field file (2-5 GB) includes:</p>
 <ul>
-  <li><strong>Research experience:</strong> project in modern cosmology with NAOC (2024–2025), undergraduate research program with USTC (2025-2026).</li>
-  <li><strong>Teaching assistantship:</strong> Theoretical Mechanics (2025 Fall), Electrodynamics (2026 Spring).</li>
-  <li><strong>Academic training:</strong> strong coursework in GR &amp; Cosmology, LSS, and Physical Cosmology, plus a full physics/math foundation.</li>
-  <li><strong>Honors:</strong> Excellent Freshman Scholarship (Gold), Excellent Student Scholarship (Bronze, 2024 &amp; 2025).</li>
+  <li>Tidal tensor components: $\partial_i \partial_j \Phi / a^2$ computed from particle density</li>
+  <li>Multiple smoothing scales (adaptive to cosmological resolution)</li>
+  <li>Particle assignment schemes: NGP (Nearest Grid Point) and CIC (Cloud-In-Cell)</li>
+  <li>Full-sky coverage at specified redshifts</li>
 </ul>
 
-<h2 id="quick-links">Quick Links</h2>
+<p><strong>Storage &amp; Access:</strong>
+Files are hosted on Quark Cloud Drive (夸克网盘) for reliable domestic access. International mirror and advanced query features (DataTables.js) will be added in future updates.</p>
 
-<div class="feature__wrapper">
+<hr />
 
-  
-    <div class="feature__item--left">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-            <img src="/assets/images/icon-research.svg" alt="Research icon" />
-            
-          </div>
-        
+<h2 id="datasets">Datasets</h2>
 
-        <div class="archive__item-body">
-          
-            <h2 class="archive__item-title">Research</h2>
-          
+<h3 id="tng-100-illustris-tng-suite">TNG-100: Illustris TNG Suite</h3>
 
-          
-            <div class="archive__item-excerpt">
-              <p>Current projects and research experience in cosmology.</p>
+<p><strong>Simulation Properties:</strong></p>
+<ul>
+  <li>Box size: 110.7 Mpc/h</li>
+  <li>Particle count: 1024³ (dark matter)</li>
+  <li>Cosmology: Planck 2015</li>
+  <li>Public data release at <a href="https://www.tng-project.org/">TNG Project</a></li>
+</ul>
 
-            </div>
-          
+<h4 id="snapshot-z0-a10">Snapshot z=0 (a=1.0)</h4>
 
-          
-            <p><a href="/research/" class="btn btn--primary">View</a></p>
-          
-        </div>
-      </div>
-    </div>
-  
-    <div class="feature__item--left">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-            <img src="/assets/images/icon-undergrad.svg" alt="Undergrad icon" />
-            
-          </div>
-        
+<p><strong>Grid: 512³</strong></p>
+<ul>
+  <li>NGP assignment: <a href="https://pan.quark.cn/s/your-quark-link-ngp-z0-512">Download (Quark)</a></li>
+  <li>CIC assignment: <a href="https://pan.quark.cn/s/your-quark-link-cic-z0-512">Download (Quark)</a></li>
+</ul>
 
-        <div class="archive__item-body">
-          
-            <h2 class="archive__item-title">Undergrad</h2>
-          
+<p><strong>Grid: 1024³</strong></p>
+<ul>
+  <li>NGP assignment: <a href="https://pan.quark.cn/s/your-quark-link-ngp-z0-1024">Download (Quark)</a></li>
+  <li>CIC assignment: <a href="https://pan.quark.cn/s/your-quark-link-cic-z0-1024">Download (Quark)</a></li>
+</ul>
 
-          
-            <div class="archive__item-excerpt">
-              <p>Coursework, TA work, seminars, and academic honors.</p>
+<h4 id="snapshot-z05-a067">Snapshot z=0.5 (a≈0.67)</h4>
 
-            </div>
-          
+<p><strong>Grid: 512³</strong></p>
+<ul>
+  <li>NGP assignment: <a href="https://pan.quark.cn/s/your-quark-link-ngp-z05-512">Download (Quark)</a></li>
+  <li>CIC assignment: <a href="https://pan.quark.cn/s/your-quark-link-cic-z05-512">Download (Quark)</a></li>
+</ul>
 
-          
-            <p><a href="/undergrad/" class="btn btn--primary">View</a></p>
-          
-        </div>
-      </div>
-    </div>
-  
-    <div class="feature__item--left">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-            <img src="/assets/images/icon-simulation.svg" alt="Simulation icon" />
-            
-          </div>
-        
+<p><strong>Grid: 1024³</strong></p>
+<ul>
+  <li>NGP assignment: <a href="https://pan.quark.cn/s/your-quark-link-ngp-z05-1024">Download (Quark)</a></li>
+  <li>CIC assignment: <a href="https://pan.quark.cn/s/your-quark-link-cic-z05-1024">Download (Quark)</a></li>
+</ul>
 
-        <div class="archive__item-body">
-          
-            <h2 class="archive__item-title">Simulations</h2>
-          
+<hr />
 
-          
-            <div class="archive__item-excerpt">
-              <p>Tidal field datasets from cosmological simulations (TNG, ELUCID).</p>
+<h3 id="elucid-evolved-unlikely-coalescences-for-initial-density">ELUCID: Evolved unLikely Coalescences for Initial Density</h3>
 
-            </div>
-          
+<p><strong>Simulation Properties:</strong></p>
+<ul>
+  <li>Box size: 500 Mpc/h (periodic)</li>
+  <li>Particle count: 1024³ (dark matter)</li>
+  <li>Constraints: Constrained to match peculiar velocities within 100 Mpc/h of Milky Way</li>
+  <li>Cosmology: WMAP7</li>
+  <li>Public data at <a href="https://cosmosim.org/simulation/ELUCID/">ELUCID Project</a></li>
+</ul>
 
-          
-            <p><a href="/simulation/" class="btn btn--primary">View</a></p>
-          
-        </div>
-      </div>
-    </div>
-  
-    <div class="feature__item--left">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-            <img src="/assets/images/icon-cv.svg" alt="CV icon" />
-            
-          </div>
-        
+<h4 id="snapshot-z0-a10-1">Snapshot z=0 (a=1.0)</h4>
 
-        <div class="archive__item-body">
-          
-            <h2 class="archive__item-title">CV</h2>
-          
+<p><strong>Grid: 512³</strong></p>
+<ul>
+  <li>NGP assignment: <a href="https://pan.quark.cn/s/your-quark-link-elucid-ngp-z0-512">Download (Quark)</a></li>
+  <li>CIC assignment: <a href="https://pan.quark.cn/s/your-quark-link-elucid-cic-z0-512">Download (Quark)</a></li>
+</ul>
 
-          
-            <div class="archive__item-excerpt">
-              <p>Full CV with education, research, and activities.</p>
+<p><strong>Grid: 1024³</strong></p>
+<ul>
+  <li>NGP assignment: <a href="https://pan.quark.cn/s/your-quark-link-elucid-ngp-z0-1024">Download (Quark)</a></li>
+  <li>CIC assignment: <a href="https://pan.quark.cn/s/your-quark-link-elucid-cic-z0-1024">Download (Quark)</a></li>
+</ul>
 
-            </div>
-          
+<h4 id="snapshot-z03-a077">Snapshot z=0.3 (a≈0.77)</h4>
 
-          
-            <p><a href="/assets/pdf/CV_260106.pdf" class="btn btn--primary">Download</a></p>
-          
-        </div>
-      </div>
-    </div>
-  
+<p><strong>Grid: 512³</strong></p>
+<ul>
+  <li>NGP assignment: <a href="https://pan.quark.cn/s/your-quark-link-elucid-ngp-z03-512">Download (Quark)</a></li>
+  <li>CIC assignment: <a href="https://pan.quark.cn/s/your-quark-link-elucid-cic-z03-512">Download (Quark)</a></li>
+</ul>
 
-</div>
+<p><strong>Grid: 1024³</strong></p>
+<ul>
+  <li>NGP assignment: <a href="https://pan.quark.cn/s/your-quark-link-elucid-ngp-z03-1024">Download (Quark)</a></li>
+  <li>CIC assignment: <a href="https://pan.quark.cn/s/your-quark-link-elucid-cic-z03-1024">Download (Quark)</a></li>
+</ul>
 
-<h2 id="publications">Publications</h2>
+<hr />
 
-<p>I am currently preparing for my <strong>first publication</strong>.
-For project details, please visit <a href="/research/">Research</a>.</p>
+<h2 id="future-updates">Future Updates</h2>
 
-<h2 id="beyond-physics">Beyond Physics</h2>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Interactive sortable/filterable table (DataTables.js)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />International CDN mirrors (Zenodo, HuggingFace Hub)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Additional simulations: Quijote, FLAME, etc.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />File metadata &amp; checksums for validation</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Direct analysis tools (HDF5 viewers, visualization)</li>
+</ul>
 
-<p>Outside research, I enjoy badminton, volleyball, and orchestral performance as a percussionist.</p>
+<hr />
 
-<p><img src="/assets/images/badminton.JPG" alt="Man's Doubles" />
-<img src="/assets/images/24Fall.jpg" alt="2024 Fall - Winter Concert" /></p>
-
-<p>I currently serve as president of the USTC Student Symphony Orchestra.</p>
-
-<p><em>Thanks for visiting — you can find a full profile in my <a href="/assets/pdf/CV_260106.pdf">CV</a>.</em></p>
+<p><em>Last updated: March 2026</em></p>
 
         
       </section>
