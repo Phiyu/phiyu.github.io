@@ -22,8 +22,8 @@ research_cards:
     image_path: /assets/images/zhm_res.png
     alt: "Modern cosmology project"
     excerpt: |
-      **2024-2025, NAOC, Chinese Academy of Sciences** |
-      **Supervisor:** Prof. [Hongming Zhu](https://inspirehep.net/authors/1636078) |
+      **2024-2025, NAOC, CAS** <br>
+      **Supervisor:** Prof. [Hongming Zhu](https://inspirehep.net/authors/1636078) <br>
       Reproduced N-body simulation and power-spectrum estimators in Python (validated with Quijote), and developed a reproducible analysis repository.
 ---
 

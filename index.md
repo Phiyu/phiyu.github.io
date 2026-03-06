@@ -18,13 +18,13 @@ home_links:
     url: "/undergrad/"
     btn_label: "View"
     btn_class: "btn--primary"
-  - title: "Simulations"
-    image_path: "/assets/images/icon-simulation.svg"
-    alt: "Simulation icon"
-    excerpt: "Tidal field datasets from cosmological simulations (TNG, ELUCID)."
-    url: "/simulation/"
-    btn_label: "View"
-    btn_class: "btn--primary"
+  # - title: "Simulations"
+  #   image_path: "/assets/images/icon-simulation.svg"
+  #   alt: "Simulation icon"
+  #   excerpt: "Tidal field datasets from cosmological simulations (TNG, ELUCID)."
+  #   url: "/simulation/"
+  #   btn_label: "View"
+  #   btn_class: "btn--primary"
   - title: "CV"
     image_path: "/assets/images/icon-cv.svg"
     alt: "CV icon"
@@ -47,14 +47,16 @@ My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter*
 ## Highlights
 
 - **Research experience:** project in modern cosmology with NAOC (2024–2025), undergraduate research program with USTC (2025-2026).
+- **Academic training:** strong grad coursework in GR & Cosmology, LSS, and Physical Cosmology, plus a full physics/math foundation.
 - **Teaching assistantship:** Theoretical Mechanics (2025 Fall), Electrodynamics (2026 Spring).
-- **Academic training:** strong coursework in GR & Cosmology, LSS, and Physical Cosmology, plus a full physics/math foundation.
 - **Honors:** Excellent Freshman Scholarship (Gold), Excellent Student Scholarship (Bronze, 2024 & 2025).
 
 
 ## Quick Links
 
 {% include feature_row id="home_links" type="left" %}
+
+> It's also welcome to visit my [Daily arXiv](https://phiyu.github.io/daily-arXiv-ai-enhanced/index.html) website.
 
 ## Publications
 
