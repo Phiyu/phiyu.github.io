@@ -54,7 +54,17 @@ My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter*
 
 ## Quick Links
 
-{% include feature_row id="home_links" type="left" %}
+<div style="display: flex; justify-content: center; gap: 40px; align-items: center; flex-wrap: wrap; margin: 30px 0;">
+  <a href="/research/" style="text-decoration: none;">
+    <img src="/assets/images/icon-research.svg" alt="Research icon" style="width: 100px; height: 100px;">
+  </a>
+  <a href="/undergrad/" style="text-decoration: none;">
+    <img src="/assets/images/icon-undergrad.svg" alt="Undergrad icon" style="width: 100px; height: 100px;">
+  </a>
+  <a href="/assets/pdf/CV_260106.pdf" style="text-decoration: none;">
+    <img src="/assets/images/icon-cv.svg" alt="CV icon" style="width: 100px; height: 100px;">
+  </a>
+</div>
 
 > It's also welcome to visit my [Daily arXiv](https://phiyu.github.io/daily-arXiv-ai-enhanced/index.html) website.
 
