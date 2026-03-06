@@ -66,7 +66,7 @@ My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter*
   </a>
 </div>
 
-> It's also welcome to visit my [Daily arXiv](https://phiyu.github.io/daily-arXiv-ai-enhanced/index.html) website.
+> My [Daily arXiv](https://phiyu.github.io/daily-arXiv-ai-enhanced/index.html) website, with [Qwen3-Max](https://qwen.ai/blog?id=241398b9cd6353de490b0f82806c7848c5d2777d&from=research.latest-advancements-list) summarized.
 
 ## Publications
 
