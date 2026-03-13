@@ -19,7 +19,7 @@ toc_label: "Contents"
 
 | Seminar Topic   | Dates                          | Organizer          |
 |-----------------|--------------------------------|--------------------|
-| [Introduction to Gravitational Wave Science](https://indico.global/event/15622/) | 18 Oct 2025, 09:00 → 24 Jan 2026, 12:00 | QFT Group at SEU |
+| [Introduction to Gravitational Wave Science](https://indico.global/event/15622/) | 18 Oct 2025 → 24 Jan 2026 | QFT Group at SEU |
 
 ## Core Coursework
 
@@ -31,7 +31,8 @@ toc_label: "Contents"
 | Thermodynamics & Statistical Physics | _Statistical Physics of Particles_, Kardar                                  |
 | **General Relativity & Cosmology**  | _[General Relativity](http://www.damtp.cam.ac.uk/user/tong/gr.html)_, [David Tong](https://www.damtp.cam.ac.uk/user/tong/)                                    |
 | **Large Scale Structure in the Universe**   | _Galaxy Formation and Evolution_, [Houjun Mo](https://www.umass.edu/astronomy/about/directory/houjun-mo)                                |
-| **Physical Cosmology** | _Modern Cosmology_, [Dodelson](https://www.cmu.edu/physics/people/faculty/dodelson.html)          
+| **Physical Cosmology** | _Modern Cosmology_, [Dodelson](https://www.cmu.edu/physics/people/faculty/dodelson.html)          |
+| **Artificial Intelligence and** <br> **Probability Theory in Astrophysics** | _Data Analysis: A Bayesian Tutorial_ |
 
 ## Honors
 

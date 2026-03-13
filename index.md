@@ -47,7 +47,7 @@ My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter*
 ## Highlights
 
 - **Research experience:** project in modern cosmology with NAOC (2024–2025), undergraduate research program with USTC (2025-2026).
-- **Academic training:** strong grad coursework in GR & Cosmology, LSS, and Physical Cosmology, plus a full physics/math foundation.
+- **Academic training:** strong grad coursework in GR & Cosmology, LSS, and AI for Astrophysics, plus a full physics/math foundation.
 - **Teaching assistantship:** Theoretical Mechanics (2025 Fall), Electrodynamics (2026 Spring).
 - **Honors:** Excellent Freshman Scholarship (Gold), Excellent Student Scholarship (Bronze, 2024 & 2025).
 
@@ -66,7 +66,7 @@ My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter*
   </a>
 </div>
 
-> My [Daily arXiv](https://phiyu.github.io/daily-arXiv-ai-enhanced/index.html) website, with [Qwen3-Max](https://qwen.ai/blog?id=241398b9cd6353de490b0f82806c7848c5d2777d&from=research.latest-advancements-list) summarized.
+> My [Daily arXiv](https://phiyu.github.io/daily-arXiv-ai-enhanced/index.html) website, enhanced by [Qwen3-Max](https://qwen.ai/blog?id=241398b9cd6353de490b0f82806c7848c5d2777d&from=research.latest-advancements-list).
 
 ## Publications
 
