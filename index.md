@@ -36,7 +36,7 @@ home_links:
 
 I am an undergraduate student in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy.
 
-My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter**, with a current focus on Effective Field Theory (EFT) of LSS theory and its application in cosmology. I am building my profile as an great PhD candidate through coursework, coding, and hands-on research projects.
+My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter**, with a current focus on constraining cosmological parameters and Effective Field Theory (EFT) of LSS theory. I am building my profile as a great PhD candidate through coursework, coding, and hands-on research projects.
 
 ## Current Research Focus
 
@@ -46,7 +46,8 @@ My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter*
 
 ## Highlights
 
-- **Research experience:** project in modern cosmology with NAOC (2024–2025), undergraduate research program with USTC (2025-2026).
+- **Research experience:** project in modern cosmology at NAOC (2024–2025), undergraduate research program at USTC (2025-2026).
+- **Collaboration member**: member in DESI Cosmological Parameter Estimator (CPE) group.
 - **Academic training:** strong grad coursework in GR & Cosmology, LSS, and AI for Astrophysics, plus a full physics/math foundation.
 - **Teaching assistantship:** Theoretical Mechanics (2025 Fall), Electrodynamics (2026 Spring).
 - **Honors:** Excellent Freshman Scholarship (Gold), Excellent Student Scholarship (Bronze, 2024 & 2025).
@@ -82,4 +83,4 @@ Outside research, I enjoy badminton, volleyball, and orchestral performance as a
 
 I currently serve as president of the USTC Student Symphony Orchestra.
 
-*Thanks for visiting — you can find a full profile in my [CV](/assets/pdf/CV_260106.pdf).* 
+*Thanks for visiting — you can find a full profile in my [CV](/assets/pdf/CV_260413.pdf).* 
