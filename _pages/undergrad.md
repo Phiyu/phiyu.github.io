@@ -125,8 +125,9 @@ Below is a selection of academic honors and scholarships I have received during 
 - 天体力学与天体测量笔记 _施工中_
 - 恒星物理基础知识点大全（期末总结）_施工中_
 - 天体物理中的人工智能和概率论笔记 _施工中_
+- 天体物理前沿讲座课程汇报：[Cosmology Simulatioin](/assets/notes/Cosmology_Simulation.pdf) 
 
-- 三级大雾实验报告：[氢氘光谱](/assets/notes/氢氘光谱.pdf)，[傅立叶光学](/assets/notes/傅立叶光学.pdf)，[卢瑟福散射](/assets/notes/卢瑟福散射.pdf)
+- 三级大雾实验报告：[氢氘光谱](/assets/notes/氢氘光谱.pdf)，[傅立叶光学](/assets/notes/傅立叶光学.pdf)，[卢瑟福散射](/assets/notes/卢瑟福散射.pdf)，[卢瑟福散射LaTeX源码](/assets/notes/卢瑟福散射.zip)
 
 
 > - [史课速通指南](https://github.com/novalocc/USTC_junkcourse) 由 _应跃洲_ 同学牵头发起的课程速通指南. 目前包含课程：数理方程A、计算方法、计算物理.

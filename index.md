@@ -83,4 +83,4 @@ Outside research, I enjoy badminton, volleyball, and orchestral performance as a
 
 I currently serve as president of the USTC Student Symphony Orchestra.
 
-*Thanks for visiting — you can find a full profile in my [CV](/assets/pdf/CV_260413.pdf).* 
+*Thanks for visiting — you can find a full profile in my [CV](/assets/pdf/CV_260511.pdf).* 

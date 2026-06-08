@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Research"
+title: "Research & Publications"
 permalink: /research/
 author_profile: true
 research_cards:

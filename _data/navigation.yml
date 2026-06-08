@@ -3,7 +3,7 @@ main:
   - title: "About Me"
     url: /
 
-  - title: "Research"
+  - title: "Research and Publications"
     url: /research/
 
   # - title: "Simulation"
@@ -19,7 +19,7 @@ main:
   #   url: /blog/
 
   - title: "CV"
-    url: /assets/pdf/CV_260413.pdf
+    url: /assets/pdf/CV_260511.pdf
 
 #   - title: "中文 🇨🇳"
 #     url: /zh/
