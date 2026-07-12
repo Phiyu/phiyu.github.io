@@ -4,13 +4,13 @@ title: "Research & Publications"
 permalink: /research/
 author_profile: true
 research_cards:
-#   - title: "Galaxy-Halo Clustering in Cosmic Voids"
-#     image_path: /assets/images/why_res.png
-#     alt: "Galaxy-void clustering research"
-#     excerpt: |
-#       **2025-2026, Department of Astronomy, USTC** |
-#       **Supervisor:** Prof. [Huiyuan Wang](https://inspirehep.net/authors/1038276) |
-#       Investigating the dwarf-galaxy clustering excess around cosmic voids using ELUCID constrained simulations and cross-checks with TNG100.
+  - title: "3D Cosmic Web Cross-Correlation Function"
+    image_path: /assets/images/3dwccf.png
+    alt: "Halo and Galaxy Distribution research"
+    excerpt: |
+      **2025-2026, Department of Astronomy, USTC** |
+      **Supervisor:** Prof. [Huiyuan Wang](https://inspirehep.net/authors/1038276) |
+      Using new statistical method to prob the halo and galaxy distribution with the impact of local tidal environment.
 #   - title: "Dark Energy Model Research (DESI)"
 #     image_path: /assets/images/0722-1.png
 #     alt: "Dark energy model research"
@@ -30,3 +30,10 @@ research_cards:
 ## Research Experience
 
 {% include feature_row id="research_cards" type="left" %}
+
+
+## Publication
+
+- (*In preparation...*) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
+
+  **Hongfei Yu**, Huiyuan Wang | arXiv: 26xx.xxxxx

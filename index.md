@@ -36,21 +36,22 @@ home_links:
 
 I am an undergraduate student in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy.
 
-My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter**, with a current focus on constraining cosmological parameters and Effective Field Theory (EFT) of LSS theory. I am building my profile as a great PhD candidate through coursework, coding, and hands-on research projects.
+My interests are in **phenomenological cosmology**, including **Large-Scale Structure (LSS), Dark Energy, and Dark Matter**, with a current focus on constraining cosmological parameters and statistics of halo and galaxy distribution. Besides, I'm also interested in the Effective Field Theory (EFT) in LSS and dark energy.
+
+I am building my profile as a great PhD candidate through coursework, coding, and hands-on research projects.
 
 ## Current Research Focus
 
-- **Cosmology & LSS:** statistical and physical modeling of structure formation and galaxy-halo relations.
-- **Cosmological Parameter Constraint:** using Metro-Carlo Markov Chain (MCMC) to constrain cosmology (parameters and models) with observation.
+- **LSS:** statistical modeling of halo and galaxy distributions, also galaxy-halo relations.
+- **Cosmological Parameter Constraint:** constructing phenomenological model to constrain cosmology parameters and models with simulation and observation.
 - **AI for Cosmology:** combining Machine Learning (ML) with theoretical and computational methods to probe fundamental physics with cosmological data.
 
 ## Highlights
 
-- **Research experience:** project in modern cosmology at NAOC (2024–2025), undergraduate research program at USTC (2025-2026).
+- **Research experience:** project in modern cosmology at NAOC (2024–2025), undergraduate research program at USTC (2025-2026), summer research internship in UW-Madison (2026).
 - **Collaboration member**: member in DESI Cosmological Parameter Estimator (CPE) group.
 - **Academic training:** strong grad coursework in GR & Cosmology, LSS, and AI for Astrophysics, plus a full physics/math foundation.
 - **Teaching assistantship:** Theoretical Mechanics (2025 Fall), Electrodynamics (2026 Spring).
-- **Honors:** Excellent Freshman Scholarship (Gold), Excellent Student Scholarship (Bronze, 2024 & 2025).
 
 
 ## Quick Links
@@ -67,12 +68,16 @@ My interests are in **Large-Scale Structure (LSS), Dark Energy, and Dark Matter*
   </a>
 </div>
 
-> My [Daily arXiv](https://phiyu.github.io/daily-arXiv-ai-enhanced/index.html) website, enhanced by [Qwen3-Max](https://qwen.ai/blog?id=241398b9cd6353de490b0f82806c7848c5d2777d&from=research.latest-advancements-list).
+
 
 ## Publications
 
-I am currently preparing for my **first publication**.
-For project details, please visit [Research](/research/).
+- (*In preparation...*) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
+
+  **Hongfei Yu**, Huiyuan Wang | arXiv: 26xx.xxxxx
+
+
+> For project details, please visit [Research](/research/).
 
 ## Beyond Physics
 
