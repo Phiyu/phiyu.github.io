@@ -12,7 +12,7 @@ toc_label: "Contents"
 | Course Name         | Semester | Instructor     | Tutorial Session       |
 |---------------------|-----------------|-----------------|--------------|
 | [Theoretical Mechanics](https://icourse.club/course/4523/)          | 2025 Fall      | [Jiejie Zhu](https://inspirehep.net/authors/982070)    | [课程资料](/assets/2025秋朱界杰理论力学A.zip)   |
-| [Electrodynamics](https://icourse.club/course/4778/)          | 2026 Spring      | [Wandong Liu](https://www.researchgate.net/profile/Wandong-Liu)    | [郭硕鸿习题解答（重排版）](/assets/pdf/郭硕鸿习题解答0413.pdf)<br> Last Update: 20260413   |
+| [Electrodynamics](https://icourse.club/course/4778/)          | 2026 Spring      | [Wandong Liu](https://www.researchgate.net/profile/Wandong-Liu)    | [郭硕鸿习题解答（重排版）](/assets/pdf/gsh_answer.pdf)   |
 
 
 ## Seminar
@@ -122,9 +122,6 @@ Below is a selection of academic honors and scholarships I have received during 
 - [概率论与数理统计知识点大全（期末总结）](/assets/notes/概统知识点大全.pdf)
 - [计算物理期末总结（不完整）](/assets/notes/计算物理期末复习.pdf) _后续更新请移步[史课速通指南](https://github.com/novalocc/USTC_junkcourse)_
 - 宇宙大尺度结构笔记 _修改自学长旧笔记，按原版要求，不挂网上，有需求的可以自行去评课社区寻觅_
-- 天体力学与天体测量笔记 _施工中_
-- 恒星物理基础知识点大全（期末总结）_施工中_
-- 天体物理中的人工智能和概率论笔记 _施工中_
 - 天体物理前沿讲座课程汇报：[Cosmology Simulatioin](/assets/notes/Cosmology_Simulation.pdf) 
 
 - 三级大雾实验报告：[氢氘光谱](/assets/notes/氢氘光谱.pdf)，[傅立叶光学](/assets/notes/傅立叶光学.pdf)，[卢瑟福散射](/assets/notes/卢瑟福散射.pdf)，[卢瑟福散射LaTeX源码](/assets/notes/卢瑟福散射.zip)
