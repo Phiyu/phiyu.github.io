@@ -12,7 +12,7 @@
 
 remote_theme                  : "mmistakes/minimal-mistakes"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-remote-theme
 
@@ -128,11 +128,14 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phiyu"
     - label: "Zhihu"
-      icon: "fas fa-fw fa-globe"
+      icon: "fas fa-brands fa-zhihu"
       url: "https://www.zhihu.com/people/ye-li-qing-feng-89"
-    - label: "Homepage"
-      icon: "fas fa-fw fa-link"
-      url: "https://phiyu.github.io"
+    - label: "ORCID"
+      icon: "fas fa-brands fa-orcid"
+      url: "https://orcid.org/0009-0009-8615-6543"
+    # - label: "Homepage"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://phiyu.github.io"
 
 
 # Site Footer
@@ -144,6 +147,9 @@ footer:
     - label: "USTC"
       icon: "fas fa-fw fa-university"
       url: "https://www.ustc.edu.cn/"
+    - label: "USTC @Astronomy"
+      icon: "fas fa-fw fa-university"
+      url: "https://astro.ustc.edu.cn/main.htm"
 
 
 # Reading Files
