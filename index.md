@@ -34,17 +34,21 @@ home_links:
     btn_class: "btn--primary"
 ---
 
-I am an undergraduate student in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy.
+I am an undergraduate student in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy. I'm an [intern student in University of Wisconsin-Madison](https://www.physics.wisc.edu/directory/yu-hongfei/) now, from July 2026 to January 2027.
 
-My interests are in **phenomenological cosmology**, including **Large-Scale Structure (LSS), Dark Energy, and Dark Matter**, with a current focus on constraining cosmological parameters and statistics of halo and galaxy distribution. Besides, I'm also interested in the Effective Field Theory (EFT) in LSS and dark energy.
+My research interests are in **phenomenological cosmology**, including **Large-Scale Structure (LSS), Dark Energy, and Fundamental Physics**, with a current focus on:
 
-I am building my profile as a great PhD candidate through coursework, coding, and hands-on research projects.
+- Using statistics of halo and galaxy distribution to probe halo model, supervised by [Prof. Huiyuan Wang](https://inspirehep.net/authors/1038276?ui-citation-summary=true). 
+- Constraining non-Gaussianity with cosmic shear enhanced by Neural Network, cooperated with [Prof. Moritz Muenchmeyer](https://www.physics.wisc.edu/directory/munchmeyer-moritz/).
+  
+Besides, I'm also interested in the Effective Field Theory (EFT) in LSS and dark energy, which should be powerful method on probing the universe I think.
 
+<!-- 
 ## Current Research Focus
 
 - **LSS:** statistical modeling of halo and galaxy distributions, also galaxy-halo relations.
 - **Cosmological Parameter Constraint:** constructing phenomenological model to constrain cosmology parameters and models with simulation and observation.
-- **AI for Cosmology:** combining Machine Learning (ML) with theoretical and computational methods to probe fundamental physics with cosmological data.
+- **AI for Cosmology:** combining Machine Learning (ML) with theoretical and computational methods to probe fundamental physics with cosmological data. -->
 
 ## Highlights
 
