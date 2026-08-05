@@ -1,5 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+layout: null
 search: false
 ---
 
@@ -8,23 +9,33 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+:root {
+  --site-bg: #f5f1e8;
+  --site-surface: rgba(252, 249, 243, 0.9);
+  --site-surface-strong: rgba(247, 240, 228, 0.95);
+  --site-text: #2f2a24;
+  --site-muted: #6d665c;
+  --site-accent: #7a8b6a;
+  --site-accent-hover: #607152;
+  --site-accent-warm: #b07a56;
+  --site-border: rgba(125, 112, 96, 0.18);
+}
+
 body {
-  background-color: rgba(238, 243, 247, 0);
+  background-color: var(--site-bg);
+  color: var(--site-text);
   position: relative;
 }
 
 body::before {
   content: "";
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('/assets/images/background.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.2;
+  inset: 0;
+  background:
+    radial-gradient(circle at top left, rgba(176, 122, 86, 0.12), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(122, 139, 106, 0.12), transparent 30%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0));
+  pointer-events: none;
   z-index: -1;
 }
 
@@ -44,47 +55,65 @@ body::before {
 .author__urls-wrapper .author__urls,
 .archive__item,
 .feature__item .archive__item {
-  background-color: rgba(238, 243, 247, 0);
-  border-radius: 10px;
+  background-color: var(--site-surface);
+  border: 1px solid var(--site-border);
+  border-radius: 12px;
 }
 
 .masthead {
   backdrop-filter: blur(4px);
-  background-color: rgba(184, 168, 217, 0.75) !important;
+  background-color: var(--site-surface-strong) !important;
+  border-bottom: 1px solid var(--site-border);
 }
 
 .greedy-nav {
-  background-color: rgba(238, 243, 247, 0) !important;
+  background-color: transparent !important;
 }
 
 .page__title,
 .archive__item-title,
 .author__name {
-  color: #000000;
+  color: var(--site-text);
 }
 
 a,
 .page__content a {
-  color: #141414 !important;
+  color: var(--site-accent) !important;
 }
 
 a:hover,
 .page__content a:hover {
-  color: #6d5b97 !important;
+  color: var(--site-accent-hover) !important;
+}
+
+.page__content p,
+.page__content li,
+.author__bio,
+.archive__item-excerpt {
+  color: var(--site-muted);
 }
 
 .btn,
 .btn--primary {
-  background-color: #a89cc8 !important;
-  border-color: #a89cc8 !important;
+  background-color: var(--site-accent-warm) !important;
+  border-color: var(--site-accent-warm) !important;
+  color: #fff !important;
 }
 
 .btn:hover,
 .btn--primary:hover {
-  background-color: #8e7db8 !important;
-  border-color: #8e7db8 !important;
+  background-color: #926348 !important;
+  border-color: #926348 !important;
+  color: #fff !important;
 }
 
 .feature__item .archive__item-teaser img {
   border-radius: 10px;
+}
+
+.author__urls,
+.page__footer,
+.site-nav,
+.search-content {
+  background-color: rgba(252, 249, 243, 0.92);
 }
