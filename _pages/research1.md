@@ -27,14 +27,13 @@ research_cards:
       Reproduced N-body simulation and power-spectrum estimators in Python (validated with Quijote), and developed a reproducible analysis repository.
 ---
 
-### Halo Model
+## Research Experience
+
+{% include feature_row id="research_cards" type="left" %}
 
 
-**Highlights**:
+## Publication
+
 - (*In preparation...*) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
 
   **Hongfei Yu**, Huiyuan Wang | arXiv: 26xx.xxxxx
-
-### Non-Gaussian
-
-**Highlights**:

@@ -34,7 +34,7 @@ home_links:
     btn_class: "btn--primary"
 ---
 
-I am an undergraduate student in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy. I'm an [intern student in University of Wisconsin-Madison](https://www.physics.wisc.edu/directory/yu-hongfei/) now, from July 2026 to January 2027.
+I am an undergraduate student in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy. I'm an [undergraduate intern in University of Wisconsin-Madison](https://www.physics.wisc.edu/directory/yu-hongfei/) now, from July 2026 to January 2027.
 
 My research interests are in **phenomenological cosmology**, including **Large-Scale Structure (LSS), Dark Energy, and Fundamental Physics**, with a current focus on:
 
