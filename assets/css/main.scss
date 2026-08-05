@@ -11,13 +11,14 @@ search: false
 
 :root {
   --site-bg: #f5f1e8;
-  --site-surface: #f5f1e8;
-  --site-surface-strong: #f5f1e8;
+  --site-surface: transparent;
+  --site-surface-strong: transparent;
   --site-text: #2f2a24;
   --site-muted: #6d665c;
   --site-accent: #7a8b6a;
   --site-accent-hover: #607152;
   --site-accent-warm: #b07a56;
+  --site-border: rgba(125, 112, 96, 0.18);
 }
 
 body {
@@ -55,14 +56,15 @@ body::before {
 .archive__item,
 .feature__item .archive__item {
   background-color: var(--site-surface);
-  border: 1px solid var(--site-border);
-  border-radius: 12px;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
 }
 
 .masthead {
   backdrop-filter: blur(4px);
   background-color: var(--site-surface-strong) !important;
-  border-bottom: 1px solid var(--site-border);
+  border-bottom: 0;
 }
 
 .greedy-nav {
@@ -114,5 +116,7 @@ a:hover,
 .page__footer,
 .site-nav,
 .search-content {
-  background-color: rgba(252, 249, 243, 0.92);
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
 }
