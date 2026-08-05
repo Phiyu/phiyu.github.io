@@ -54,7 +54,7 @@ I am building my profile as a great PhD candidate through coursework, coding, an
 - **Teaching assistantship:** Theoretical Mechanics (2025 Fall), Electrodynamics (2026 Spring).
 
 
-## Quick Links
+<!-- ## Quick Links
 
 <div style="display: flex; justify-content: center; gap: 40px; align-items: center; flex-wrap: wrap; margin: 30px 0;">
   <a href="/research/" style="text-decoration: none;">
@@ -66,7 +66,7 @@ I am building my profile as a great PhD candidate through coursework, coding, an
   <a href="/assets/pdf/CV_260106.pdf" style="text-decoration: none;">
     <img src="/assets/images/icon-cv.svg" alt="CV icon" style="width: 200px; height: 100px;">
   </a>
-</div>
+</div> -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+Only the main Sass file needs front matter (the dashes are enough)
 layout: null
 search: false
 ---
@@ -11,8 +11,8 @@ search: false
 
 :root {
   --site-bg: #f5f1e8;
-  --site-surface: rgba(252, 249, 243, 0.9);
-  --site-surface-strong: rgba(247, 240, 228, 0.95);
+  --site-surface: #f5f1e8;
+  --site-surface-strong: #f5f1e8;
   --site-text: #2f2a24;
   --site-muted: #6d665c;
   --site-accent: #7a8b6a;
