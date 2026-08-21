@@ -31,6 +31,8 @@ During my undergraduate years, I was a member of the USTC School Orchestra (USO)
 
 ## Badminton and Volleyball
 
+![Man's Doubles](/assets/images/badminton.JPG)
+
 In USTC, I met many friends play badminton and volleyball with me, and especially thanks for *Sicheng Deng*, the leader of Shoujing College Badminton Team, and *Fei Wu*, my man-double partner.
 
 Also thanks for *Qixiao Yuan*, *Chenghao Li*... for both physics and badminton discussion.

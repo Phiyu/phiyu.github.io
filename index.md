@@ -87,8 +87,6 @@ Besides, I'm also interested in the Effective Field Theory (EFT) in LSS and dark
 
 Outside research, I enjoy badminton, volleyball, and orchestral performance as a percussionist, visit [misc.](/misc/) to meeting more about me!
 
-![Man's Doubles](/assets/images/badminton.JPG)
-
 
 
 *Thanks for visiting — you can find a full profile in my [CV](/assets/pdf/CV_260511.pdf).* 
