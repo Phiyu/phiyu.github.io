@@ -83,13 +83,12 @@ Besides, I'm also interested in the Effective Field Theory (EFT) in LSS and dark
 
 > For project details, please visit [Research](/research/).
 
-## Beyond Physics
+## Beyond Academics
 
-Outside research, I enjoy badminton, volleyball, and orchestral performance as a percussionist.
+Outside research, I enjoy badminton, volleyball, and orchestral performance as a percussionist, visit [misc.](/misc/) to meeting more about me!
 
 ![Man's Doubles](/assets/images/badminton.JPG)
-![2024 Fall - Winter Concert](/assets/images/24Fall.jpg)
 
-I currently serve as president of the USTC Student Symphony Orchestra.
+
 
 *Thanks for visiting — you can find a full profile in my [CV](/assets/pdf/CV_260511.pdf).* 

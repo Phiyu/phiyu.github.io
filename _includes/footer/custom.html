@@ -1,3 +1,32 @@
 <!-- start custom footer snippets -->
 
+<div class="page__footer-visit" style="margin-top: 0.35rem; font-size: 0.875rem; opacity: 0.8;">
+	<span>累计访问：</span>
+	<span id="site-visit-count">加载中...</span>
+</div>
+
+<script>
+	(function () {
+		var countEl = document.getElementById('site-visit-count');
+		if (!countEl) {
+			return;
+		}
+
+		var namespace = '{{ site.visit_counter.namespace | default: "phiyu-github-io" }}';
+		var key = '{{ site.visit_counter.key | default: "site-total-visits" }}';
+		var endpoint = 'https://api.countapi.xyz/hit/' + encodeURIComponent(namespace) + '/' + encodeURIComponent(key);
+
+		fetch(endpoint)
+			.then(function (response) {
+				return response.json();
+			})
+			.then(function (data) {
+				countEl.textContent = Number(data.value).toLocaleString('zh-CN');
+			})
+			.catch(function () {
+				countEl.textContent = '-';
+			});
+	})();
+</script>
+
 <!-- end custom footer snippets -->

@@ -15,8 +15,11 @@ main:
   - title: "Undergrad Education"
     url: /undergrad/
 
-  # - title: "Blog"
-  #   url: /blog/
+  - title: "Miscellaneous"
+    url: /misc/
+
+  - title: "Blog"
+    url: /blog/
 
   - title: "CV"
     url: /assets/pdf/CV_260511.pdf

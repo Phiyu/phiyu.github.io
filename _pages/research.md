@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Research"
-permalink: /research/
+permalink: /research1/
 author_profile: true
 research_cards:
   - title: "3D Cosmic Web Cross-Correlation Function"

@@ -78,6 +78,8 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+
+
 <!-- end custom head snippets -->
 
   </head>
@@ -118,19 +120,25 @@
               >Research</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/sim/"
-                
-                
-              >Simulation</a>
-            </li><li class="masthead__menu-item">
-              <a
                 href="/undergrad/"
                 
                 
               >Undergrad Education</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/assets/pdf/CV_260106.pdf"
+                href="/misc/"
+                
+                
+              >Miscellaneous</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/assets/pdf/CV_260511.pdf"
                 
                 
               >CV</a>
@@ -202,7 +210,7 @@
           
         
           
-            <li><a href="https://phiyu.github.io" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Homepage</span></a></li>
+            <li><a href="https://orcid.org/0009-0009-8615-6543" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-orcid" aria-hidden="true"></i><span class="label">ORCID</span></a></li>
           
         
       
@@ -299,42 +307,17 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="research-experience">Research Experience</h2>
+        <h3 id="halo-model">Halo Model</h3>
 
-<div class="feature__wrapper">
+<p><strong>Highlights</strong>:</p>
+<ul>
+  <li>(<em>In preparation…</em>) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
+<strong>Hongfei Yu</strong>, Huiyuan Wang | arXiv: 26xx.xxxxx</li>
+</ul>
 
-  
-    <div class="feature__item--left">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-            <img src="/assets/images/zhm_res.png" alt="Modern cosmology project" />
-            
-          </div>
-        
+<h3 id="non-gaussianity">Non-Gaussianity</h3>
 
-        <div class="archive__item-body">
-          
-            <h2 class="archive__item-title">Frontier Topics in Modern Cosmology</h2>
-          
-
-          
-            <div class="archive__item-excerpt">
-              <p><strong>2024-2025, NAOC, Chinese Academy of Sciences</strong> |
-<strong>Supervisor:</strong> Prof. <a href="https://inspirehep.net/authors/1636078">Hongming Zhu</a> |
-Reproduced N-body simulation and power-spectrum estimators in Python (validated with Quijote), and developed a reproducible analysis repository.</p>
-
-            </div>
-          
-
-          
-        </div>
-      </div>
-    </div>
-  
-
-</div>
-
+<p><strong>Highlights</strong>:</p>
 
         
       </section>
@@ -370,6 +353,35 @@ Reproduced N-body simulation and power-spectrum estimators in Python (validated 
       <footer>
         <!-- start custom footer snippets -->
 
+<div class="page__footer-visit" style="margin-top: 0.35rem; font-size: 0.875rem; opacity: 0.8;">
+	<span>累计访问：</span>
+	<span id="site-visit-count">加载中...</span>
+</div>
+
+<script>
+	(function () {
+		var countEl = document.getElementById('site-visit-count');
+		if (!countEl) {
+			return;
+		}
+
+		var namespace = 'phiyu-github-io';
+		var key = 'site-total-visits';
+		var endpoint = 'https://api.countapi.xyz/hit/' + encodeURIComponent(namespace) + '/' + encodeURIComponent(key);
+
+		fetch(endpoint)
+			.then(function (response) {
+				return response.json();
+			})
+			.then(function (data) {
+				countEl.textContent = Number(data.value).toLocaleString('zh-CN');
+			})
+			.catch(function () {
+				countEl.textContent = '-';
+			});
+	})();
+</script>
+
 <!-- end custom footer snippets -->
         <div class="page__footer-follow">
   <ul class="social-icons">
@@ -385,6 +397,10 @@ Reproduced N-body simulation and power-spectrum estimators in Python (validated 
       
         
           <li><a href="https://www.ustc.edu.cn/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-university" aria-hidden="true"></i> USTC</a></li>
+        
+      
+        
+          <li><a href="https://astro.ustc.edu.cn/main.htm" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-university" aria-hidden="true"></i> USTC @Astronomy</a></li>
         
       
     
