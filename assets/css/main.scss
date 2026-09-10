@@ -6,6 +6,17 @@ search: false
 
 @charset "utf-8";
 
+// Base font sizes: mobile, tablet (>=768px), desktop (>=1024px), wide (>=1280px).
+$doc-font-size: 16px;
+$doc-font-size-medium: 17px;
+$doc-font-size-large: 18px;
+$doc-font-size-x-large: 19px;
+
+// Avatar diameter and crop position. Keep width and height equal for a circle.
+$site-avatar-size: 110px;
+$site-avatar-size-mobile: 36px;
+$site-avatar-position: 50% 50%;
+
 // Shared palette for Minimal Mistakes and the site-specific styles below.
 $background-color: #ffffff;
 $text-color: #16191f;
@@ -145,6 +156,20 @@ select:focus-visible {
 
 .sidebar {
   opacity: 1;
+}
+
+.author__avatar img {
+  width: $site-avatar-size-mobile;
+  height: $site-avatar-size-mobile;
+  max-width: none;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: $site-avatar-position;
+
+  @include breakpoint($large) {
+    width: $site-avatar-size;
+    height: $site-avatar-size;
+  }
 }
 
 .author__bio,

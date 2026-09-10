@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2027-04-15-phd_apply.md",
+                "file": "_posts/2026-09-08-math1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2027-04-15-phd_apply"
+              "title": "2026-09-08-math1"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2027-04-15-phd_apply.md",
+                "file": "_posts/2026-09-08-math1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2027-04-15-phd_apply.md",
+                "file": "_posts/2026-09-08-math1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2027-04-15-phd_apply.md",
+                "file": "_posts/2026-09-08-math1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,7 @@
   },
   "active": "afe50683a2b4f362",
   "lastOpenFiles": [
+    "_posts/2027-04-15-phd_apply.md",
     "assets/images/photo.jpg",
     "assets/images/4F464E19404D37AD8CD18E519368AAB2.jpg",
     "2026-09-08-math1.md",
@@ -201,7 +202,6 @@
     "assets/pdf/Effective Field Theories in Cosmology.pdf",
     "assets/pdf/main-zh.pdf",
     "assets/pdf/Large-Scale Galaxy Bias.pdf",
-    "_posts/2027-04-15-phd_apply.md",
     "Untitled.md",
     "Untitled"
   ]
