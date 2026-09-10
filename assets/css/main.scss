@@ -159,16 +159,16 @@ select:focus-visible {
 }
 
 .author__avatar img {
-  width: $site-avatar-size-mobile;
-  height: $site-avatar-size-mobile*1.5;
+  width: $site-avatar-size-mobile*1.2;
+  height: $site-avatar-size-mobile;
   max-width: none;
   border-radius: 50%;
   object-fit: cover;
   object-position: $site-avatar-position;
 
   @include breakpoint($large) {
-    width: $site-avatar-size;
-    height: $site-avatar-size*1.5;
+    width: $site-avatar-size*1.2;
+    height: $site-avatar-size;
   }
 }
 
