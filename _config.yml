@@ -121,7 +121,7 @@ visit_counter:
 # Site Author
 author:
   name             : "Hongfei Yu"
-  avatar           : /assets/images/art-photo.PNG # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Cosmology!"
   location         : "Hefei, Anhui, China"
   email            : phiyuhf@outlook.com
@@ -162,6 +162,7 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - "index copy.md" # Keep the archived draft from overwriting the homepage.
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor

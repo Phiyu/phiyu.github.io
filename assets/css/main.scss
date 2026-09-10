@@ -1,122 +1,187 @@
 ---
-Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter.
 layout: null
 search: false
 ---
 
 @charset "utf-8";
 
+// Shared palette for Minimal Mistakes and the site-specific styles below.
+$background-color: #ffffff;
+$text-color: #16191f;
+$muted-text-color: #515b69;
+$primary-color: #102d50;
+$link-color: #163f70;
+$link-color-hover: #091c33;
+$link-color-visited: #163f70;
+$border-color: #dbe1e8;
+$footer-background-color: #102d50;
+$code-background-color: #f3f5f8;
+$form-background-color: #f3f5f8;
+$masthead-link-color: #ffffff;
+$masthead-link-color-hover: #ffffff;
+$navicon-link-color-hover: #edf2f8;
+$focus-color: #163f70;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 :root {
-  --site-bg: #f5f1e8;
-  --site-surface: transparent;
-  --site-surface-strong: transparent;
-  --site-text: #2f2a24;
-  --site-muted: #6d665c;
-  --site-accent: #7a8b6a;
-  --site-accent-hover: #607152;
-  --site-accent-warm: #b07a56;
-  --site-border: rgba(125, 112, 96, 0.18);
+  color-scheme: light;
+  --site-bg: #{$background-color};
+  --site-text: #{$text-color};
+  --site-muted: #{$muted-text-color};
+  --site-navy: #{$primary-color};
+  --site-accent: #{$link-color};
+  --site-accent-hover: #{$link-color-hover};
+  --site-border: #{$border-color};
 }
 
 body {
   background-color: var(--site-bg);
   color: var(--site-text);
-  position: relative;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background:
-    radial-gradient(circle at top left, rgba(176, 122, 86, 0.12), transparent 34%),
-    radial-gradient(circle at bottom right, rgba(122, 139, 106, 0.12), transparent 30%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0));
-  pointer-events: none;
-  z-index: -1;
+::selection {
+  background: var(--site-navy);
+  color: #fff;
 }
 
-
-
-.masthead,
-.page,
-.sidebar,
-.initial-content,
-.archive {
-  background-color: transparent;
-}
-
-.page__content,
-.page__inner-wrap,
-.author__content,
-.author__urls-wrapper .author__urls,
-.archive__item,
-.feature__item .archive__item {
-  background-color: var(--site-surface);
-  border: 0;
-  box-shadow: none;
-  border-radius: 0;
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--site-accent);
+  outline-offset: 4px;
 }
 
 .masthead {
-  backdrop-filter: blur(4px);
-  background-color: var(--site-surface-strong) !important;
-  border-bottom: 0;
+  background-color: var(--site-navy);
+  border-bottom: 1px solid var(--site-navy);
 }
 
 .greedy-nav {
-  background-color: transparent !important;
+  background: transparent;
+
+  .visible-links a::before {
+    height: 2px;
+    background: #fff;
+  }
+
+  .visible-links a:focus-visible::before {
+    transform: scaleX(1);
+  }
+
+  .hidden-links a,
+  .hidden-links a:visited {
+    color: var(--site-navy);
+  }
+
+  .hidden-links a:hover {
+    color: var(--site-accent-hover);
+  }
+
+  .hidden-links a:focus-visible {
+    outline-color: var(--site-accent);
+    outline-offset: -4px;
+  }
+}
+
+.masthead {
+  .greedy-nav__toggle .navicon,
+  .greedy-nav__toggle .navicon::before,
+  .greedy-nav__toggle .navicon::after {
+    background: #fff;
+  }
+
+  .greedy-nav__toggle.close .navicon {
+    background: transparent;
+  }
+
+  .greedy-nav__toggle.close .navicon::before,
+  .greedy-nav__toggle.close .navicon::after {
+    background: var(--site-navy);
+  }
+
+  .greedy-nav__toggle.close:focus-visible {
+    outline-color: var(--site-navy);
+  }
+
+  .search__toggle {
+    color: #fff;
+  }
+}
+
+.masthead a:focus-visible,
+.masthead button:focus-visible,
+.page__footer a:focus-visible {
+  outline-color: #fff;
 }
 
 .page__title,
-.archive__item-title,
 .author__name {
   color: var(--site-text);
 }
 
-a,
-.page__content a {
-  color: var(--site-accent) !important;
+.page__content {
+  line-height: 1.7;
+
+  h2,
+  h3,
+  h4 {
+    color: var(--site-navy);
+  }
+
+  a:not(.btn) {
+    text-underline-offset: 0.16em;
+    text-decoration-thickness: 1px;
+  }
+
+  blockquote {
+    border-inline-start-color: var(--site-navy);
+  }
 }
 
-a:hover,
-.page__content a:hover {
-  color: var(--site-accent-hover) !important;
+.sidebar {
+  opacity: 1;
 }
 
-.page__content p,
-.page__content li,
 .author__bio,
-.archive__item-excerpt {
+.page__meta {
   color: var(--site-muted);
 }
 
-.btn,
-.btn--primary {
-  background-color: var(--site-accent-warm) !important;
-  border-color: var(--site-accent-warm) !important;
-  color: #fff !important;
+.sidebar p,
+.sidebar li,
+.page__footer-follow li,
+.page__footer-copyright {
+  font-size: 0.875rem;
 }
 
-.btn:hover,
-.btn--primary:hover {
-  background-color: #926348 !important;
-  border-color: #926348 !important;
-  color: #fff !important;
+.author__urls a {
+  color: var(--site-accent);
+}
+
+.author__urls .fas,
+.author__urls .fab,
+.author__urls .far {
+  color: var(--site-navy);
 }
 
 .feature__item .archive__item-teaser img {
   border-radius: 10px;
 }
 
-.author__urls,
-.page__footer,
-.site-nav,
-.search-content {
-  background-color: transparent;
-  border: 0;
-  box-shadow: none;
+.page__footer {
+  color: #fff;
+
+  a,
+  a:visited,
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: #fff;
+  }
 }

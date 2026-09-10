@@ -14,7 +14,7 @@ home_links:
   - title: "Undergrad"
     image_path: "/assets/images/icon-undergrad.svg"
     alt: "Undergrad icon"
-    excerpt: "Coursework, TA work, seminars, and academic honors."
+    excerpt: "Coursework, teaching, seminars, and academic honors."
     url: "/undergrad/"
     btn_label: "View"
     btn_class: "btn--primary"
@@ -28,20 +28,20 @@ home_links:
   - title: "CV"
     image_path: "/assets/images/icon-cv.svg"
     alt: "CV icon"
-    excerpt: "Full CV with education, research, and activities."
-    url: "/assets/pdf/CV_260106.pdf"
+    excerpt: "Education, research experience, and activities."
+    url: "/assets/pdf/CV_260511.pdf"
     btn_label: "Download"
     btn_class: "btn--primary"
 ---
 
-I am an undergraduate student in Astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023), and a member of the Wang Shouguan Talent Program in Astronomy. I'm an [undergraduate intern in University of Wisconsin-Madison](https://www.physics.wisc.edu/directory/yu-hongfei/) now, from July 2026 to January 2027.
+I am an undergraduate studying astronomy at the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC, Class of 2023) and a member of the Wang Shouguan Talent Program in Astronomy. I am currently an [undergraduate intern at the University of Wisconsin–Madison](https://www.physics.wisc.edu/directory/yu-hongfei/), where my internship runs from July 2026 to January 2027.
 
-My research interests are in **phenomenological cosmology**, including **Large-Scale Structure (LSS), Dark Energy, and Fundamental Physics**, with a current focus on:
+My research interests lie in **phenomenological cosmology**, particularly **large-scale structure (LSS), dark energy, and fundamental physics**. My current work focuses on:
 
-- Using statistics of halo and galaxy distribution to probe halo model, supervised by [Prof. Huiyuan Wang](https://inspirehep.net/authors/1038276?ui-citation-summary=true). 
-- Constraining non-Gaussianity with cosmic shear enhanced by Neural Network, cooperated with [Prof. Moritz Muenchmeyer](https://www.physics.wisc.edu/directory/munchmeyer-moritz/).
-  
-Besides, I'm also interested in the Effective Field Theory (EFT) in LSS and dark energy, which should be powerful method on probing the universe I think.
+- Studying the statistics of halo and galaxy distributions to probe the halo model, under the supervision of [Prof. Huiyuan Wang](https://inspirehep.net/authors/1038276?ui-citation-summary=true).
+- Exploring neural network methods for constraining non-Gaussianity with cosmic shear, in collaboration with [Prof. Moritz Muenchmeyer](https://www.physics.wisc.edu/directory/munchmeyer-moritz/).
+
+I am also interested in effective field theory (EFT) approaches to large-scale structure and dark energy, which I see as promising tools for understanding the universe.
 
 <!-- 
 ## Current Research Focus
@@ -52,10 +52,10 @@ Besides, I'm also interested in the Effective Field Theory (EFT) in LSS and dark
 
 ## Highlights
 
-- **Research experience:** project in modern cosmology at NAOC (2024–2025), undergraduate research program at USTC (2025-2026), summer research internship in UW-Madison (2026).
-- **Collaboration member**: member in DESI Cosmological Parameter Estimator (CPE) group.
-- **Academic training:** strong grad coursework in GR & Cosmology, LSS, and AI for Astrophysics, plus a full physics/math foundation.
-- **Teaching assistantship:** Theoretical Mechanics (2025 Fall), Electrodynamics (2026 Spring).
+- **Research experience:** cosmology research at NAOC (2024–2025), an undergraduate research program at USTC (2025–2026), and a research internship at UW–Madison (2026–2027).
+- **Collaboration membership:** member of the DESI Cosmological Parameter Estimator (CPE) group.
+- **Academic training:** graduate-level coursework in general relativity and cosmology, large-scale structure, and AI for astrophysics, alongside a broad foundation in physics and mathematics.
+- **Teaching assistantships:** Theoretical Mechanics (Fall 2025) and Electrodynamics (Spring 2026).
 
 
 <!-- ## Quick Links
@@ -76,17 +76,17 @@ Besides, I'm also interested in the Effective Field Theory (EFT) in LSS and dark
 
 ## Publications
 
-- (*In preparation...*) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
+- (*In preparation*) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
 
-  **Hongfei Yu**, Huiyuan Wang | arXiv: 26xx.xxxxx
+  **Hongfei Yu**, Huiyuan Wang
 
 
-> For project details, please visit [Research](/research/).
+> Learn more about my projects on the [Research](/research/) page.
 
 ## Beyond Academics
 
-Outside research, I enjoy badminton, volleyball, and orchestral performance as a percussionist, visit [misc.](/misc/) to meeting more about me!
+Outside research, I enjoy badminton, volleyball, and playing percussion in an orchestra. Visit [Miscellaneous](/misc/) to learn more about my life beyond physics.
 
 
 
-*Thanks for visiting — you can find a full profile in my [CV](/assets/pdf/CV_260511.pdf).* 
+*Thanks for visiting! You can find more about my background in my [CV](/assets/pdf/CV_260511.pdf).*

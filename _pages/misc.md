@@ -7,34 +7,38 @@ author_profile: true
 
 # Life Beyond Physics
 
-This page also serves as a record of my acknowledgements.
+Here is a glimpse into my life beyond physics, along with my thanks to the people who have been part of it.
 
 
 ## Orchestra
 
-During my undergraduate years, I was a member of the USTC School Orchestra (USO) and played percussion instruments such as timpani, snare drum, and cymbals. I served as one of the presidents of USO from June 2025 to May 2026, together with Bohan Zhang (chemistry major) and Xulang Jiang (mathematics major). I made many happy memories there.
+During my undergraduate years, I played percussion in the USTC School Orchestra (USO), including timpani, snare drum, and cymbals. From June 2025 to May 2026, I served as one of USO's presidents alongside Bohan Zhang, a chemistry major, and Xulang Jiang, a mathematics major. My time in the orchestra gave me many happy memories.
 
-![2024 Fall - Winter Concert](/assets/images/24Fall.jpg)
+![Fall–Winter Concert, 2024](/assets/images/24Fall.jpg)
 
-**Thanks to**:
+**My thanks to:**
 
-*Bohan Zhang* and *Xulang Jiang* for our days working as a presidential team;
+*Bohan Zhang* and *Xulang Jiang* for the time we spent leading USO together;
 
 *Ran Duan* and *Haozhe Ye* for our friendship, both in and beyond percussion;
 
-[*Yanyu Tang*](https://yanyutang.github.io), *Hangyu Liu*, *Tianze Zhu*, *Lihao Zhao*, and [*Leda Wang*](https://futwangalerda.github.io) for your trust and encouragement in letting me serve as president;
+[*Yanyu Tang*](https://yanyutang.github.io), *Hangyu Liu*, *Tianze Zhu*, *Lihao Zhao*, and [*Leda Wang*](https://futwangalerda.github.io) for your trust and encouragement as I took on the role of president;
 
-[*Lianyu Chen*](https://sulcop5.github.io), *Fengxi Li*, *Ran Duan*, *Junbo Huang*, and *Haozhe Ye* for your help with my work;
+[*Lianyu Chen*](https://sulcop5.github.io), *Fengxi Li*, *Ran Duan*, *Junbo Huang*, and *Haozhe Ye* for your help with my responsibilities;
 
-*Bohan Zhang*, *Ran Duan*, *Yize Liu*, *Meiyi Jiang*, *Haozhe Ye*, *Hangyu Liu*, [*Nachuan Chen*](https://nashchennc.github.io), [*Ruoxian Li*](https://kclo4-li.github.io), [*Denghong Luan*](https://andrewluan.github.io/) ... for the times we spent together.
+*Bohan Zhang*, *Ran Duan*, *Yize Liu*, *Meiyi Jiang*, *Haozhe Ye*, *Hangyu Liu*, [*Nachuan Chen*](https://nashchennc.github.io), [*Ruoxian Li*](https://kclo4-li.github.io), [*Denghong Luan*](https://andrewluan.github.io/), and many others for all the time we shared.
 
 
 ## Badminton and Volleyball
 
-![Man's Doubles](/assets/images/badminton.JPG)
+![Men's doubles](/assets/images/badminton.JPG)
 
-In USTC, I met many friends play badminton and volleyball with me, and especially thanks for *Sicheng Deng*, the leader of Shoujing College Badminton Team, and *Fei Wu*, my man-double partner.
+At USTC, I made many friends through badminton and volleyball. Special thanks to *Sicheng Deng*, captain of the Shoujing College Badminton Team, and *Fei Wu*, my men's doubles partner.
 
-Also thanks for *Qixiao Yuan*, *Chenghao Li*... for both physics and badminton discussion.
+Thanks also to *Qixiao Yuan*, *Chenghao Li*, and others for our conversations about physics and badminton.
 
-## E-Sports
+## Gaming
+
+I enjoy playing PC games such as PUBG and Valorant, with occasional rounds of CS2 and OW. Beyond shooters, I also play Minecraft and Terraria.
+
+I have been lucky to share these games with wonderful teammates during my undergraduate years: *Bohan Zhang*, *Yuxuan Mao*, *Haozhe Ye*, *Zihao Chen*, *Yize Liu*, *Hangyu Liu*, and *Jian Wang*.
