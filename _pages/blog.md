@@ -3,7 +3,11 @@ layout: single
 title: "Blog"
 permalink: /blog/
 author_profile: true
+toc: true
+toc_label: "Contents"
 ---
+
+## Blog
 
 This is my blog space. I can drop short notes, experiments, and longer posts here.
 
@@ -24,3 +28,14 @@ Some of them (especially experiences) are in Chinese, maybe you need translator.
   </li>
 {% endfor %}
 </ul>
+
+## 中文翻译综述
+
+Here I put some reviews paper which were translated to Chinese by GPT-5.6-sol. Hope these can help you! :)
+
+这里我放了一些我用 GPT-5.6-sol 模型翻译的综述论文，希望这些能帮到你！：）
+
+| Title | arXiv URL | Translation |
+| --- | --- | --- |
+| Large-Scale Galaxy Bias | [1611.09787](https://arxiv.org/abs/1611.09787) | [大尺度星系偏置](../assets/pdf/LargeScaleGalaxyBias.pdf) |
+| Effective Field Theory in Cosmology | [2203.08232](https://arxiv.org/abs/2203.08232) | [宇宙学中的有效场论](../assets/pdf/EFTinCosmology.pdf) |
