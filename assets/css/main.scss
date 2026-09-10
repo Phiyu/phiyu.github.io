@@ -13,8 +13,7 @@ $doc-font-size-large: 18px;
 $doc-font-size-x-large: 19px;
 
 // Avatar diameter and crop position. Keep width and height equal for a circle.
-$site-avatar-width: 200px;
-$site-avatar-height: 300px;
+$site-avatar-size: 200px;
 $site-avatar-size-mobile: 40px;
 $site-avatar-position: 30% 50%;
 
@@ -161,7 +160,7 @@ select:focus-visible {
 
 .author__avatar img {
   width: $site-avatar-size-mobile;
-  height: $site-avatar-size-mobile;
+  height: $site-avatar-size-mobile*1.5;
   max-width: none;
   border-radius: 50%;
   object-fit: cover;
@@ -169,7 +168,7 @@ select:focus-visible {
 
   @include breakpoint($large) {
     width: $site-avatar-size;
-    height: $site-avatar-size;
+    height: $site-avatar-size*1.5;
   }
 }
 
