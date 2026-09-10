@@ -159,7 +159,7 @@ select:focus-visible {
 }
 
 .author__avatar img {
-  width: $site-avatar-size-mobile*1.2;
+  width: $site-avatar-size-mobile;
   height: $site-avatar-size-mobile;
   max-width: none;
   border-radius: 50%;
@@ -167,7 +167,7 @@ select:focus-visible {
   object-position: $site-avatar-position;
 
   @include breakpoint($large) {
-    width: $site-avatar-size*1.2;
+    width: $site-avatar-size;
     height: $site-avatar-size;
   }
 }
