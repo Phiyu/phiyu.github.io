@@ -13,9 +13,10 @@ $doc-font-size-large: 18px;
 $doc-font-size-x-large: 19px;
 
 // Avatar diameter and crop position. Keep width and height equal for a circle.
-$site-avatar-size: 200px;
+$site-avatar-width: 200px;
+$site-avatar-height: 300px;
 $site-avatar-size-mobile: 40px;
-$site-avatar-position: 40% 50%;
+$site-avatar-position: 30% 50%;
 
 // Shared palette for Minimal Mistakes and the site-specific styles below.
 $background-color: #ffffff;
