@@ -101,6 +101,8 @@ Below is a selection of academic honors and scholarships I have received during 
 - 🎖️ **2023 Excellent Freshman Scholarship – Gold Award**
 - 🎖️ **2024 Excellent Student Scholarship – Bronze Award**
 - 🎖️ **2025 Excellent Student Scholarship – Bronze Award**
+- 💰 **2025 Funding for the High-performing Students in Basic Disciplines**
+- 💰 **2026 Funding for the High-performing Students in Basic Disciplines**
 
 
 
