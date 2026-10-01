@@ -35,7 +35,7 @@ During my undergraduate years, I played percussion in the USTC School Orchestra 
 
 At USTC, I made many friends through badminton and volleyball. Special thanks to *Sicheng Deng*, captain of the Shoujing College Badminton Team, and *Fei Wu*, my men's doubles partner.
 
-Thanks also to *Qixiao Yuan*, *Chenghao Li*, and others for our conversations about physics and badminton.
+Thanks also to [*Qixiao Yuan*](https://www.hourqima.org/), *Chenghao Li*, and others for our conversations about physics and badminton.
 
 ## Gaming
 
