@@ -25,7 +25,7 @@ Our research focus on the relation between the dark matter halo and the matter f
   **Hongfei Yu**, Huiyuan Wang | arXiv: 26xx.xxxxx
 
 
-
+---
 
 ### Non-Gaussianity
 
