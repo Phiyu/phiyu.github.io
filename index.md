@@ -50,12 +50,12 @@ I am also interested in effective field theory (EFT) approaches to large-scale s
 - **Cosmological Parameter Constraint:** constructing phenomenological model to constrain cosmology parameters and models with simulation and observation.
 - **AI for Cosmology:** combining Machine Learning (ML) with theoretical and computational methods to probe fundamental physics with cosmological data. -->
 
-## Highlights
+<!-- ## Highlights
 
 - **Research experience:** cosmology research at NAOC (2024–2025), an undergraduate research program at USTC (2025–2026), and a research internship at UW–Madison (2026–2027).
 - **Collaboration membership:** member of the DESI Cosmological Parameter Estimator (CPE) group.
 - **Academic training:** graduate-level coursework in general relativity and cosmology, large-scale structure, and AI for astrophysics, alongside a broad foundation in physics and mathematics.
-- **Teaching assistantships:** Theoretical Mechanics (Fall 2025) and Electrodynamics (Spring 2026).
+- **Teaching assistantships:** Theoretical Mechanics (Fall 2025) and Electrodynamics (Spring 2026). -->
 
 
 <!-- ## Quick Links
@@ -74,14 +74,22 @@ I am also interested in effective field theory (EFT) approaches to large-scale s
 
 
 
-## Publications
+<!-- ## Publications
 
 - (*In preparation*) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
 
-  **Hongfei Yu**, Huiyuan Wang
+  **Hongfei Yu**, Huiyuan Wang -->
 
 
-> Learn more about my projects on the [Research](/research/) page.
+> Learn more about my research and publications on the [Research](/research/) page.
+
+## News
+
+- **2026.7**: Arrived at UW–Madison and started a **summer research internship** with Prof. Moritz Muenchmeyer.
+- **2025.8**: Joined the Galaxy Cosmology Group at USTC, advised by Prof. Huiyuan Wang. Started another URP in December.
+- **2025.7**: Chose astronomy as a sub-major in the School of Physics and joined the Wang Shouguan Talent Program in Astronomy.
+- **2024.8**: Participated in an Undergraduate Research Program at NAOC, advised by Prof. Hongming Zhu.
+- **2023.9**: Started my **undergraduate studies** at USTC.
 
 ## Beyond Academics
 
