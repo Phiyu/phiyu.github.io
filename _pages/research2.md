@@ -11,7 +11,7 @@ math: true
 Dark matter halos are the bridge between observed galaxies and in matter field which are mainly invisible dark matter.
 
 $$
-  {\rm Matter\; Field}\quad \LeftRightarrow \quad {\rm Dark\; Matter \; Halo}\quad  \LeftRightarrow \quad {\rm Galaxy}
+  {\rm Matter\; Field}\quad \Leftrightarrow \quad {\rm Dark\; Matter \; Halo}\quad  \Leftrightarrow \quad {\rm Galaxy}
 $$
 
 Our research focus on the relation between the dark matter halo and the matter field, especially the tidal-field and the cosmic webs classified by it (T-web method). Till now, we've done several tests on:
