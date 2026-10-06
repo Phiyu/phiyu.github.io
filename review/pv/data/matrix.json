@@ -1,0 +1,353 @@
+{
+  "rows": [
+    {
+      "id": "theory",
+      "label": "Theory",
+      "blurb": "Predictions: from the Lagrangian to the observable statistic."
+    },
+    {
+      "id": "simulation",
+      "label": "Simulation",
+      "blurb": "Numerical realisations used to calibrate and validate."
+    },
+    {
+      "id": "method",
+      "label": "Method",
+      "blurb": "Estimators, likelihoods and inference pipelines."
+    },
+    {
+      "id": "observation",
+      "label": "Observation",
+      "blurb": "Data analyses and current constraints."
+    }
+  ],
+  "cols": [
+    {
+      "id": "source",
+      "label": "Primordial source",
+      "short": "Source",
+      "group": "source",
+      "blurb": "Mechanisms that make the early universe chiral."
+    },
+    {
+      "id": "cmb",
+      "label": "CMB",
+      "short": "CMB",
+      "group": "probe",
+      "blurb": "TB and EB correlations, cosmic birefringence, parity-odd trispectrum."
+    },
+    {
+      "id": "lss",
+      "label": "Large-scale structure",
+      "short": "LSS",
+      "group": "probe",
+      "blurb": "Parity-odd 4PCF and trispectrum of galaxies, galaxy spins."
+    },
+    {
+      "id": "lensing",
+      "label": "Lensing",
+      "short": "Lensing",
+      "group": "probe",
+      "blurb": "Galaxy weak lensing and CMB lensing."
+    },
+    {
+      "id": "line",
+      "label": "21 cm & line intensity",
+      "short": "21 cm / LIM",
+      "group": "probe",
+      "blurb": "Neutral hydrogen and other line-intensity maps."
+    },
+    {
+      "id": "gw",
+      "label": "Gravitational waves",
+      "short": "GW",
+      "group": "probe",
+      "blurb": "Circular polarisation of the gravitational-wave background."
+    }
+  ],
+  "cells": {
+    "theory/source": {
+      "title": "Parity-violating mechanisms",
+      "status": "draft",
+      "updated": "2026-10-05",
+      "refs": [
+        "alexander2009",
+        "alexander2006",
+        "sorbo2011",
+        "shiraishi2016"
+      ],
+      "outline": [
+        "Chern–Simons gravity and chiral tensors",
+        "Axion–gauge-field dynamics during inflation",
+        "Pseudoscalar couplings to photons",
+        "Parity-odd scalar trispectrum"
+      ],
+      "open": [
+        "Which mechanisms give a parity-odd scalar trispectrum large enough for galaxy surveys?"
+      ],
+      "body": true
+    },
+    "theory/cmb": {
+      "title": "TB, EB and parity-odd CMB statistics",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "lue1999",
+        "carroll1998"
+      ],
+      "outline": [
+        "Birefringence: rotating E into B",
+        "Chiral tensors and TB, EB at low $\\ell$",
+        "Parity-odd CMB trispectrum"
+      ],
+      "open": []
+    },
+    "theory/lss": {
+      "title": "Parity in the galaxy distribution",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "cahn2021"
+      ],
+      "outline": [
+        "Why the four-point function is the lowest parity-odd scalar statistic",
+        "Parity-odd trispectrum of biased tracers",
+        "Galaxy spins and intrinsic alignments"
+      ],
+      "open": []
+    },
+    "theory/lensing": {
+      "title": "Lensing and chirality",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Lensing signatures of chiral tensors",
+        "Parity-odd shear statistics"
+      ],
+      "open": []
+    },
+    "theory/line": {
+      "title": "Chiral signals in 21 cm",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Tensor and parity-odd imprints on 21 cm fluctuations"
+      ],
+      "open": []
+    },
+    "theory/gw": {
+      "title": "Circular polarisation of the background",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "alexander2006"
+      ],
+      "outline": [
+        "Chiral primordial backgrounds",
+        "Detectability with interferometer networks and pulsar timing arrays"
+      ],
+      "open": []
+    },
+    "simulation/source": {
+      "title": "Simulating parity-violating inflation",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Lattice simulations of axion–gauge dynamics",
+        "Initial conditions with parity-odd trispectra"
+      ],
+      "open": []
+    },
+    "simulation/cmb": {
+      "title": "Birefringent sky simulations",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Rotated polarisation maps",
+        "Foreground and instrument-angle systematics"
+      ],
+      "open": []
+    },
+    "simulation/lss": {
+      "title": "Mocks for parity-odd statistics",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Mock catalogues and covariance for the parity-odd 4PCF",
+        "N-body with parity-odd initial conditions"
+      ],
+      "open": [
+        "Is mock-based covariance accurate enough for parity-odd detections?"
+      ]
+    },
+    "simulation/lensing": {
+      "title": "Lensing simulations",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "simulation/line": {
+      "title": "21 cm mocks",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "simulation/gw": {
+      "title": "Simulated chiral backgrounds",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "method/source": {
+      "title": "Templates for parity-odd statistics",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Parity-odd trispectrum templates",
+        "Separable approximations"
+      ],
+      "open": []
+    },
+    "method/cmb": {
+      "title": "Birefringence and trispectrum estimators",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "minami2020"
+      ],
+      "outline": [
+        "Calibrating the polarisation angle with Galactic foregrounds",
+        "EB-based estimators",
+        "Parity-odd trispectrum estimators"
+      ],
+      "open": []
+    },
+    "method/lss": {
+      "title": "Parity-odd 4PCF and trispectrum estimators",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "cahn2021",
+        "philcox2022"
+      ],
+      "outline": [
+        "Isotropic basis functions for the 4PCF",
+        "Compression and covariance",
+        "Simulation-based inference"
+      ],
+      "open": []
+    },
+    "method/lensing": {
+      "title": "Parity-odd shear estimators",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "method/line": {
+      "title": "21 cm estimators",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "method/gw": {
+      "title": "Circular-polarisation estimators",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Overlap reduction functions for circular polarisation"
+      ],
+      "open": []
+    },
+    "observation/source": {
+      "title": "Combined constraints",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Constraints by mechanism",
+        "Targets for the next decade"
+      ],
+      "open": []
+    },
+    "observation/cmb": {
+      "title": "Cosmic birefringence measurements",
+      "status": "draft",
+      "updated": "2026-10-05",
+      "refs": [
+        "minami2020",
+        "eskilt2022",
+        "komatsu2022"
+      ],
+      "outline": [
+        "Planck and WMAP",
+        "Ground-based measurements",
+        "Isotropic and anisotropic birefringence"
+      ],
+      "open": [
+        "Separating cosmic birefringence from polarisation-angle miscalibration"
+      ],
+      "body": true,
+      "widgets": [
+        "constraints"
+      ]
+    },
+    "observation/lss": {
+      "title": "Parity-odd 4PCF of BOSS galaxies",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "hou2022",
+        "philcox2022"
+      ],
+      "outline": [
+        "Analyses of BOSS CMASS and LOWZ",
+        "The role of the covariance",
+        "DESI prospects"
+      ],
+      "open": [
+        "Whether the BOSS parity-odd signal survives improved covariance estimates"
+      ]
+    },
+    "observation/lensing": {
+      "title": "Lensing constraints",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "observation/line": {
+      "title": "21 cm constraints",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "observation/gw": {
+      "title": "Limits on chiral backgrounds",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_note": "DEMO DATA for the layout review. Values are quoted from memory and must be checked against each paper before publication.",
+  "demo": true,
+  "parameters": {
+    "beta": {
+      "label": "β",
+      "tex": "\\beta",
+      "unit": "deg"
+    }
+  },
+  "points": [
+    {
+      "param": "beta",
+      "probe": "CMB",
+      "label": "Planck 2018 (Minami & Komatsu 2020)",
+      "year": 2020,
+      "value": 0.35,
+      "minus": 0.14,
+      "plus": 0.14,
+      "ref": "minami2020"
+    },
+    {
+      "param": "beta",
+      "probe": "CMB",
+      "label": "WMAP + Planck (Eskilt & Komatsu 2022)",
+      "year": 2022,
+      "value": 0.34,
+      "minus": 0.09,
+      "plus": 0.09,
+      "ref": "eskilt2022"
+    }
+  ]
+}

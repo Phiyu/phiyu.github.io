@@ -205,6 +205,7 @@
     });
     grid.innerHTML = h;
     grid.className = `atlas shade-${S.shade}`;
+    grid.style.setProperty('--probes', cols.length - 1);
     $$('.cell', grid).forEach(b => {
       b.addEventListener('click', () => openCell(b.dataset.cell, b));
       b.addEventListener('pointerenter', () => hlAxes(b.dataset.cell, true));
@@ -288,9 +289,9 @@
 
   function buildMinimap() {
     const mm = $('#minimap'); mm.style.setProperty('--cols', S.matrix.cols.length);
-    mm.innerHTML = S.matrix.rows.map(r => S.matrix.cols.map(c => {
+    mm.innerHTML = S.matrix.rows.map(r => S.matrix.cols.map((c, ci) => {
       const k = cellKey(r.id, c.id), cell = S.matrix.cells[k];
-      return `<button type="button" data-cell="${k}" class="${cell && cell.status !== 'open' ? 'has' : ''}" aria-label="${esc(cellLabel(k))}" title="${esc(cellLabel(k) + (cell ? ': ' + cell.title : ''))}"></button>`;
+      return `<button type="button" data-cell="${k}" class="${cell && cell.status !== 'open' ? 'has' : ''}${ci === 0 ? ' src' : ''}" aria-label="${esc(cellLabel(k))}" title="${esc(cellLabel(k) + (cell ? ': ' + cell.title : ''))}"></button>`;
     }).join('')).join('');
     $$('button', mm).forEach(b => b.addEventListener('click', () => {
       if (!S.current || b.dataset.cell === S.current) return;
@@ -386,16 +387,17 @@
     $$('[data-widget]', scope).forEach(el => {
       if (el.dataset.mounted) return; el.dataset.mounted = '1';
       if (el.dataset.widget === 'review-strip') reviewStrip(el);
-      if (el.dataset.widget === 'fnl-constraints') fnlChart(el);
+      if (el.dataset.widget === 'fnl-constraints' || el.dataset.widget === 'constraints') fnlChart(el);
     });
   }
 
   function reviewStrip(el) {
-    const given = new Set(['chen2010', 'desjacques2010', 'renauxpetel2015']);
+    const given = new Set(Object.keys(S.refs).filter(id => S.refs[id] && S.refs[id].seed));
     const items = Object.entries(S.refs).filter(([, r]) => r && r.review).map(([id, r]) => ({ id, ...r }));
-    items.push({ id: 'now', year: +S.meta.revised.slice(0, 4), authors: 'This review', title: 'Primordial non-Gaussianity: a living review', review: 'Living review' });
+    items.push({ id: 'now', year: +S.meta.started.slice(0, 4), authors: 'This review', title: `${S.meta.title}: ${S.meta.subtitle.toLowerCase()}`, review: 'Living review' });
     items.sort((a, b) => a.year - b.year);
-    const y0 = 2002, y1 = 2028, W = 680, L = 8, Rr = 8, base = 120;
+    const counts = {}; items.forEach(it => counts[it.year] = (counts[it.year] || 0) + 1);
+    const y0 = 2002, y1 = 2028, W = 680, L = 8, Rr = 8, base = 24 + 20 * Math.max(...Object.values(counts));
     const X = y => L + (y - y0) / (y1 - y0) * (W - L - Rr);
     const lvl = {};
     let s = `<line class="axis" x1="${L}" x2="${W - Rr}" y1="${base}" y2="${base}"/>`;
@@ -407,7 +409,7 @@
             <text class="lbl" x="${cx + 10}" y="${cy + 4}">${esc(name)}</text>`;
     });
     el.innerHTML = `<figure class="strip"><svg viewBox="0 0 ${W} ${base + 24}" role="img" aria-label="Timeline of review articles on primordial non-Gaussianity">${s}</svg>
-      <figcaption>Review articles by year. Hollow markers are the three reviews this project starts from; hover a marker for the title.</figcaption></figure>`;
+      <figcaption>Review articles by year.${given.size ? ' Hollow markers are the reviews this project starts from.' : ''} Hover a marker for the title.</figcaption></figure>`;
     $$('.dot', el).forEach(d => {
       const it = items.find(x => x.id === d.dataset.id);
       d.addEventListener('pointerenter', e => showTip(`<b>${esc(it.authors)} (${it.year})</b><br>${esc(it.title)}<br><span style="opacity:.7">${esc(it.review)}</span>`, e.clientX, e.clientY));
@@ -421,8 +423,11 @@
     const P = S.cons.parameters, keys = Object.keys(P);
     let cur = keys[0];
     el.innerHTML = `<div class="viz"><div class="viz-top">
-        <div class="seg" role="radiogroup" aria-label="Shape">${keys.map(k => `<button role="radio" data-p="${k}" aria-checked="${k === cur}">${window.katex ? katex.renderToString(P[k].tex) : esc(P[k].label)}</button>`).join('')}</div>
-        <div class="viz-legend"><span><svg width="12" height="12"><circle cx="6" cy="6" r="4.5" class="cmb" style="fill:var(--cool)"/></svg>CMB</span><span><svg width="12" height="12"><rect x="1.5" y="1.5" width="9" height="9" rx="1.5" style="fill:var(--warm)"/></svg>LSS</span></div>
+        ${keys.length > 1 ? `<div class="seg" role="radiogroup" aria-label="Parameter">${keys.map(k => `<button role="radio" data-p="${k}" aria-checked="${k === cur}">${window.katex ? katex.renderToString(P[k].tex) : esc(P[k].label)}</button>`).join('')}</div>`
+          : `<div class="viz-title">${window.katex ? katex.renderToString(P[cur].tex) : esc(P[cur].label)}${P[cur].unit ? ` <span>(${esc(P[cur].unit)})</span>` : ''}</div>`}
+        <div class="viz-legend">${[...new Set(S.cons.points.map(p => p.probe))].map(pr => pr === 'LSS'
+          ? '<span><svg width="12" height="12"><rect x="1.5" y="1.5" width="9" height="9" rx="1.5" style="fill:var(--warm)"/></svg>LSS</span>'
+          : `<span><svg width="12" height="12"><circle cx="6" cy="6" r="4.5" style="fill:var(--cool)"/></svg>${esc(pr)}</span>`).join('')}</div>
       </div><svg class="plot" viewBox="0 0 640 280" role="img"></svg>
       ${S.cons.demo ? '<p class="demo">Demo values for the layout review. Every number is checked against its paper before launch.</p>' : ''}
       <details><summary>Show as table</summary><table></table></details></div>`;
@@ -475,7 +480,8 @@
 
   /* ---------------- boot ---------------- */
   async function boot() {
-    window.Shapes && Shapes.mount($('.shape'));
+    if (window.Shapes && $('#shape-canvas')) Shapes.mount($('.shape'));
+    if (window.Tetra && $('#tetra-canvas')) Tetra.mount($('.shape'));
     try {
       const [meta, matrix, log, refs, cons] = await Promise.all([
         getJSON('data/meta.json'), getJSON('data/matrix.json'), getJSON('data/timeline.json'), getJSON('data/references.json'), getJSON('data/constraints.json').catch(() => null)

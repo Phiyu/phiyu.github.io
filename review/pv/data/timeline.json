@@ -1,0 +1,23 @@
+{
+  "_note": "Change log. kind: revision, literature or site. Entries with sample: true are layout previews only.",
+  "entries": [
+    {
+      "date": "2026-10-05",
+      "kind": "site",
+      "version": "0.1",
+      "title": "Atlas layout and introduction scaffold",
+      "body": "First structure, built from the PNG review template: a 4 × 6 atlas of theory, simulation, method and observation against the primordial source and five probes. Cells start as outlines.",
+      "cells": []
+    },
+    {
+      "date": "2026-10-05",
+      "kind": "revision",
+      "title": "Draft: parity-violating mechanisms",
+      "body": "Outline of the sources of primordial chirality.",
+      "cells": [
+        "theory/source"
+      ],
+      "sample": true
+    }
+  ]
+}
