@@ -1,0 +1,351 @@
+{
+  "rows": [
+    {
+      "id": "theory",
+      "label": "Theory",
+      "blurb": "Predictions: from the Lagrangian to the observable statistic."
+    },
+    {
+      "id": "simulation",
+      "label": "Simulation",
+      "blurb": "Numerical realisations used to calibrate and validate."
+    },
+    {
+      "id": "observation",
+      "label": "Observation",
+      "blurb": "Estimators, data analyses and current constraints."
+    }
+  ],
+  "cols": [
+    {
+      "id": "source",
+      "label": "Primordial source",
+      "short": "Source",
+      "group": "source",
+      "blurb": "Inflation and its alternatives: where the non-Gaussianity is generated."
+    },
+    {
+      "id": "cmb",
+      "label": "CMB",
+      "short": "CMB",
+      "group": "probe",
+      "blurb": "Temperature and polarisation anisotropies."
+    },
+    {
+      "id": "lss",
+      "label": "Large-scale structure",
+      "short": "LSS",
+      "group": "probe",
+      "blurb": "Galaxy and quasar clustering, halo abundance."
+    },
+    {
+      "id": "lensing",
+      "label": "Lensing",
+      "short": "Lensing",
+      "group": "probe",
+      "blurb": "Galaxy weak lensing and CMB lensing."
+    },
+    {
+      "id": "line",
+      "label": "21 cm & line intensity",
+      "short": "21 cm / LIM",
+      "group": "probe",
+      "blurb": "Neutral hydrogen and other line-intensity maps."
+    },
+    {
+      "id": "sd",
+      "label": "Spectral distortions",
+      "short": "Distortions",
+      "group": "probe",
+      "blurb": "μ- and y-type distortions and their anisotropies."
+    },
+    {
+      "id": "gw",
+      "label": "Gravitational waves",
+      "short": "GW",
+      "group": "probe",
+      "blurb": "Primordial tensors and induced gravitational waves."
+    }
+  ],
+  "cells": {
+    "theory/source": {
+      "title": "Shapes and mechanisms",
+      "status": "draft",
+      "updated": "2026-10-05",
+      "body": true,
+      "refs": [
+        "maldacena2003",
+        "cheung2008",
+        "chen2010",
+        "senatore2010",
+        "arkanihamed2015",
+        "renauxpetel2015"
+      ],
+      "outline": [
+        "In-in formalism and δN",
+        "Single-field consistency relation",
+        "EFT of inflation: equilateral and orthogonal",
+        "Multi-field and local shape",
+        "Quasi-single-field and the cosmological collider",
+        "Features, resonances and non-Bunch–Davies states",
+        "Trispectrum: $\\tau_{\\rm NL}$ and $g_{\\rm NL}$"
+      ],
+      "open": [
+        "How large is the irreducible single-field squeezed signal once projection effects are removed?"
+      ]
+    },
+    "theory/cmb": {
+      "title": "From ζ to temperature and polarisation",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "komatsu2001",
+        "komatsu2010",
+        "liguori2010"
+      ],
+      "outline": [
+        "Radiation transfer of the bispectrum",
+        "Reduced bispectrum and Fisher scaling",
+        "Secondary bispectra: ISW–lensing, second-order recombination",
+        "Trispectrum in the CMB"
+      ],
+      "open": []
+    },
+    "theory/lss": {
+      "title": "Scale-dependent bias and beyond",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "dalal2008",
+        "slosar2008",
+        "desjacques2010",
+        "biagetti2019"
+      ],
+      "outline": [
+        "$\\Delta b \\propto f_{\\rm NL}\\, b_\\phi / k^2$ and its derivation",
+        "The $b_\\phi$ response and the universality relation",
+        "Galaxy bispectrum in perturbation theory",
+        "Non-local squeezed shapes in the bias expansion"
+      ],
+      "open": [
+        "Theory priors on $b_\\phi$ for realistic tracers"
+      ]
+    },
+    "theory/lensing": {
+      "title": "Lensing statistics",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Convergence bispectrum",
+        "Halo-model and peak-count signatures",
+        "Sample-variance cancellation with κ × galaxies"
+      ],
+      "open": []
+    },
+    "theory/line": {
+      "title": "21 cm and LIM bispectra",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Dark-ages 21 cm: mode counting",
+        "Scale-dependent bias of line-intensity tracers"
+      ],
+      "open": []
+    },
+    "theory/sd": {
+      "title": "μT and small-scale squeezed limits",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "pajer2012"
+      ],
+      "outline": [
+        "μ-distortion anisotropies",
+        "Running of $f_{\\rm NL}$ to small scales"
+      ],
+      "open": []
+    },
+    "theory/gw": {
+      "title": "Tensor and induced-GW non-Gaussianity",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Tensor bispectra $\\langle\\gamma\\gamma\\gamma\\rangle$ and $\\langle\\gamma\\zeta\\zeta\\rangle$",
+        "Induced GWs and local non-Gaussianity",
+        "Anisotropies of the stochastic background"
+      ],
+      "open": []
+    },
+    "simulation/source": {
+      "title": "Non-Gaussian initial conditions",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Generating separable and non-separable shapes",
+        "Lattice simulations of inflation",
+        "Numerical in-in and transport methods"
+      ],
+      "open": []
+    },
+    "simulation/cmb": {
+      "title": "Non-Gaussian CMB maps",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Map synthesis for estimator validation",
+        "End-to-end pipelines with foregrounds"
+      ],
+      "open": []
+    },
+    "simulation/lss": {
+      "title": "N-body with primordial non-Gaussianity",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "dalal2008"
+      ],
+      "outline": [
+        "Calibrating $b_\\phi$",
+        "Separate-universe simulations",
+        "Simulation suites for PNG inference"
+      ],
+      "open": []
+    },
+    "simulation/lensing": {
+      "title": "Ray-traced lensing",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "simulation/line": {
+      "title": "HI and LIM mocks",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "simulation/sd": {
+      "title": "Distortion simulations",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "simulation/gw": {
+      "title": "Induced-GW numerics",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Numerical SIGW spectra with non-Gaussian ζ",
+        "Primordial black hole formation"
+      ],
+      "open": []
+    },
+    "observation/source": {
+      "title": "Combined constraints",
+      "status": "draft",
+      "updated": "2026-10-05",
+      "body": true,
+      "widgets": [
+        "fnl-constraints"
+      ],
+      "refs": [
+        "planck2018ix",
+        "meerburg2019",
+        "achucarro2022"
+      ],
+      "outline": [
+        "Constraints on $f_{\\rm NL}$ by shape",
+        "Trispectrum limits",
+        "Targets for the next decade"
+      ],
+      "open": [
+        "Reaching $\\sigma(f_{\\rm NL}^{\\rm local}) \\approx 1$ with large-scale structure"
+      ]
+    },
+    "observation/cmb": {
+      "title": "WMAP and Planck bispectra",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "widgets": [
+        "fnl-constraints"
+      ],
+      "refs": [
+        "komatsu2001",
+        "planck2018ix"
+      ],
+      "outline": [
+        "KSW, binned and modal estimators",
+        "WMAP to Planck 2018",
+        "Trispectrum measurements",
+        "Ground-based and satellite prospects"
+      ],
+      "open": []
+    },
+    "observation/lss": {
+      "title": "Galaxy and quasar surveys",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "slosar2008"
+      ],
+      "outline": [
+        "Scale-dependent bias measurements",
+        "Bispectrum analyses",
+        "Imaging systematics on large scales",
+        "Multi-tracer prospects"
+      ],
+      "open": [
+        "Controlling large-scale imaging systematics"
+      ]
+    },
+    "observation/lensing": {
+      "title": "Lensing cross-correlations",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "CMB lensing × galaxies",
+        "Forecasts"
+      ],
+      "open": []
+    },
+    "observation/line": {
+      "title": "21 cm forecasts",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Current instruments",
+        "Forecasts and foregrounds"
+      ],
+      "open": []
+    },
+    "observation/sd": {
+      "title": "μT limits",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "observation/gw": {
+      "title": "Stochastic background limits",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    }
+  }
+}
