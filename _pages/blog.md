@@ -48,3 +48,4 @@ Here I put some reviews paper which were translated to Chinese by GPT-5.6-sol. H
 | --- | --- | --- |
 | Large-Scale Galaxy Bias | [1611.09787](https://arxiv.org/abs/1611.09787) | [大尺度星系偏置](../assets/pdf/LargeScaleGalaxyBias.pdf) |
 | Effective Field Theory in Cosmology | [2203.08232](https://arxiv.org/abs/2203.08232) | [宇宙学中的有效场论](../assets/pdf/EFTinCosmology.pdf) |
+| Galaxy Survey Cosmology | [GSC1](https://www.mv.helsinki.fi/home/hkurkisu/GSC1.pdf) | [星系巡天宇宙学](../assets/pdf/GSC1-zh.pdf) |
