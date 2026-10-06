@@ -79,6 +79,25 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 
+<script>
+	window.MathJax = {
+		tex: {
+			inlineMath: [
+				['$', '$'],
+				['\\(', '\\)']
+			],
+			displayMath: [
+				['$$', '$$'],
+				['\\[', '\\]']
+			]
+		},
+		svg: {
+			fontCache: 'global'
+		}
+	};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
 
 <!-- end custom head snippets -->
 
@@ -118,6 +137,12 @@
                 
                 
               >Research</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/review/png/"
+                
+                
+              >PNG Review</a>
             </li><li class="masthead__menu-item">
               <a
                 href="/undergrad/"
@@ -173,7 +198,7 @@
   
     <div class="author__avatar">
       <a href="http://localhost:4000/">
-        <img src="/assets/images/art-photo.PNG" alt="Hongfei Yu" itemprop="image" class="u-photo">
+        <img src="/assets/images/photo.jpg" alt="Hongfei Yu" itemprop="image" class="u-photo">
       </a>
     </div>
   
@@ -203,10 +228,6 @@
         
           
             <li><a href="https://github.com/phiyu" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
-        
-          
-            <li><a href="https://www.zhihu.com/people/ye-li-qing-feng-89" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-globe" aria-hidden="true"></i><span class="label">Zhihu</span></a></li>
           
         
           
@@ -307,7 +328,22 @@
 
       <section class="page__content" itemprop="text">
         
-        <h3 id="halo-model">Halo Model</h3>
+        <h3 id="halo-cosmic-web-relation">Halo-Cosmic Web Relation</h3>
+
+<p>Dark matter halos are the bridge between observed galaxies and in matter field which are mainly invisible dark matter.</p>
+
+\[{\rm Matter\; Field}\quad \Leftrightarrow \quad {\rm Dark\; Matter \; Halo}\quad  \Leftrightarrow \quad {\rm Galaxy}\]
+
+<p>Our research focus on the relation between the dark matter halo and the matter field, especially the tidal-field and the cosmic webs classified by it (T-web method). Till now, we’ve done several tests on:</p>
+
+<ul>
+  <li>
+    <p>Relation between halo mass, halo formation time and local density as well as cosmic web.</p>
+  </li>
+  <li>
+    <p>Anisotropy of the halo-web cross-correlation function under tidal field eigen-frame.</p>
+  </li>
+</ul>
 
 <p><strong>Highlights</strong>:</p>
 <ul>
@@ -315,7 +351,15 @@
 <strong>Hongfei Yu</strong>, Huiyuan Wang | arXiv: 26xx.xxxxx</li>
 </ul>
 
+<hr />
+
 <h3 id="non-gaussianity">Non-Gaussianity</h3>
+
+<p>Precise estimation of primordial non-Gaussianity (PNG) is essential for distinguishing different inflation models and learning about primordial universe. A widely studied PNG model is called local-type $f_{\rm NL}$ which is defined as</p>
+
+\[\Phi = \Phi_{\rm G} + f_{\rm NL}(\Phi_{\rm G}^2 - \langle \Phi_{\rm G}^2 \rangle).\]
+
+<p>The current best $f_{\rm NL}$ constraint comes from the Planck experiment’s analysis of CMB, reaching $f_{\rm NL} = 0.9\pm 5.1$. Our research focus on improve the constraint from cosmic shear either by higher-order statistics nor neural network but with enough physical transparency.</p>
 
 <p><strong>Highlights</strong>:</p>
 

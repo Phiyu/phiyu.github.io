@@ -1,0 +1,78 @@
+<blockquote>
+  <p>Ref:
+<a href="https://arxiv.org/pdf/astro-ph/0105117">The Angular Trispectrum of the CMB</a>, <a href="https://arxiv.org/pdf/2112.05155">Weak Lensing Trispectrum and Kurt-Spectra</a></p>
+</blockquote>
+
+<p>Correlation function is the most useful statistics in cosmology data analysis. With the increasing quality of survey data in the further, the demanding of higher-order statistics, $n$-point correlation function and the corresponding spectra, increases too. Here we will review the complex but powerful cases of $n=4$.</p>
+
+<h2 id="four-point-correlation">Four-point correlation</h2>
+
+<p>We started in the most common situation that a four point correlation function in three Cartesian coordinate. For any field $\delta(\mathbf{x})$ defined in $\mathbb{R}^3$, we can define their 4-point correlator with their Fourier mode</p>
+
+<p>\(\langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle.\)
+And using cumulant expansion, we can decompose it into two part: disconnected (Gaussian) part and connected (non-Gaussian) part</p>
+
+\[\langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle = \langle\delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\rangle\langle\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle+\langle\delta(\mathbf{k}_1)\delta(\mathbf{k}_3)\rangle\langle\delta(\mathbf{k}_2)\delta(\mathbf{k}_4)\rangle+\langle\delta(\mathbf{k}_1)\delta(\mathbf{k}_4)\rangle\langle\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\rangle + \langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle_c.\]
+
+<p>The first three terms are the disconnected part, also known as the Wick pairs. The last term is the connected part and the exact additional information of 4-point correlator comparing with 2-point.</p>
+
+<h2 id="trispectrum">Trispectrum</h2>
+
+<h3 id="3d-space">3D Space</h3>
+
+<p>The trispectrum is the connected contribution of the 4-point correlation, as</p>
+
+\[(2\pi)^3T(k_1,k_2,k_3,k_4)\delta^D(\mathbf{k}_{1234}) = \langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle_c.\]
+
+<p>But for any tetrahedron in $\mathbb{R}^3$, we need $4\times 3 - 3 -3 =6$ degree of freedom (dof) to parameterize it (reducing 3 rotation dof and 3 translation dof), i.e. we need to know the length of two diagonal, so a full trispectrum is usually written as $T^{\rm full}(k_1,k_2,k_3,k_4, k_{12},k_{34})$.</p>
+
+<h3 id="sphere">Sphere</h3>
+
+<p>We also usually use the trispectrum on the sphere. With the field $\kappa(\hat{\mathbf{n}})$ defined in $\mathbb{S}^2$, we can define a 4-point correlator with its spherical harmonic modes</p>
+
+\[\langle \kappa_{\ell_1m_2}\kappa_{\ell_2 m_2}\kappa_{\ell_3m_3}\kappa_{\ell_4m_4}\rangle.\]
+
+<p>We discuss this away from 3D since they are much different then power spectrum’s and bispectrum’s difference in space and sphere.</p>
+
+<p>Using rotation symmetry for the correlator, a 4-point correlator in sphere can be written as</p>
+
+<p>\(\langle \kappa_{\ell_1m_2}\kappa_{\ell_2 m_2}\kappa_{\ell_3m_3}\kappa_{\ell_4m_4}\rangle = \sum_{LM}(-1)^M\begin{pmatrix}\ell_1 &amp; \ell_2 &amp; L \\ m_1 &amp; m_2 &amp; -M\end{pmatrix}\begin{pmatrix}\ell_3 &amp; \ell_4 &amp; L \\ m_3 &amp; m_4 &amp; M\end{pmatrix}Q^{\ell_1\ell_2}_{\ell_3\ell_4}(L).\)
+where the $L$ can be seen as a length of diagonal and for spherical 4-point correlator, 5 dof is complete to parameterize it ($4\times 2 - 3 = 5$). Geometrically speaking, the $Q^{\ell_1\ell_2}_{\ell_3\ell_4}(L)$ is a quadrilateral component determined by two triangular $(\ell_1,\ell_2,L)$ and $(\ell_3,\ell_4,L)$ . We call $(\ell_1,\ell_2,\ell_3,\ell_4,L)$ a configuration.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>There’re also other two pairing method for $\ell_1\ell_3</td>
+      <td>\ell_2\ell_4$ and $\ell_1\ell_4</td>
+      <td>\ell_2\ell_3$ and the relation between each $Q$ under those configuration can be related using Wigner-6j symbols. But here, we discuss all derivation with $\ell_1\ell_2</td>
+      <td>\ell_3\ell_4$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>$Q_{\ell_3\ell_4}^{\ell_1\ell_2}(L)$ is also contributed by Gaussian part and non-Gaussian part, written as</p>
+
+\[Q_{\ell_3\ell_4}^{\ell_1\ell_2}(L) = G_{\ell_3\ell_4}^{\ell_1\ell_2}(L)+T_{\ell_3\ell_4}^{\ell_1\ell_2}(L).\]
+
+<h2 id="local-power-spectrum-and-collapsed-trispectrum">Local Power Spectrum and Collapsed Trispectrum</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Alternative trispectrum is usually hard to be measured since they have 6 free parameters. But similar to bispectrum, we can focus on special configuration of it. In this section, we take space trispectrum as example to discuss a configuration called <strong>collapsed trispectrum</strong>, which have $</td>
+      <td>\mathbf{k}_1+\mathbf{k}_2</td>
+      <td>=</td>
+      <td>\mathbf{k}_3 +\mathbf{k}_4</td>
+      <td>\ll \min(k_1,k_2,k_3,k_4)$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Another useful observable is <strong>local power spectrum</strong> (or position dependent power spectrum). To define it, we can consider a finite survey region $V_{\rm s}$ and a local small region $V_{\rm L}$ at $\mathbf{r}<em>{\rm L}$ , in the local region we have 
+\(\delta(\mathbf{k}; \mathbf{r}_{\rm L}) = \int_{V_{\rm L}}\mathrm{d}^3r\, \delta(\mathbf{r})\mathrm{e}^{-\mathrm{i}\mathbf{r}\cdot\mathbf{k}} = \int \mathrm{d}^3r\,\delta(\mathbf{r})W_{\rm L}(\mathbf{r}-\mathbf{r}_{\rm L})\mathrm{e}^{-\mathrm{i}\mathbf{r}\cdot\mathbf{k}} = \int \dfrac{\mathrm{d}^3 q}{(2\pi)^3}\, \delta(\mathbf{k}-\mathbf{q})W_{\rm L}(\mathbf{q})\mathrm{e}^{\mathrm{i}\mathbf{r}_{\rm L}\cdot\mathbf{q}}.\)
+Here the last step use *Plancherel theorem* :
+\(\int \mathrm{d}^3 x\,f(\mathbf{x})g(\mathbf{x}) = \int \dfrac{\mathrm{d}^3 k}{(2\pi)^3}\,f^*(\mathbf{k})g(\mathbf{k}).\)
+and $W</em>{\rm L}$ is the rectangle window function selecting the region $V_{\rm L}$.</p>
+
+<p>Under this convention, the local power spectrum is defined as
+\(P(k;\mathbf{r}_{\rm L}) = \dfrac{1}{V_{\rm L}}|\delta(\mathbf{k};\mathbf{r}_{\rm L})|^2.\)</p>

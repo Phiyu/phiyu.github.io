@@ -1,4 +1,486 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-20T23:15:03-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yu’s Academic Page</title><subtitle>Personal homepage of Yu, undergraduate student in physics.</subtitle><author><name>Hongfei Yu</name><email>phiyuhf@outlook.com</email></author><entry><title type="html">2025 年度总结</title><link href="http://localhost:4000/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/2025sum/" rel="alternate" type="text/html" title="2025 年度总结" /><published>2026-01-28T00:00:00-06:00</published><updated>2026-01-28T00:00:00-06:00</updated><id>http://localhost:4000/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/2025sum</id><content type="html" xml:base="http://localhost:4000/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/2025sum/"><![CDATA[<p><a href="https://www.zhihu.com/question/1970617132950725343/answer/1989845532361917561">原文链接（知乎）</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-10-05T20:39:42-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yu’s Academic Page</title><subtitle>Personal homepage of Yu, undergraduate student in physics.</subtitle><author><name>Hongfei Yu</name><email>phiyuhf@outlook.com</email></author><entry><title type="html">Trispectrum and Position-dependent Power Sepctrum</title><link href="http://localhost:4000/cosmology/trispectrum/" rel="alternate" type="text/html" title="Trispectrum and Position-dependent Power Sepctrum" /><published>2026-09-14T00:00:00-05:00</published><updated>2026-09-14T00:00:00-05:00</updated><id>http://localhost:4000/cosmology/trispectrum</id><content type="html" xml:base="http://localhost:4000/cosmology/trispectrum/"><![CDATA[<blockquote>
+  <p>Ref:
+<a href="https://arxiv.org/pdf/astro-ph/0105117">The Angular Trispectrum of the CMB</a>, <a href="https://arxiv.org/pdf/2112.05155">Weak Lensing Trispectrum and Kurt-Spectra</a>,  <a href="https://www.mv.helsinki.fi/home/hkurkisu/GSC1.pdf">Galaxy Survey Cosmology by Hannu</a>, <a href="https://arxiv.org/pdf/1508.03256">Position-dependent power spectrum</a></p>
+</blockquote>
+
+<p>Correlation function is the most useful statistics in cosmology data analysis. With the increasing quality of survey data in the further, the demanding of higher-order statistics, \(n\) -point correlation function and the corresponding spectra, increases too. Here we will review the complex but powerful cases of \(n=4\) .</p>
+
+<h2 id="four-point-correlation">Four-point correlation</h2>
+
+<p>We started in the most common situation that a four point correlation function in three Cartesian coordinate. For any field \(\delta(\mathbf{x})\) defined in \(\mathbb{R}^3\) , we can define their 4-point correlator with their Fourier mode</p>
+
+\[\begin{aligned}
+\langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle.
+\end{aligned}\]
+
+<p>And using cumulant expansion, we can decompose it into two part: disconnected (Gaussian) part and connected (non-Gaussian) part</p>
+
+\[\begin{aligned}
+\langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle
+&amp;= \langle\delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\rangle\langle\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle
++ \langle\delta(\mathbf{k}_1)\delta(\mathbf{k}_3)\rangle\langle\delta(\mathbf{k}_2)\delta(\mathbf{k}_4)\rangle \\
+&amp;\quad + \langle\delta(\mathbf{k}_1)\delta(\mathbf{k}_4)\rangle\langle\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\rangle
++ \langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle_c.
+\end{aligned}\]
+
+<p>The first three terms are the disconnected part, also known as the Wick pairs. The last term is the connected part and the exact additional information of 4-point correlator comparing with 2-point.</p>
+
+<h2 id="trispectrum">Trispectrum</h2>
+
+<h3 id="3d-space">3D Space</h3>
+
+<p>The trispectrum is the connected contribution of the 4-point correlation, as</p>
+
+\[\begin{aligned}
+(2\pi)^3T(k_1,k_2,k_3,k_4)\delta^D(\mathbf{k}_{1234})
+&amp;= \langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle_c.
+\end{aligned}\]
+
+<p>But for any tetrahedron in \(\mathbb{R}^3\) , we need \(4\times 3 - 3 -3 =6\) degree of freedom (dof) to parameterize it (reducing 3 rotation dof and 3 translation dof), i.e. we need to know the length of two diagonal, so a full trispectrum is usually written as \(T^{\rm full}(k_1,k_2,k_3,k_4, k_{12},k_{34})\) .</p>
+
+<h3 id="sphere">Sphere</h3>
+
+<p>We also usually use the trispectrum on the sphere. With the field \(\kappa(\hat{\mathbf{n}})\) defined in \(\mathbb{S}^2\) , we can define a 4-point correlator with its spherical harmonic modes</p>
+
+\[\begin{aligned}
+\langle \kappa_{\ell_1m_2}\kappa_{\ell_2 m_2}\kappa_{\ell_3m_3}\kappa_{\ell_4m_4}\rangle.
+\end{aligned}\]
+
+<p>We discuss this away from 3D since they are much different then power spectrum’s and bispectrum’s difference in space and sphere.</p>
+
+<p>Using rotation symmetry for the correlator, a 4-point correlator in sphere can be written as</p>
+
+\[\begin{aligned}
+\langle \kappa_{\ell_1m_2}\kappa_{\ell_2 m_2}\kappa_{\ell_3m_3}\kappa_{\ell_4m_4}\rangle
+&amp;= \sum_{LM}(-1)^M
+\begin{pmatrix}\ell_1 &amp; \ell_2 &amp; L \\ m_1 &amp; m_2 &amp; -M\end{pmatrix}
+\begin{pmatrix}\ell_3 &amp; \ell_4 &amp; L \\ m_3 &amp; m_4 &amp; M\end{pmatrix}
+Q^{\ell_1\ell_2}_{\ell_3\ell_4}(L).
+\end{aligned}\]
+
+<p>where the \(L\) can be seen as a length of diagonal and for spherical 4-point correlator, 5 dof is complete to parameterize it ( \(4\times 2 - 3 = 5\) ). Geometrically speaking, the \(Q^{\ell_1\ell_2}_{\ell_3\ell_4}(L)\) is a quadrilateral component determined by two triangular ( \(\ell_1,\ell_2,L\) ) and ( \(\ell_3,\ell_4,L\) ) . We call ( \(\ell_1,\ell_2,\ell_3,\ell_4,L\) ) a configuration.</p>
+
+<p>There’re also other two pairing method for \(\ell_1\ell_3\|\ell_2\ell_4\) and \(\ell_1\ell_4\|\ell_2\ell_3\) and the relation between each \(Q\) under those configuration can be related using Wigner-6j symbols. But here, we discuss all derivation with \(\ell_1\ell_2\|\ell_3\ell_4\) .</p>
+
+<p>\(Q_{\ell_3\ell_4}^{\ell_1\ell_2}(L)\) is also contributed by Gaussian part and non-Gaussian part, written as</p>
+
+\[\begin{aligned}
+Q_{\ell_3\ell_4}^{\ell_1\ell_2}(L) &amp;= G_{\ell_3\ell_4}^{\ell_1\ell_2}(L)+T_{\ell_3\ell_4}^{\ell_1\ell_2}(L).
+\end{aligned}\]
+
+<h2 id="local-power-spectrum">Local Power Spectrum</h2>
+
+<h3 id="convention">Convention</h3>
+
+<p>Another useful observable is <strong>local power spectrum</strong> (or position dependent power spectrum). To define it, we can consider a finite survey region \(V_{\rm s}\) and a local small region \(V_{\rm L}\) at \(\mathbf{r}_{\rm L}\) , in the local region we have</p>
+
+\[\begin{aligned}
+\delta(\mathbf{k}; \mathbf{r}_{\rm L})
+&amp;= \int_{V_{\rm L}}\mathrm{d}^3r\, \delta(\mathbf{r})\mathrm{e}^{-\mathrm{i}\mathbf{r}\cdot\mathbf{k}} \\
+&amp;= \int \mathrm{d}^3r\,\delta(\mathbf{r})W_{\rm L}(\mathbf{r}-\mathbf{r}_{\rm L})\mathrm{e}^{-\mathrm{i}\mathbf{r}\cdot\mathbf{k}} \\
+&amp;= \int \dfrac{\mathrm{d}^3 q}{(2\pi)^3}\, \delta(\mathbf{k}-\mathbf{q})W_{\rm L}(\mathbf{q})\mathrm{e}^{-\mathrm{i}\mathbf{r}_{\rm L}\cdot\mathbf{q}}.
+\end{aligned}\]
+
+<p>Here the last step use <em>Plancherel theorem</em> :</p>
+
+\[\begin{aligned}
+\int \mathrm{d}^3 x\,f(\mathbf{x})g(\mathbf{x}) &amp;= \int \dfrac{\mathrm{d}^3 k}{(2\pi)^3}\,f^*(\mathbf{k})g(\mathbf{k}).
+\end{aligned}\]
+
+<p>and \(W_{\rm L}\) is the rectangle window function selecting the region \(V_{\rm L}\) .</p>
+
+<p>Under this convention, the local power spectrum is defined as</p>
+
+\[\begin{aligned}
+P(k;\mathbf{r}_{\rm L})
+&amp;= \dfrac{1}{V_{\rm L}}\|\delta(\mathbf{k};\mathbf{r}_{\rm L})\|^2 \\
+&amp;= \dfrac{1}{V_{\rm L}} \int \dfrac{\mathrm{d}^3 q_1}{(2\pi)^3}\int \dfrac{\mathrm{d}^3 q_2}{(2\pi)^3}
+\, \delta(-\mathbf{k}-\mathbf{q}_1)\delta(\mathbf{k}-\mathbf{q}_2)W_{\rm L}(\mathbf{q}_1)W_{\rm L}(\mathbf{q}_2)
+\mathrm{e}^{-\mathrm{i}\mathbf{r}_{\rm L}\cdot(\mathbf{q}_1+\mathbf{q}_2)}.
+\end{aligned}\]
+
+<p>In the Fourier space for the observable, we have</p>
+
+\[\begin{aligned}
+P(k;q)
+&amp;= \int \mathrm{d}^3r_{\rm L}\, P(k;\mathbf{r}_{\rm L}) \mathrm{e}^{-\mathrm{i}\mathbf{r}_{\rm L}\cdot \mathbf{q}} \\
+&amp;= \dfrac{1}{V_{\rm L}}\int \dfrac{\mathrm{d}^3 q_1}{(2\pi)^3}\delta(-\mathbf{k}-\mathbf{q}_1)\delta(\mathbf{k}+\mathbf{q}+\mathbf{q}_1)
+W_{\rm L}(\mathbf{q}_1)W_{\rm L}(-\mathbf{q}_1-\mathbf{q}).
+\end{aligned}\]
+
+<p>And we define the background overdensity</p>
+
+\[\begin{aligned}
+\delta_{\rm L}(\mathbf{r}_{\rm L}) &amp;= \dfrac{ \delta(\mathbf{k}=0;\mathbf{r}_{\rm L})}{V_{\rm L}}.
+\end{aligned}\]
+
+<p>and its Fourier transform</p>
+
+\[\begin{aligned}
+\delta_{\rm L}(\mathbf{q})
+&amp;= \int \mathrm{d}^3 r_{\rm L}\,\delta_{\rm L}(\mathbf{r}_{\rm L})\mathrm{e}^{-\mathrm{i}\mathbf{r}_{\rm L}\cdot \mathbf{q}} \\
+&amp;= \dfrac{1}{V_{\rm L}}\delta(\mathbf{q})W(-\mathbf{q}).
+\end{aligned}\]
+
+<h3 id="approximation">Approximation</h3>
+
+<p>To deal with the annoying \(\mathbf{q}_1\) integral, we can make an approximation under the assumption \(q\ll k\) :</p>
+<ul>
+  <li>observables \(\delta, P\) and spectrum \(B,T\) (will be discussed later) just keep zero order approximation, i.e. \(k\pm q = k\) .</li>
+  <li>Window functions keep the first order term and are integrated:</li>
+</ul>
+
+\[\begin{aligned}
+\int \dfrac{\mathrm{d}^3q_1}{(2\pi)^3} W(\mathbf{q}_1)W(-\mathbf{q}-\mathbf{q}_1)
+&amp;= \mathscr{F}[W^2(\mathbf{x})](-\mathbf{q}) \\
+&amp;= W(-\mathbf{q}).
+\end{aligned}\]
+
+<p>Here \(\mathscr{F}\) denotes the Fourier transform.</p>
+
+<p>In this way, the local power spectrum in Fourier space are</p>
+
+\[\begin{aligned}
+P(k;q) &amp;\simeq \dfrac{W(-\mathbf{q})}{V_{\rm L}}\delta(-\mathbf{k})\delta(\mathbf{k}+\mathbf{q}).
+\end{aligned}\]
+
+<p>This approximation are accurate before \(\mathcal{O}(q/k)\) .</p>
+
+<h3 id="response">Response</h3>
+
+<p>After squeezed approximation \(q\ll k\) , we can expand local power spectrum as the response to local density and gravitational potential</p>
+
+\[\begin{aligned}
+P(k;\mathbf{r}_{\rm L}) &amp;= P(k)[1+R_1\delta_{\rm L}(\mathbf{r}_{\rm L}) + b_\phi \Phi_{\rm L}(\mathbf{\rm L})+\mathcal{O}(\delta_{\rm L}^2)] \\
+&amp;\quad + \epsilon_{\rm L}(\mathbf{r}_{\rm L}).
+\end{aligned}\]
+
+<p>Here \(R_1\) is the gravitational response, \(b_{\phi} = 4f_{\rm NL}\) is the response to local-type non-Gaussianity and \(\epsilon_{\rm L}\) is the noise term. We will show how the response bridge the relation between higher order statistics and \(P(k), P(q)\) .</p>
+
+<h2 id="squeezed-bispectrum">Squeezed Bispectrum</h2>
+
+<p>Since local power spectrum is a observable at \(\mathbf{r}_{\rm L}\) , we can calculate its cross-correlation with the background overdensity \(\delta_{\rm L}(\mathbf{r}_{\rm L})\) . So we can get</p>
+
+\[\begin{aligned}
+\xi_{P\delta}(\mathbf{r}\|k)
+&amp;= \langle P(k;\mathbf{r}_{\rm L}) \delta_{\rm L}(\mathbf{r}_{\rm L}+\mathbf{r})\rangle \\
+&amp;= \dfrac{1}{V_{\rm L}^2} \int \dfrac{\mathrm{d}^3 q_1}{(2\pi)^3}\int \dfrac{\mathrm{d}^3 q_2}{(2\pi)^3}\int \dfrac{\mathrm{d}^3 q_3}{(2\pi)^3}
+\, \langle\delta(-\mathbf{k}-\mathbf{q}_1)\delta(\mathbf{k}-\mathbf{q}_2)\delta(-\mathbf{q}_3)\rangle \\
+&amp;\quad \times W_{\rm L}(\mathbf{q}_1)W_{\rm L}(\mathbf{q}_2)W_{\rm L}(\mathbf{q}_3)
+\mathrm{e}^{-\mathrm{i}\mathbf{r}_{\rm L}\cdot(\mathbf{q}_1+\mathbf{q}_2+\mathbf{q}_3)}\mathrm{e}^{-\mathrm{i}\mathbf{r}\cdot\mathbf{q}_3} \\
+&amp;= \dfrac{1}{V_{\rm L}^2} \int \dfrac{\mathrm{d}^3 q_1}{(2\pi)^3}\int \dfrac{\mathrm{d}^3 q_3}{(2\pi)^3}
+\, B(-\mathbf{k}-\mathbf{q}_1, \mathbf{k}+\mathbf{q}_1+\mathbf{q}_3, -\mathbf{q}_3) \\
+&amp;\quad \times W_{\rm L}(\mathbf{q}_1)W_{\rm L}(-\mathbf{q}_1-\mathbf{q}_3)W_{\rm L}(\mathbf{q}_3)\mathrm{e}^{-\mathrm{i}\mathbf{r}\cdot\mathbf{q}_3}.
+\end{aligned}\]
+
+<p>The bispectrum is defined as \(B(\mathbf{k}_1,\mathbf{k}_2,\mathbf{k}_3)(2\pi)^3 \delta^{\rm D}(\mathbf{k}_1+\mathbf{k}_2+\mathbf{k}_3) = \langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\rangle\) .</p>
+
+<p>So we can define the cross power spectrum between local power spectrum and background overdensity</p>
+
+\[\begin{aligned}
+P_{P\delta}(q\|k)
+&amp;= \int \mathrm{d}^3 r \,\xi_{P\delta}(\mathbf{r}\|k)\mathrm{e}^{-\mathrm{i}\mathbf{r}\cdot\mathbf{q}} \\
+&amp;= \dfrac{1}{V_{\rm L}^2} \int \dfrac{\mathrm{d}^3 q_1}{(2\pi)^3}\int \dfrac{\mathrm{d}^3 q_3}{(2\pi)^3}\int \mathrm{d}^3 r\,
+B(-\mathbf{k}-\mathbf{q}_1, \mathbf{k}+\mathbf{q}_1+\mathbf{q}_3, -\mathbf{q}_3) \\
+&amp;\quad \times W_{\rm L}(\mathbf{q}_1)W_{\rm L}(-\mathbf{q}_1-\mathbf{q}_3)W_{\rm L}(\mathbf{q}_3)\mathrm{e}^{-\mathrm{i}\mathbf{r}\cdot(\mathbf{q}_3+\mathbf{q})} \\
+&amp;=\dfrac{1}{V_{\rm L}^2} \int \dfrac{\mathrm{d}^3 q_1}{(2\pi)^3}
+B(-\mathbf{k}-\mathbf{q}_1, \mathbf{k}+\mathbf{q}_1-\mathbf{q}, \mathbf{q}) \\
+&amp;\quad \times W_{\rm L}(\mathbf{q}_1)W_{\rm L}(\mathbf{q}-\mathbf{q}_1)W_{\rm L}(-\mathbf{q}).
+\end{aligned}\]
+
+<p>Use the squeezed limit \(q\ll k\) , we have</p>
+
+\[\begin{aligned}
+P_{P\delta }(q\|k) &amp;\simeq \dfrac{\|W(q)\|^2}{V_{\rm L}^2}B(-\mathbf{k},\mathbf{k}-\mathbf{q},\mathbf{q}) \\
+&amp;:= \dfrac{\|W(q)\|^2}{V_{\rm L}^2}B_{\rm sq}(k,q).
+\end{aligned}\]
+
+<p>This can also be derived from \(P_{P\delta}(q\|k) = \langle P(k;-q)\delta_{\rm L}(\mathbf{q})\rangle\) where \(-q\) making the momentum conserved. In this definition, the response model gives</p>
+
+\[\begin{aligned}
+B_{\rm sq}(k,q) &amp;= \left[ R_1(k) + \dfrac{4f_{\rm NL}}{\alpha(q)}\right]P(k)P(q).
+\end{aligned}\]
+
+<p>where \(\alpha (q)\) comes from the Poisson equation \(\Phi_{\rm L}(q) = \delta(q)/\alpha(q)\) , \(\alpha(q) = \dfrac{2q^2 T^2(q)D(z)}{3\Omega_{\rm m}H_0^2}\) .</p>
+
+<h2 id="collapsed-trispectrum">Collapsed Trispectrum</h2>
+
+<p>Alternative trispectrum is usually hard to be measured since they have 6 free parameters. But similar to bispectrum, we can focus on special configuration of it. In this section, we take space trispectrum as example to discuss a configuration called <strong>collapsed trispectrum</strong>, which have \(\|\mathbf{k}_1+\mathbf{k}_2\| =  \|\mathbf{k}_3 +\mathbf{k}_4\| \ll \min(k_1,k_2,k_3,k_4)\) .</p>
+
+<p>Similar to bispectrum, we can construct the trispectrum by calculating the local power spectrum auto-correlation function</p>
+
+\[\begin{aligned}
+\xi_{PP}(\mathbf{r}\|k,k')
+&amp;= \langle P(k;\mathbf{r}_{\rm L}) P(k';\mathbf{r}_{\rm L}+\mathbf{r})\rangle \\
+&amp;= \dfrac{1}{V_{\rm L}^2} \int \dfrac{\mathrm{d}^3 q_1}{(2\pi)^3}\int \dfrac{\mathrm{d}^3 q_2}{(2\pi)^3}
+\int \dfrac{\mathrm{d}^3 q_3}{(2\pi)^3}\int \dfrac{\mathrm{d}^3 q_4}{(2\pi)^3} \\
+&amp;\quad \times \langle\delta(-\mathbf{k}-\mathbf{q}_1)\delta(\mathbf{k}-\mathbf{q}_2)
+\delta(-\mathbf{k}'-\mathbf{q}_3)\delta(\mathbf{k}'-\mathbf{q}_4)\rangle \\
+&amp;\quad \times W_{\rm L}(\mathbf{q}_1)W_{\rm L}(\mathbf{q}_2)W_{\rm L}(\mathbf{q}_3)W_{\rm L}(\mathbf{q}_4)
+\mathrm{e}^{-\mathrm{i}\mathbf{r}_{\rm L}\cdot(\mathbf{q}_1+\mathbf{q}_2+\mathbf{q}_3+\mathbf{q}_4)} \\
+&amp;\quad \times \mathrm{e}^{-\mathrm{i}\mathbf{r}\cdot(\mathbf{q}_3+\mathbf{q}_4)}.
+\end{aligned}\]
+
+<p>To avoid heavy calculation, we can just consider it in Fourier space where we have</p>
+
+\[\begin{aligned}
+P'_{PP}(q\|k,k') &amp;= \langle P(k;q)P(k';-q)\rangle' \\
+&amp;\simeq \dfrac{\|W(q)\|^2}{V_{\rm L}^2}T (-\mathbf{k},\mathbf{k}+\mathbf{q},-\mathbf{k}',\mathbf{k}'-\mathbf{q}) \\
+&amp;:= \dfrac{\|W(q)\|^2}{V_{\rm L}^2}T_{\rm coll}(k,k',q).
+\end{aligned}\]
+
+<p>Here we use prime to denote the connected statistics.</p>
+
+<p>Also the response gives</p>
+
+\[\begin{aligned}
+T_{\rm coll}(k,k',q)
+&amp;= \left[R_1(k)R_1(k')
++\dfrac{4f_{\rm NL}(R_1(k)+R_1(k'))}{\alpha(q)}
++\dfrac{(100/9)\tau_{\rm NL}}{\alpha^2(q)} \right]P(k)P(k')P(q).
+\end{aligned}\]
+
+<p>\(\tau_{\rm NL}\) are defined in inflation theory that \(T_{\zeta} \supset \tau_{\rm NL}(P_{\zeta}P_{\zeta}P_{\zeta}(k_{12}) + 12{\rm perm.})\)  and in single field inflation it satisfies \(\tau_{\rm NL} = \left(\dfrac{6}{5} f_{\rm NL}\right)^2\) .</p>
+
+<blockquote>
+  <p>Disconnected term should be treated carefully when doing research. But we won’t discuss it now.</p>
+</blockquote>]]></content><author><name>Hongfei Yu</name><email>phiyuhf@outlook.com</email></author><category term="cosmology" /><category term="physics" /><category term="cosmology" /><category term="Fourier" /><category term="statistics" /><category term="trispectrum" /><summary type="html"><![CDATA[Ref: The Angular Trispectrum of the CMB, Weak Lensing Trispectrum and Kurt-Spectra, Galaxy Survey Cosmology by Hannu, Position-dependent power spectrum]]></summary></entry><entry><title type="html">3D Spectra and Angular Spectra</title><link href="http://localhost:4000/math/spectrum/" rel="alternate" type="text/html" title="3D Spectra and Angular Spectra" /><published>2026-09-08T00:00:00-05:00</published><updated>2026-09-08T00:00:00-05:00</updated><id>http://localhost:4000/math/spectrum</id><content type="html" xml:base="http://localhost:4000/math/spectrum/"><![CDATA[<p>In cosmology, spherical harmonic transform (SHT) and Fourier transform (FT) are two of the most significant mathematics when we process data. In this notes, we will shortly review the definition of two transforms and then derive some useful equations about them.</p>
+
+<h2 id="sht">SHT</h2>
+
+<p>For a field \(a(\theta,\phi)\) in sphere \(\mathbb{S}^2\), the SHT is defined as</p>
+
+\[\begin{aligned}
+a(\theta,\phi) &amp;= \sum_{\ell = 0}^\infty \sum_{m=-\ell}^\ell a_{\ell m}Y_{\ell m}(\theta,\phi),
+\end{aligned}\]
+
+<p>where the coefficients is</p>
+
+\[\begin{aligned}
+a_{\ell m} &amp;= \int_0^\pi \sin\theta\,\mathrm{d}\theta\, \int_0^{2\pi}\,\mathrm{d}\phi\, a(\theta,\phi)Y_{\ell m}^*(\theta,\phi).
+\end{aligned}\]
+
+<p>Here we use super-script star to denote the complex conjugate. The \(Y_{\ell m}(\theta,\phi)\) is spherical harmonics with these important properties:</p>
+
+<ul>
+  <li>Orthonormal: \(\displaystyle\int_0^\pi \sin\theta\,\mathrm{d}\theta\,\int_0^{2\pi}\,\mathrm{d}\phi\, Y_{\ell m}(\theta,\phi)Y^*_{\ell' m'}(\theta,\phi) = \delta^K_{\ell \ell'}\delta^K_{mm'}\) .  Here \(\delta^K\) is Kerdonecker delta.</li>
+  <li>Parity: \(Y_{\ell m}(-\theta,-\phi) = (-1)^\ell Y_{\ell m}(\theta,\phi)\) .</li>
+</ul>
+
+<p>Hereafter we use \(\displaystyle\int_\Omega = \int_0^\pi \sin\theta\,\mathrm{d}\theta\,\int_0^{2\pi}\,\mathrm{d}\phi\) and \(\mathbf{\hat{n}} = (\theta,\phi)\) to simplify the notation.</p>
+<h2 id="ft">FT</h2>
+
+<p>Taking 3D space for example, a field \(f(\mathbf{x})\) in \(\mathbb{R}^3\) can be expanded by FT</p>
+
+\[\begin{aligned}
+f(\mathbf{x}) &amp;= \int\,\mathrm{d}^3\mathbf{x}\, \mathrm{e}^{\mathrm{i}\mathbf{k}\cdot\mathbf{x}} f(\mathbf{k}),
+\end{aligned}\]
+
+<p>where the function is Fourier space is</p>
+
+\[\begin{aligned}
+f(\mathbf{k}) &amp;= \int\,\dfrac{\mathrm{d}^3\mathbf{k}}{(2\pi)^3}\, \mathrm{e}^{-\mathrm{i}\mathbf{k}\cdot\mathbf{x}} f(\mathbf{x}).
+\end{aligned}\]
+
+<p>One should notice that in different field people have different convention for the \((2\pi)^3\) coefficients, and the convention above (maybe) is the most popular in cosmology.</p>
+
+<p>Hereafter we use \(\displaystyle\int_{\mathbf{x}} = \int \,\mathrm{d}^3\mathbf{x}\) and \(\displaystyle\int_{\mathbf{k}} = \int \,\dfrac{\mathrm{d}^3\mathbf{k}}{(2\pi)^3}\) to simplify the notation.</p>
+
+<h2 id="relation-between-sht-and-ft">Relation Between SHT and FT</h2>
+
+<p>When we deal with the data in the sky sphere especially gravitation lensing (GL), we usually try to find the relation between the angular spectra and spectra in 3D. The bridge between them is the <strong>plane wave expansion</strong></p>
+
+\[\begin{aligned}
+\mathrm{e}^{\mathrm{i}\mathbf{k}\cdot\mathbf{x}} &amp;= 4\pi \sum_{\ell =0}^\infty \sum_{m=-\ell}^\ell \mathrm{i}^{\ell} j_{\ell}(kx)Y^*_{\ell m}(\hat{k})Y_{\ell m}(\hat{x}).
+\end{aligned}\]
+
+<p>( \(k\) and \(x\) are equivalent so you can choose which \(Y_{\ell m}\) to conjugate) With the projection from a 3D field \(\delta(\mathbf{x})\) to a sphere map \(\kappa(\mathbf{\hat{n}})\) with kernel function \(W\) :</p>
+
+\[\begin{aligned}
+\kappa(\mathbf{\hat{n}}) &amp;= \int_0^\infty \,\mathrm{d}\chi'\, W(\chi')\delta(\chi',\mathbf{\hat{n}}).
+\end{aligned}\]
+
+<p>we can derive the relation between \(\kappa_{\ell m}\) and \(\delta(\mathbf{k})\) so that we can connect \(C_{\kappa\kappa}(\ell)\) with \(P_{\delta\delta}(k)\). Suppose \(\mathbf{x} = \chi\mathbf{\hat{n}}\) and \(\displaystyle \int_\chi = \int_{0}^\infty \,\mathrm{d}\chi\), we can write down</p>
+
+\[\begin{aligned}
+\kappa_{\ell m} &amp;= \int_\Omega \kappa(\mathbf{\hat{n}})Y^*_{\ell m}(\mathbf{\hat{n}}) \\
+&amp;= \int_\Omega \int_{\chi'}W(\chi')\delta(\chi',\mathbf{\hat{n}})Y^*_{\ell m} (\mathbf{\hat{n}}) \\
+&amp;= \int_\Omega\int_{\chi'}\int_{\mathbf{k}}W(\chi')\mathrm{e}^{-\mathrm{i}\mathbf{k}\chi'\mathbf{\hat{n}}}\delta(\mathbf{k}) Y^*_{\ell m}(\mathbf{\hat{n}}).
+\end{aligned}\]
+
+<p>Then the plan wave expansion told us</p>
+
+\[\begin{aligned}
+\int_\Omega \mathrm{e}^{-\mathrm{i}\mathbf{k}\chi'\mathbf{\hat{n}}}Y^*_{\ell m}(\mathbf{\hat{n}}) &amp;= 4\pi \sum_{\ell' =0}^\infty\sum_{m'=-\ell'}^{\ell'} \mathrm{i}^{\ell'} j_{\ell'}(k\chi')Y^*_{\ell' m'}(\hat{k})\int_\Omega Y_{\ell' m'}(\mathbf{\hat{n}}) Y^*_{\ell m}(-\mathbf{\hat{n}}) \\
+&amp;= 4\pi\sum_{\ell' =0}^\infty\sum_{m'=-\ell'}^{\ell'} \mathrm{i}^{\ell'} j_{\ell'}(k\chi')Y^*_{\ell' m'}(\hat{k})\delta_{\ell \ell'}\delta_{m m'} \\
+&amp;= 4\pi \mathrm{i}^\ell j_\ell(k\chi')Y^*_{\ell m}(\hat{k}).
+\end{aligned}\]
+
+<p>So the final expression is</p>
+
+\[\boxed{
+\begin{aligned}
+\kappa_{\ell m} &amp;= 4\pi \mathrm{i}^\ell \int_{\chi'}\int_\mathbf{k} W(\chi')j_l(k\chi')Y^*_{\ell m}(\hat{k}) \delta(\mathbf{k}).
+\end{aligned}
+}\]
+
+<p>Denoting \(\mathbf{k}_{12\dots n} = \mathbf{k}_1+\mathbf{k}_2 + \cdots + \mathbf{k}_3\), we firstly show the definition of power spectrum, bispectrum and trispectrum before we start</p>
+
+\[\begin{aligned}
+\langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\rangle _c &amp;= (2\pi)^3 P(k_1)\delta^D(\mathbf{k}_{12}),
+\end{aligned}\]
+
+\[\begin{aligned}
+\langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\rangle _c &amp;= (2\pi)^3\delta^D(\mathbf{k}_{123})B(k_1,k_2,k_3),
+\end{aligned}\]
+
+\[\begin{aligned}
+\langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\delta(\mathbf{k}_4)\rangle _c &amp;= (2\pi)^3\delta^D(\mathbf{k}_{1234})T(k_1,k_2,k_3,k_4).
+\end{aligned}\]
+
+\[\begin{aligned}
+\left\langle \prod_i^n\delta(\mathbf{k}_i) \right\rangle _c &amp;= (2\pi)^3 \delta^D(\mathbf{k}_{12\dots n}) C_n(k_1,k_2,\dots,k_n)
+\end{aligned}\]
+
+<p>while it’s also useful to remember the FT of Dirac delta \(\delta^D(\mathbf{k})\) since it can be related with plane wave expansion</p>
+
+\[\begin{aligned}
+(2\pi)^3\delta^D(\mathbf{k}_{12\dots n}) &amp;= \int_{\mathbf{r}}\mathrm{e}^{-\mathrm{i}\mathbf{k}_{12\dots n}\cdot\mathbf{r}} \\
+&amp;= \int_{\mathbf{r}}\prod_i^n\mathrm{e}^{-\mathrm{i}\mathbf{k}_i\cdot\mathbf{r}} \\
+&amp;= \int_{\mathbf{r}}\prod_i^n 4\pi \sum_{\ell =0}^\infty \sum_{m=-\ell}^\ell (-\mathrm{i})^{\ell}Y_{\ell m}(\hat{k}_i) j_{\ell}(k_ir)Y^*_{\ell m}(\hat{r}).
+\end{aligned}\]
+
+<blockquote>
+  <p><strong>Remark</strong>: We did not distinguish connected part and disconnected part for the cumulant but we will do this when talk about 4-point correlator.</p>
+</blockquote>
+
+<h3 id="2-point-correlator">2-point Correlator</h3>
+
+<p>For 2-point correlator, we can start from the angular power spectrum and generally derive with \(\kappa_i =\displaystyle \int_{\chi'} W_i(\chi')\delta\) , i.e. different projected field</p>
+
+\[\begin{aligned}
+\langle \kappa_{1, \ell m}\kappa_{2,\ell' m'} \rangle = (4\pi)^2\mathrm{i}^{\ell+\ell'}\int_{\chi'}\int_{\chi''}\int_{\mathbf{k}_1}\int_{\mathbf{k}_2} &amp; W_1(\chi')W_2(\chi'')j_{\ell}(k_1\chi')j_{\ell'} (k_2 \chi'')\\
+&amp;\times Y_{\ell m}(\hat{k}_1)Y_{\ell' m'}(\hat{k}_2)\langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\rangle.
+\end{aligned}\]
+
+<p>Substituting the definition of power spectrum and expansion of Dirac delta, we can obtain</p>
+
+\[\begin{aligned}
+C_{\kappa_1 \kappa_2} &amp;= \langle \kappa_{1, \ell m}\kappa_{2,\ell' m'} \rangle \\
+&amp;= \dfrac{2}{\pi} \int_{\chi'}\int_{\chi''} W_1(\chi')W_2(\chi'')\int k^2\mathrm{d}k\, j_{\ell}(k\chi')j_{\ell}(k\chi'') P(k,\chi',\chi'').
+\end{aligned}\]
+
+<h3 id="3-point-correlator">3-point Correlator</h3>
+
+<p>For 3-point correlator, we would start at a more general expression, like</p>
+
+\[\begin{aligned}
+\langle \kappa_{1,\ell_1m_1}\kappa_{2,\ell_2m_2}\kappa_{3,\ell_3m_3}\rangle &amp;= \left[\prod_i^3 4\pi\mathrm{i}^{\ell_i}\int_{\chi_i}\int_{\mathbf{k}_i} W_i(\chi_i)j_{\ell_i}(k_i\chi_i)Y_{\ell_im_i}(\hat{k}_i) \right]\langle \delta(\mathbf{k}_1)\delta(\mathbf{k}_2)\delta(\mathbf{k}_3)\rangle.
+\end{aligned}\]
+
+<p>With the same method like 2-point correlator, we can obtain</p>
+
+\[\begin{aligned}
+\langle \kappa_{1,\ell_1m_1}\kappa_{2,\ell_2m_2}\kappa_{3,\ell_3m_3}\rangle = &amp; \dfrac{8}{\pi^3} \mathcal{G}_{m_1m_2m_3}^{\ell_1\ell_2\ell_3}\\
+&amp;\times  \int r^2\mathrm{d}r\, \left[\prod_{i}^3\int_{\chi_i}\int k_i^2\mathrm{d}k_i\, W_i(\chi_i)j_{\ell_i}(k_i\chi_i)j_{\ell_i}(k_ir) \right]\\
+&amp; \quad \times B(k_1,k_2,k_3).
+\end{aligned}\]
+
+<p>Here the integral of \(\mathbf{r}\) is from the expansion of Dirac delta, and the direction of \(\hat{r}\) went into Gaunt symbol which defined as</p>
+
+\[\begin{aligned}
+\mathcal G_{m_1m_2m_3}^{\ell_1\ell_2\ell_3} &amp;\equiv \int_{\Omega_{\hat r}}\, Y_{\ell_1m_1} Y_{\ell_2m_2} Y_{\ell_3m_3}.
+\end{aligned}\]
+
+<p>The direction component of \(\mathbf{k}_i\) is integrated by the orthonormal of \(Y_{\ell_i m_i}(\hat{k}_i)\) from \(\kappa_{i,\ell_i m_i}\) and \(Y_{\ell_i m_i}^*(\hat{k}_i)\) from expansion of Dirac delta. More details will be discussed below.</p>
+
+<h3 id="4-point-correlator">4-point Correlator</h3>
+
+<p>Now we can give some discussion about the 4-point correlator which might be more and more useful is the further cosmology and carefully treat the connected and disconnected part.</p>
+
+<p>For a 4-point correlator we have the expansion ( \(\delta_i\) refers to \(\delta(\mathbf{k}_i)\))</p>
+
+\[\begin{aligned}
+\langle \delta_1\delta_2\delta_3\delta_4\rangle &amp;= \langle \delta_1\delta_2\rangle\langle \delta_3\delta_4\rangle  + \langle \delta_1\delta_3\rangle \langle \delta_2\delta_4\rangle + \langle \delta_1\delta_4\rangle \langle \delta_2\delta_3\rangle +\langle \delta_1\delta_2\delta_3\delta_4\rangle _c.
+\end{aligned}\]
+
+<p>the first 3 terms are disconnected part and the final term is the connected part which is exactly the definition of trispectrum, or more precisely speaking, <strong>connected matter trispectrum</strong>.</p>
+
+<p>So what we have is exactly (\(P_{ij}\) refers to \(P\) in \((2\pi)^3\delta^D(\mathbf{k}_{ij})P\))</p>
+
+\[\begin{aligned}
+\langle \delta_1\delta_2\delta_3\delta_4\rangle =  &amp; (2\pi)^6[\delta^D(\mathbf{k}_{12})\delta^D(\mathbf{k}_{34})P_{12}P_{34}+2 \,\mathrm{perm.}]\\
+&amp; +(2\pi)^3 \delta^D(\mathbf{k}_{1234})T(k_1,k_2,k_3,k_4, k_{12},k_{34}).
+\end{aligned}\]
+
+<p>where \(\mathrm{perm}.\) refers to those permutation terms. We can treated connected terms and disconnected term separately, for the former (12 and 34 for example)</p>
+
+\[\begin{aligned}
+&amp;\quad\left[\prod_i^44\pi\mathrm{i}^{\ell_i}\int_{\chi_i}\int_{\mathbf{k}_i} W_i(\chi_i)j_{\ell_i}(k_i\chi_i)Y_{\ell_im_i}(\hat{k}_i) \right]\langle \delta_1 \delta_2 \rangle \langle \delta_3 \delta_4 \rangle\\
+&amp;= (-1)^{m_1+m_3} \delta^K_{\ell_1\ell_2}\delta^K_{m_1,-m_2}\delta^K_{\ell_3\ell_4}\delta^K_{m_3,-m_4} C_{\kappa_1\kappa_2}C_{\kappa_3\kappa_4} \\
+&amp;\equiv D_{12|34}.
+\end{aligned}\]
+
+<p>For the connected correaltor, we give a general expression</p>
+
+\[\begin{aligned}
+\left\langle \prod_{i}^n \kappa_{i, \ell_i m_i} \right\rangle _c &amp;= \left[\prod_i^n4\pi\mathrm{i}^{\ell_i}\int_{\chi_i}\int_{\mathbf{k}_i} W_i(\chi_i)j_{\ell_i}(k_i\chi_i)Y_{\ell_im_i}(\hat{k}_i) \right]\left\langle \prod_i^n\delta(\mathbf{k}_i) \right\rangle _c.
+\end{aligned}\]
+
+<p>and substitute the expansion of Dirac delta, with operations below:</p>
+<ul>
+  <li>Coefficient is \((4\pi)^n \cdot (4\pi)^n \cdot (2\pi)^{-3n} = \left(\dfrac{2}{\pi}\right)^n\) , which are from Dirac delta plane wave expansion, relation between \(\kappa_{\ell m}\) and \(\delta(\mathbf{k})\), and Fourier measurement \(\dfrac{\mathrm{d}^3\mathbf{k}_i}{(2\pi)^3}\).</li>
+  <li>Each \(Y_{\ell_i m_i}(\hat{k}_i)\) are integrated by \(Y_{\ell_i m_i}^*(\hat{k}_i)\) comes from Dirac delta plane wave expansion, and the orthonormality selected \(\ell_i\) from the summation of plane wave expansion.</li>
+  <li>\((-\mathrm{i})^{\ell_i}\)  from Dirac delta plane wave expansion and \(\mathrm{i}^{\ell_i}\) from relation between \(\kappa_{\ell_i m_i}\) and \(\delta(\mathbf{k})\) canceled by each other.</li>
+</ul>
+
+<p>And finally we left these terms</p>
+
+\[\boxed{
+\begin{aligned}
+\left\langle \prod_{i}^n \kappa_{i, \ell_i m_i} \right\rangle _c = &amp; \left(\dfrac{2}{\pi}\right)^n \mathcal{I}_{m_1m_2\dots m_n}^{\ell_1\ell_2\dots \ell_n} \\
+&amp; \times \int r^2\mathrm{d}r\, \left[\prod_{i}^n\int_{\chi_i}\int k_i^2\mathrm{d}k_i\, W_i(\chi_i)j_{\ell_i}(k_i\chi_i)j_{\ell_i}(k_ir) \right]\\
+&amp; \quad \times C_n(k_1,k_2,\dots,k_n).
+\end{aligned}
+}\]
+
+<p>where we additionally define the general integral</p>
+
+\[\begin{aligned}
+\mathcal{I}(n)_{m_1m_2\dots m_n}^{\ell_1\ell_2\dots\ell_n} &amp;\equiv \int_{\Omega_{\hat r}}\prod_i^n Y_{\ell_i m_i}(\hat{r}).
+\end{aligned}\]
+
+<p>and \(\mathcal{I}(3) = \mathcal{G}\), \(\mathcal I_2= (-1)^{m_1} \delta_{\ell_1\ell_2}^{K} \delta_{m_1,-m_2}^{K}\).</p>
+
+<p>We can easily verify this expression is consistent with 2- and 3-point correlator which the disconnected part is \(0\).</p>
+<blockquote>
+  <p><strong>Remark</strong>: To obtain 2-point correlator we need extra equation of Bessel function:</p>
+
+\[\begin{aligned}
+\int_0^\infty dr\,r^2 j_\ell(k_1r)j_\ell(k_2r) &amp;= \frac{\pi}{2k_1^2} \delta_{\rm D}(k_1-k_2)
+\end{aligned}\]
+</blockquote>
+
+<p>To sum up, the 4-point correlator should be</p>
+
+\[\begin{aligned}
+\left\langle \prod_{i}^4 \kappa_{i, \ell_i m_i} \right\rangle &amp;= \left\langle \prod_{i}^4 \kappa_{i, \ell_i m_i} \right\rangle_c +\left(D_{12|34}+2\,\mathrm{perm.}\right).
+\end{aligned}\]
+
+<p>and \(\mathcal I(4)_{m_1m_2m_3m_4}^{\ell_1\ell_2\ell_3\ell_4} =
+\sum_{LM}(-1)^M
+\mathcal G^{\ell_1\ell_2L}_{m_1m_2,-M}
+\mathcal G^{\ell_3\ell_4L}_{m_3m_4,M}\).</p>
+
+<h3 id="higher-order-correlator">Higher-order Correlator</h3>
+
+<p>After all, we can combine those conclusion above to a general result, as we suppose a \(n\)-point correlator</p>
+
+\[\begin{aligned}
+\left\langle \prod_i^n\delta(\mathbf{k}_i) \right\rangle &amp;= \sum_{\mathscr{P}}\prod_{B\in \mathscr{P}}\left\langle \prod_{i\in B}\delta(\mathbf{k}_i)\right\rangle
+\end{aligned}\]
+
+<p>where \(\mathscr{P}\) is a set partition of \(\{1,2,\dots, n\}\) and \(B\in \mathscr{P}\) is a block. In cosmology, we usually set \(\langle \delta\rangle = 0\), i.e. the 1-point correlator vanished by reduce the average, the each order correlator can be decomposed as disconnected part and connected part. For the former lower-order correlator can be calculated by continuing decomposed, the later just use the connected result we derived above.</p>]]></content><author><name>Hongfei Yu</name><email>phiyuhf@outlook.com</email></author><category term="math" /><category term="math" /><category term="Fourier" /><category term="Spherical-Harmonic" /><summary type="html"><![CDATA[In cosmology, spherical harmonic transform (SHT) and Fourier transform (FT) are two of the most significant mathematics when we process data. In this notes, we will shortly review the definition of two transforms and then derive some useful equations about them.]]></summary></entry><entry><title type="html">2025 年度总结</title><link href="http://localhost:4000/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/2025sum/" rel="alternate" type="text/html" title="2025 年度总结" /><published>2026-01-28T00:00:00-06:00</published><updated>2026-01-28T00:00:00-06:00</updated><id>http://localhost:4000/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/2025sum</id><content type="html" xml:base="http://localhost:4000/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/2025sum/"><![CDATA[<p><a href="https://www.zhihu.com/question/1970617132950725343/answer/1989845532361917561">原文链接（知乎）</a></p>
 
 <blockquote>
   <p>每年按时写个总结，不知道十年后我会不会回看我的来时路.</p>

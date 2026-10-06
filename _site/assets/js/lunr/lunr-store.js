@@ -10,4 +10,16 @@ var store = [{
         "tags": ["年度总结","本科生涯","经验分享"],
         "url": "/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/2025sum/",
         "teaser": null
+      },{
+        "title": "3D Spectra and Angular Spectra",
+        "excerpt":"In cosmology, spherical harmonic transform (SHT) and Fourier transform (FT) are two of the most significant mathematics when we process data. In this notes, we will shortly review the definition of two transforms and then derive some useful equations about them. SHT For a field \\(a(\\theta,\\phi)\\) in sphere \\(\\mathbb{S}^2\\), the...","categories": ["math"],
+        "tags": ["math","Fourier","Spherical-Harmonic"],
+        "url": "/math/spectrum/",
+        "teaser": null
+      },{
+        "title": "Trispectrum and Position-dependent Power Sepctrum",
+        "excerpt":"Ref: The Angular Trispectrum of the CMB, Weak Lensing Trispectrum and Kurt-Spectra, Galaxy Survey Cosmology by Hannu, Position-dependent power spectrum Correlation function is the most useful statistics in cosmology data analysis. With the increasing quality of survey data in the further, the demanding of higher-order statistics, \\(n\\) -point correlation function...","categories": ["cosmology"],
+        "tags": ["physics","cosmology","Fourier","statistics","trispectrum"],
+        "url": "/cosmology/trispectrum/",
+        "teaser": null
       }]
