@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Primordial Non-Gaussianity: A Living Review</title>
+  <meta name="description" content="A continuously revised review of primordial non-Gaussianity across theory, simulation and observation, maintained by Hongfei Yu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <link rel="stylesheet" href="../assets/review.css">
+  <script>
+    try { const t = localStorage.getItem('review-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#atlas">Skip to the atlas</a>
+
+  <header class="bar">
+    <div class="bar-inner">
+      <a class="home" href="/blog/#review">Reviews</a>
+      <nav class="bar-nav" aria-label="Sections">
+        <a href="#log">Change log</a>
+        <a href="#intro">Introduction</a>
+        <a href="#atlas">Atlas</a>
+        <a href="#open">Open problems</a>
+      </nav>
+      <button class="theme" type="button" id="theme-toggle" aria-label="Switch colour theme">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 3a7 7 0 0 1 0 14z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <div class="hero-text">
+        <h1 id="title">Primordial non&#8209;Gaussianity<span class="sub">a living review</span></h1>
+        <p class="lede">What the three- and four-point statistics of the primordial fluctuations tell us about the physics of the early universe, and how theory, simulation and observation are closing in on them.</p>
+        <dl class="facts" id="facts"></dl>
+        <div class="hero-actions">
+          <a class="btn primary" href="#atlas">Open the atlas</a>
+          <button class="btn" type="button" id="cite-btn">Copy BibTeX</button>
+        </div>
+      </div>
+
+      <figure class="shape" aria-labelledby="shape-cap">
+        <div class="shape-tabs" role="tablist" aria-label="Bispectrum template">
+          <button role="tab" data-shape="local" aria-selected="true">Local</button>
+          <button role="tab" data-shape="equil" aria-selected="false">Equilateral</button>
+          <button role="tab" data-shape="ortho" aria-selected="false">Orthogonal</button>
+          <button role="tab" data-shape="folded" aria-selected="false">Folded</button>
+        </div>
+        <div class="shape-stage">
+          <canvas id="shape-canvas" width="520" height="520" aria-describedby="shape-cap"></canvas>
+          <span class="corner c-eq">equilateral</span>
+          <span class="corner c-sq">squeezed</span>
+          <span class="corner c-fo">flattened</span>
+          <div class="shape-probe" id="shape-probe" hidden>
+            <svg viewBox="-0.08 -0.08 1.16 0.8" aria-hidden="true"><polygon id="probe-tri" points="0,0 1,0 0.5,0.6"/></svg>
+            <div class="probe-text"><strong id="probe-name"></strong><span id="probe-vals"></span></div>
+          </div>
+        </div>
+        <div class="shape-scale" aria-hidden="true"><span>−1</span><i></i><span>+1</span></div>
+        <figcaption id="shape-cap">Shape function <span class="m">S(1, x₂, x₃)</span>, normalised to its largest value, over triangles with <span class="m">x₂ = k₂/k₁</span> (horizontal) and <span class="m">x₃ = k₃/k₁</span> (vertical). Hover to see the triangle.</figcaption>
+      </figure>
+    </section>
+
+    <section class="band" id="log" aria-labelledby="log-h">
+      <div class="band-head">
+        <h2 id="log-h">Change log</h2>
+        <div class="legend" id="log-legend"></div>
+      </div>
+      <div class="track-wrap"><div class="track" id="track"></div></div>
+      <ol class="entries" id="entries"></ol>
+    </section>
+
+    <section class="band" id="intro" aria-labelledby="intro-h">
+      <div class="band-head"><h2 id="intro-h">Introduction</h2></div>
+      <article class="prose" id="intro-body"><p class="loading">Loading…</p></article>
+    </section>
+
+    <section class="band" id="atlas" aria-labelledby="atlas-h">
+      <div class="band-head">
+        <h2 id="atlas-h">Atlas</h2>
+        <p class="band-note">Each cell is one section of the review. Open a cell to read it; inside, arrow keys move to the neighbouring cells.</p>
+        <div class="seg" role="radiogroup" aria-label="Shade cells by">
+          <span class="seg-label">Shade by</span>
+          <button role="radio" aria-checked="true" data-shade="refs">References</button>
+          <button role="radio" aria-checked="false" data-shade="recency">Last revised</button>
+          <button role="radio" aria-checked="false" data-shade="none">None</button>
+        </div>
+      </div>
+      <div class="atlas" id="atlas-grid" role="grid" aria-label="Review atlas: rows are kinds of work, columns are where the signal is generated or observed"></div>
+      <div class="atlas-key" id="atlas-key"></div>
+    </section>
+
+    <section class="band" id="open" aria-labelledby="open-h">
+      <div class="band-head">
+        <h2 id="open-h">Open problems</h2>
+        <p class="band-note">Collected from every cell. Each one links back to the section that raises it.</p>
+      </div>
+      <ul class="open-list" id="open-list"></ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <p>Maintained by <a href="/">Hongfei Yu</a>. Missing a paper or spotted an error? <a id="suggest-link" href="#">Suggest a change on GitHub</a>.</p>
+      <p class="foot-meta" id="foot-meta"></p>
+    </div>
+  </footer>
+
+  <div class="reader-root" id="reader-root" hidden>
+    <div class="scrim" data-close></div>
+    <div class="reader" id="reader" role="dialog" aria-modal="true" aria-labelledby="reader-title">
+      <header class="reader-head">
+        <div class="reader-crumb" id="reader-crumb"></div>
+        <div class="minimap" id="minimap" aria-label="Jump to another cell"></div>
+        <button class="close" type="button" data-close aria-label="Close section">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </header>
+      <div class="reader-scroll" id="reader-scroll">
+        <div class="reader-body" id="reader-body"></div>
+      </div>
+      <footer class="reader-foot" id="reader-foot"></footer>
+    </div>
+  </div>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="../assets/shapes.js"></script>
+  <script src="../assets/review.js"></script>
+</body>
+</html>

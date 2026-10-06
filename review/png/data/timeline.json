@@ -1,0 +1,61 @@
+{
+  "_note": "Change log. kind: revision (text of the review changed), literature (papers added to a cell), site (layout or tooling). Entries with sample: true exist only to preview the layout and are deleted before launch.",
+  "entries": [
+    {
+      "date": "2026-10-05",
+      "kind": "site",
+      "version": "0.1",
+      "title": "Atlas layout, change log and introduction scaffold",
+      "body": "First public structure: a 4 × 7 atlas of theory, simulation, method and observation against the primordial source and six probes. Cells start as outlines.",
+      "cells": []
+    },
+    {
+      "date": "2026-10-05",
+      "kind": "revision",
+      "title": "Draft: shapes and mechanisms",
+      "body": "Outline of the theory of bispectrum shapes, from the consistency relation to the cosmological collider.",
+      "cells": [
+        "theory/source"
+      ],
+      "sample": true
+    },
+    {
+      "date": "2026-09-18",
+      "kind": "literature",
+      "title": "Three reference reviews added",
+      "body": "Chen (2010), Desjacques & Seljak (2010) and Renaux-Petel (2015) seed the theory and LSS cells.",
+      "cells": [
+        "theory/source",
+        "theory/lss"
+      ],
+      "papers": [
+        "chen2010",
+        "desjacques2010",
+        "renauxpetel2015"
+      ],
+      "sample": true
+    },
+    {
+      "date": "2026-08-27",
+      "kind": "literature",
+      "title": "Example: new scale-dependent bias analysis",
+      "body": "How a weekly literature entry will look: one line on what the paper adds, linked to the cells it touches.",
+      "cells": [
+        "observation/lss",
+        "theory/lss"
+      ],
+      "sample": true
+    },
+    {
+      "date": "2026-08-02",
+      "kind": "revision",
+      "title": "Example: constraints table revised",
+      "body": "How a revision entry will look when the text or numbers of a section change.",
+      "cells": [
+        "observation/source",
+        "observation/cmb"
+      ],
+      "sample": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Editor
+.obsidian/
+
+# Jekyll build output / cache
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Dependencies
+node_modules/
+vendor/
+.bundle/
+
+# Stray backups
+index copy.md

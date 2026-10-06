@@ -29,6 +29,15 @@ Some of them (especially experiences) are in Chinese, maybe you need translator.
 {% endfor %}
 </ul>
 
+## Review
+
+Some notes and reviews of specific research field, continuously updating...
+
+| Topic | Scope | Started |
+| --- | --- | --- |
+| [Primordial non-Gaussianity (PNG)](/review/png/) | Bispectrum and trispectrum shapes from inflation; CMB, LSS, lensing, 21 cm, spectral distortions and GW | Oct 2026 |
+| [Parity violation (Chirality)](/review/pv/) | Chiral gravitational waves, cosmic birefringence, parity-odd trispectrum and 4PCF | Oct 2026 |
+
 ## 中文翻译综述
 
 Here I put some reviews paper which were translated to Chinese by GPT-5.6-sol. Hope these can help you! :)

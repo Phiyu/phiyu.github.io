@@ -1,0 +1,24 @@
+{
+  "_note": "DEMO DATA for the layout review. Values are quoted from memory and must be checked against each paper (68% intervals, T+E where available) before publication.",
+  "demo": true,
+  "parameters": {
+    "local": { "label": "f_NL^local", "tex": "f_{\\rm NL}^{\\rm local}" },
+    "equil": { "label": "f_NL^equil", "tex": "f_{\\rm NL}^{\\rm equil}" },
+    "ortho": { "label": "f_NL^ortho", "tex": "f_{\\rm NL}^{\\rm ortho}" }
+  },
+  "points": [
+    { "param": "local", "probe": "CMB", "label": "WMAP 9-yr", "year": 2013, "value": 37.2, "minus": 19.9, "plus": 19.9, "ref": "wmap9" },
+    { "param": "local", "probe": "CMB", "label": "Planck 2013", "year": 2014, "value": 2.7, "minus": 5.8, "plus": 5.8, "ref": "planck2013xxiv" },
+    { "param": "local", "probe": "CMB", "label": "Planck 2015", "year": 2016, "value": 0.8, "minus": 5.0, "plus": 5.0, "ref": "planck2015xvii" },
+    { "param": "local", "probe": "CMB", "label": "Planck 2018", "year": 2020, "value": -0.9, "minus": 5.1, "plus": 5.1, "ref": "planck2018ix" },
+    { "param": "equil", "probe": "CMB", "label": "WMAP 9-yr", "year": 2013, "value": 51, "minus": 136, "plus": 136, "ref": "wmap9" },
+    { "param": "equil", "probe": "CMB", "label": "Planck 2013", "year": 2014, "value": -42, "minus": 75, "plus": 75, "ref": "planck2013xxiv" },
+    { "param": "equil", "probe": "CMB", "label": "Planck 2015", "year": 2016, "value": -4, "minus": 43, "plus": 43, "ref": "planck2015xvii" },
+    { "param": "equil", "probe": "CMB", "label": "Planck 2018", "year": 2020, "value": -26, "minus": 47, "plus": 47, "ref": "planck2018ix" },
+    { "param": "ortho", "probe": "CMB", "label": "WMAP 9-yr", "year": 2013, "value": -245, "minus": 100, "plus": 100, "ref": "wmap9" },
+    { "param": "ortho", "probe": "CMB", "label": "Planck 2013", "year": 2014, "value": -25, "minus": 39, "plus": 39, "ref": "planck2013xxiv" },
+    { "param": "ortho", "probe": "CMB", "label": "Planck 2015", "year": 2016, "value": -26, "minus": 21, "plus": 21, "ref": "planck2015xvii" },
+    { "param": "ortho", "probe": "CMB", "label": "Planck 2018", "year": 2020, "value": -38, "minus": 24, "plus": 24, "ref": "planck2018ix" },
+    { "param": "local", "probe": "LSS", "label": "SDSS (Slosar+ 2008), 95% range", "year": 2008, "low": -29, "high": 70, "ref": "slosar2008" }
+  ]
+}

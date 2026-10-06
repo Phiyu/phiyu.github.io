@@ -1,0 +1,89 @@
+{
+  "_note": "verified: true means the arXiv id, title and year were checked against the paper. Everything else must be checked before the content phase ships. seed: true marks a review this project starts from.",
+  "carroll1998": {
+    "authors": "Carroll",
+    "year": 1998,
+    "title": "Quintessence and the rest of the world",
+    "arxiv": "astro-ph/9806099",
+    "verified": false
+  },
+  "lue1999": {
+    "authors": "Lue, Wang & Kamionkowski",
+    "year": 1999,
+    "title": "Cosmological signature of new parity-violating interactions",
+    "arxiv": "astro-ph/9812088",
+    "verified": false
+  },
+  "alexander2006": {
+    "authors": "Alexander, Peskin & Sheikh-Jabbari",
+    "year": 2006,
+    "title": "Leptogenesis from gravity waves in models of inflation",
+    "arxiv": "hep-th/0403069",
+    "verified": false
+  },
+  "alexander2009": {
+    "authors": "Alexander & Yunes",
+    "year": 2009,
+    "title": "Chern-Simons modified general relativity",
+    "arxiv": "0907.2562",
+    "verified": false,
+    "review": "Theory (gravity)"
+  },
+  "sorbo2011": {
+    "authors": "Sorbo",
+    "year": 2011,
+    "title": "Parity violation in the cosmic microwave background from a pseudoscalar inflaton",
+    "arxiv": "1101.1525",
+    "verified": false
+  },
+  "shiraishi2016": {
+    "authors": "Shiraishi",
+    "year": 2016,
+    "title": "Parity violation in the CMB trispectrum from the scalar sector",
+    "arxiv": "1608.00368",
+    "verified": false
+  },
+  "minami2020": {
+    "authors": "Minami & Komatsu",
+    "year": 2020,
+    "title": "New extraction of the cosmic birefringence from the Planck 2018 polarization data",
+    "arxiv": "2011.11254",
+    "verified": false
+  },
+  "cahn2021": {
+    "authors": "Cahn, Slepian & Hou",
+    "year": 2021,
+    "title": "A test for cosmological parity violation using the 3D distribution of galaxies",
+    "arxiv": "2110.12004",
+    "verified": false
+  },
+  "komatsu2022": {
+    "authors": "Komatsu",
+    "year": 2022,
+    "title": "New physics from the polarized light of the cosmic microwave background",
+    "arxiv": "2202.13919",
+    "verified": false,
+    "review": "CMB birefringence"
+  },
+  "eskilt2022": {
+    "authors": "Eskilt & Komatsu",
+    "year": 2022,
+    "title": "Improved constraints on cosmic birefringence from the WMAP and Planck cosmic microwave background polarization data",
+    "arxiv": "2205.13962",
+    "verified": false
+  },
+  "hou2022": {
+    "authors": "Hou, Slepian & Cahn",
+    "year": 2022,
+    "title": "Measurement of parity-odd modes in the large-scale 4-point correlation function of SDSS BOSS DR12 CMASS and LOWZ galaxies",
+    "arxiv": "2206.03625",
+    "verified": false
+  },
+  "philcox2022": {
+    "authors": "Philcox",
+    "year": 2022,
+    "title": "Probing parity violation with the four-point correlation function of BOSS galaxies",
+    "arxiv": "2206.04227",
+    "verified": false
+  }
+}

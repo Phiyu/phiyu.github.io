@@ -1,0 +1,12 @@
+{
+  "title": "Cosmological parity violation",
+  "subtitle": "A living review",
+  "version": "0.1",
+  "revised": "2026-10-05",
+  "started": "2026-10-05",
+  "maintainer": "Hongfei Yu",
+  "homepage": "/",
+  "repo": "https://github.com/phiyu/phiyu.github.io",
+  "suggest": "https://github.com/phiyu/phiyu.github.io/issues/new?labels=pv-review&title=%5BPV%20review%5D%20",
+  "bibkey": "Yu:2026pv"
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cosmological Parity Violation Review</title>
+  <meta name="description" content="A continuously revised review of cosmological parity violation and chirality across theory, simulation, method and observation, maintained by Hongfei Yu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <link rel="stylesheet" href="../assets/review.css">
+  <script>
+    try { const t = localStorage.getItem('review-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#atlas">Skip to the atlas</a>
+
+  <header class="bar">
+    <div class="bar-inner">
+      <a class="home" href="/blog/#review">Reviews</a>
+      <nav class="bar-nav" aria-label="Sections">
+        <a href="#log">Change log</a>
+        <a href="#intro">Introduction</a>
+        <a href="#atlas">Atlas</a>
+        <a href="#open">Open problems</a>
+      </nav>
+      <button class="theme" type="button" id="theme-toggle" aria-label="Switch colour theme">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 3a7 7 0 0 1 0 14z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <div class="hero-text">
+        <h1 id="title">Cosmological parity violation<span class="sub">a living review</span></h1>
+        <p class="lede">Whether the universe distinguishes left from right: chiral gravitational waves, cosmic birefringence and parity-odd correlations of galaxies, and how theory, simulation and observation test them.</p>
+        <dl class="facts" id="facts"></dl>
+        <div class="hero-actions">
+          <a class="btn primary" href="#atlas">Open the atlas</a>
+          <button class="btn" type="button" id="cite-btn">Copy BibTeX</button>
+        </div>
+      </div>
+
+      <figure class="shape tetra" aria-labelledby="shape-cap">
+        <div class="shape-tabs" aria-label="Figure controls">
+          <button type="button" data-act="reflect" aria-pressed="false">Reflect</button>
+          <button type="button" data-act="reset">Reset view</button>
+        </div>
+        <div class="shape-stage">
+          <canvas id="tetra-canvas" width="520" height="520" tabindex="0" aria-label="Tetrahedron of four tracers. Drag or use arrow keys to rotate." aria-describedby="shape-cap"></canvas>
+          <div class="tetra-read" id="tetra-read" aria-live="polite"></div>
+        </div>
+        <figcaption id="shape-cap">Four tracers define three separation vectors. Drag to rotate: the sign of <span class="m">r₁ · (r₂ × r₃)</span> never changes. Only a reflection flips it, passing through a flat configuration. The parity-odd four-point function measures the excess of one handedness over the other; blue faces mark right-handed, red left-handed.</figcaption>
+      </figure>
+    </section>
+
+    <section class="band" id="log" aria-labelledby="log-h">
+      <div class="band-head">
+        <h2 id="log-h">Change log</h2>
+        <div class="legend" id="log-legend"></div>
+      </div>
+      <div class="track-wrap"><div class="track" id="track"></div></div>
+      <ol class="entries" id="entries"></ol>
+    </section>
+
+    <section class="band" id="intro" aria-labelledby="intro-h">
+      <div class="band-head"><h2 id="intro-h">Introduction</h2></div>
+      <article class="prose" id="intro-body"><p class="loading">Loading…</p></article>
+    </section>
+
+    <section class="band" id="atlas" aria-labelledby="atlas-h">
+      <div class="band-head">
+        <h2 id="atlas-h">Atlas</h2>
+        <p class="band-note">Each cell is one section of the review. Open a cell to read it; inside, arrow keys move to the neighbouring cells.</p>
+        <div class="seg" role="radiogroup" aria-label="Shade cells by">
+          <span class="seg-label">Shade by</span>
+          <button role="radio" aria-checked="true" data-shade="refs">References</button>
+          <button role="radio" aria-checked="false" data-shade="recency">Last revised</button>
+          <button role="radio" aria-checked="false" data-shade="none">None</button>
+        </div>
+      </div>
+      <div class="atlas" id="atlas-grid" role="grid" aria-label="Review atlas: rows are kinds of work, columns are where the signal is generated or observed"></div>
+      <div class="atlas-key" id="atlas-key"></div>
+    </section>
+
+    <section class="band" id="open" aria-labelledby="open-h">
+      <div class="band-head">
+        <h2 id="open-h">Open problems</h2>
+        <p class="band-note">Collected from every cell. Each one links back to the section that raises it.</p>
+      </div>
+      <ul class="open-list" id="open-list"></ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <p>Maintained by <a href="/">Hongfei Yu</a>. Missing a paper or spotted an error? <a id="suggest-link" href="#">Suggest a change on GitHub</a>.</p>
+      <p class="foot-meta" id="foot-meta"></p>
+    </div>
+  </footer>
+
+  <div class="reader-root" id="reader-root" hidden>
+    <div class="scrim" data-close></div>
+    <div class="reader" id="reader" role="dialog" aria-modal="true" aria-labelledby="reader-title">
+      <header class="reader-head">
+        <div class="reader-crumb" id="reader-crumb"></div>
+        <div class="minimap" id="minimap" aria-label="Jump to another cell"></div>
+        <button class="close" type="button" data-close aria-label="Close section">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </header>
+      <div class="reader-scroll" id="reader-scroll">
+        <div class="reader-body" id="reader-body"></div>
+      </div>
+      <footer class="reader-foot" id="reader-foot"></footer>
+    </div>
+  </div>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="../assets/tetra.js"></script>
+  <script src="../assets/review.js"></script>
+</body>
+</html>
