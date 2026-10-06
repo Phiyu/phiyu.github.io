@@ -6,7 +6,7 @@
       "kind": "site",
       "version": "0.1",
       "title": "Atlas layout, change log and introduction scaffold",
-      "body": "First public structure: a 3 × 7 atlas of theory, simulation and observation against the primordial source and six probes. Cells start as outlines.",
+      "body": "First public structure: a 4 × 7 atlas of theory, simulation, method and observation against the primordial source and six probes. Cells start as outlines.",
       "cells": []
     },
     {
@@ -14,7 +14,9 @@
       "kind": "revision",
       "title": "Draft: shapes and mechanisms",
       "body": "Outline of the theory of bispectrum shapes, from the consistency relation to the cosmological collider.",
-      "cells": ["theory/source"],
+      "cells": [
+        "theory/source"
+      ],
       "sample": true
     },
     {
@@ -22,8 +24,15 @@
       "kind": "literature",
       "title": "Three reference reviews added",
       "body": "Chen (2010), Desjacques & Seljak (2010) and Renaux-Petel (2015) seed the theory and LSS cells.",
-      "cells": ["theory/source", "theory/lss"],
-      "papers": ["chen2010", "desjacques2010", "renauxpetel2015"],
+      "cells": [
+        "theory/source",
+        "theory/lss"
+      ],
+      "papers": [
+        "chen2010",
+        "desjacques2010",
+        "renauxpetel2015"
+      ],
       "sample": true
     },
     {
@@ -31,7 +40,10 @@
       "kind": "literature",
       "title": "Example: new scale-dependent bias analysis",
       "body": "How a weekly literature entry will look: one line on what the paper adds, linked to the cells it touches.",
-      "cells": ["observation/lss", "theory/lss"],
+      "cells": [
+        "observation/lss",
+        "theory/lss"
+      ],
       "sample": true
     },
     {
@@ -39,7 +51,10 @@
       "kind": "revision",
       "title": "Example: constraints table revised",
       "body": "How a revision entry will look when the text or numbers of a section change.",
-      "cells": ["observation/source", "observation/cmb"],
+      "cells": [
+        "observation/source",
+        "observation/cmb"
+      ],
       "sample": true
     }
   ]

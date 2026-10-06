@@ -11,9 +11,14 @@
       "blurb": "Numerical realisations used to calibrate and validate."
     },
     {
+      "id": "method",
+      "label": "Method",
+      "blurb": "Estimators, likelihoods and inference pipelines."
+    },
+    {
       "id": "observation",
       "label": "Observation",
-      "blurb": "Estimators, data analyses and current constraints."
+      "blurb": "Data analyses and current constraints."
     }
   ],
   "cols": [
@@ -29,14 +34,14 @@
       "label": "CMB",
       "short": "CMB",
       "group": "probe",
-      "blurb": "Temperature and polarisation anisotropies."
+      "blurb": "Temperature and polarisation anisotropies, and kSZ velocity reconstruction."
     },
     {
       "id": "lss",
       "label": "Large-scale structure",
       "short": "LSS",
       "group": "probe",
-      "blurb": "Galaxy and quasar clustering, halo abundance."
+      "blurb": "3D galaxy and quasar clustering, clusters and halo abundance."
     },
     {
       "id": "lensing",
@@ -107,7 +112,8 @@
         "Radiation transfer of the bispectrum",
         "Reduced bispectrum and Fisher scaling",
         "Secondary bispectra: ISW–lensing, second-order recombination",
-        "Trispectrum in the CMB"
+        "Trispectrum in the CMB",
+        "kSZ: reconstructed velocities as a large-scale tracer"
       ],
       "open": []
     },
@@ -125,7 +131,8 @@
         "$\\Delta b \\propto f_{\\rm NL}\\, b_\\phi / k^2$ and its derivation",
         "The $b_\\phi$ response and the universality relation",
         "Galaxy bispectrum in perturbation theory",
-        "Non-local squeezed shapes in the bias expansion"
+        "Non-local squeezed shapes in the bias expansion",
+        "Halo and cluster abundance"
       ],
       "open": [
         "Theory priors on $b_\\phi$ for realistic tracers"
@@ -251,6 +258,94 @@
       ],
       "open": []
     },
+    "method/source": {
+      "title": "Templates and shape comparison",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "senatore2010"
+      ],
+      "outline": [
+        "Shape correlations and the choice of templates",
+        "Separable and modal decompositions",
+        "Mapping model predictions onto observable templates"
+      ],
+      "open": []
+    },
+    "method/cmb": {
+      "title": "Bispectrum and trispectrum estimators",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "komatsu2010",
+        "liguori2010"
+      ],
+      "outline": [
+        "KSW estimator",
+        "Binned and modal estimators",
+        "Trispectrum estimators",
+        "Lensing and foreground biases",
+        "kSZ velocity reconstruction"
+      ],
+      "open": []
+    },
+    "method/lss": {
+      "title": "Scale-dependent bias and bispectrum inference",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "desjacques2010",
+        "biagetti2019"
+      ],
+      "outline": [
+        "Power-spectrum likelihoods for $f_{\\rm NL}\\, b_\\phi$",
+        "Optimal weighting and multi-tracer analyses",
+        "Galaxy bispectrum estimators",
+        "Simulation-based and field-level inference"
+      ],
+      "open": [
+        "Breaking the $f_{\\rm NL}$–$b_\\phi$ degeneracy without strong priors"
+      ]
+    },
+    "method/lensing": {
+      "title": "Lensing estimators",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [],
+      "outline": [
+        "Convergence bispectrum and peak statistics",
+        "Cross-correlating CMB lensing with galaxies"
+      ],
+      "open": []
+    },
+    "method/line": {
+      "title": "21 cm and LIM estimators",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
+    "method/sd": {
+      "title": "μT cross-correlation",
+      "status": "outline",
+      "updated": "2026-10-05",
+      "refs": [
+        "pajer2012"
+      ],
+      "outline": [
+        "μT cross-correlation estimator"
+      ],
+      "open": []
+    },
+    "method/gw": {
+      "title": "Background anisotropy estimators",
+      "status": "open",
+      "updated": null,
+      "refs": [],
+      "outline": [],
+      "open": []
+    },
     "observation/source": {
       "title": "Combined constraints",
       "status": "draft",
@@ -285,9 +380,9 @@
         "planck2018ix"
       ],
       "outline": [
-        "KSW, binned and modal estimators",
         "WMAP to Planck 2018",
         "Trispectrum measurements",
+        "kSZ velocity reconstruction: first analyses and forecasts",
         "Ground-based and satellite prospects"
       ],
       "open": []
@@ -303,7 +398,7 @@
         "Scale-dependent bias measurements",
         "Bispectrum analyses",
         "Imaging systematics on large scales",
-        "Multi-tracer prospects"
+        "Cluster abundance constraints"
       ],
       "open": [
         "Controlling large-scale imaging systematics"

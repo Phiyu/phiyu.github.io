@@ -16,7 +16,7 @@ We use the local ansatz $\Phi = \phi + f_{\rm NL}^{\rm local}\left(\phi^2 - \lan
 
 ### How to read this review
 
-The atlas below crosses three kinds of work with the place the signal is generated or observed. Each cell is a section with its own revision date; the change log records every revision and every paper added.
+The atlas below crosses four kinds of work (theory, simulation, method, observation) with the place the signal is generated or observed. Each cell is a section with its own revision date; the change log records every revision and every paper added.
 
 ### Existing reviews
 

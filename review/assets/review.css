@@ -205,7 +205,7 @@ h2 { font: 600 var(--s3)/1.1 var(--serif); letter-spacing: -.01em; margin: 0; }
 }
 .atlas > [style*="--r"] { grid-row: var(--r); grid-column: var(--c); }
 .ax-group { font-size: var(--s-1); color: var(--muted); padding: 0 2px 4px; border-bottom: 1px solid var(--rule); align-self: end; }
-.ax-col { padding: 6px 2px 8px; align-self: end; }
+.ax-col { padding: 6px 2px 8px; align-self: start; }
 .ax-col strong { display: block; font: 600 var(--s0)/1.2 var(--sans); }
 .ax-col span { display: block; font-size: 12px; color: var(--muted); line-height: 1.35; margin-top: 3px; }
 .ax-row { padding: 12px 10px 12px 0; }
