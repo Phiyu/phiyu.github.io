@@ -1,39 +1,40 @@
 ---
 layout: single
 title: "Research"
-permalink: /research1/
+permalink: /research/
 author_profile: true
-research_cards:
-  - title: "3D Cosmic Web Cross-Correlation Function"
-    image_path: /assets/images/3dwccf.png
-    alt: "Halo and Galaxy Distribution research"
-    excerpt: |
-      **2025-2026, Department of Astronomy, USTC** |
-      **Supervisor:** Prof. [Huiyuan Wang](https://inspirehep.net/authors/1038276) |
-      Using new statistical method to prob the halo and galaxy distribution with the impact of local tidal environment.
-#   - title: "Dark Energy Model Research (DESI)"
-#     image_path: /assets/images/0722-1.png
-#     alt: "Dark energy model research"
-#     excerpt: |
-#       **2026, Department of Astronomy, USTC** |
-#       **Supervisor:** Prof. [Wenjuan Fang](https://inspirehep.net/authors/1035163) |
-#       Member of the DESI Collaboration; currently reading [2508.17955](https://www.arxiv.org/pdf/2508.17955) and [2511.05653](https://www.arxiv.org/pdf/2511.05653) for upcoming projects.
-  - title: "Frontier Topics in Modern Cosmology"
-    image_path: /assets/images/zhm_res.png
-    alt: "Modern cosmology project"
-    excerpt: |
-      **2024-2025, NAOC, CAS** <br>
-      **Supervisor:** Prof. [Hongming Zhu](https://inspirehep.net/authors/1636078) <br>
-      Reproduced N-body simulation and power-spectrum estimators in Python (validated with Quijote), and developed a reproducible analysis repository.
+math: true
 ---
 
-## Research Experience
+### Halo-Cosmic Web Relation
 
-{% include feature_row id="research_cards" type="left" %}
+Dark matter halos are the bridge between observed galaxies and in matter field which are mainly invisible dark matter.
 
+$$
+  {\rm Matter\; Field}\quad \Leftrightarrow \quad {\rm Dark\; Matter \; Halo}\quad  \Leftrightarrow \quad {\rm Galaxy}
+$$
 
-## Publication
+Our research focus on the relation between the dark matter halo and the matter field, especially the tidal-field and the cosmic webs classified by it (T-web method). Till now, we've done several tests on:
 
+- Relation between halo mass, halo formation time and local density as well as cosmic web.
+
+- Anisotropy of the halo-web cross-correlation function under tidal field eigen-frame.
+
+**Highlights**:
 - (*In preparation...*) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
-
   **Hongfei Yu**, Huiyuan Wang | arXiv: 26xx.xxxxx
+
+
+---
+
+### Non-Gaussianity
+
+Precise estimation of primordial non-Gaussianity (PNG) is essential for distinguishing different inflation models and learning about primordial universe. A widely studied PNG model is called local-type $f_{\rm NL}$ which is defined as
+
+$$
+  \Phi = \Phi_{\rm G} + f_{\rm NL}(\Phi_{\rm G}^2 - \langle \Phi_{\rm G}^2 \rangle).
+$$
+
+The current best $f_{\rm NL}$ constraint comes from the Planck experiment's analysis of CMB, reaching $f_{\rm NL} = 0.9\pm 5.1$. Our research focus on improve the constraint from cosmic shear either by higher-order statistics nor neural network but with enough physical transparency.
+
+**Highlights**:
