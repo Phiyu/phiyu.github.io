@@ -97,4 +97,4 @@ Outside research, I enjoy badminton, volleyball, and playing percussion in an or
 
 
 
-*Thanks for visiting! You can find more about my background in my [CV](/assets/pdf/CV_260511.pdf).*
+*Thanks for visiting! You can find more about my background in my [CV](/assets/pdf/CV_yhf.pdf).*
