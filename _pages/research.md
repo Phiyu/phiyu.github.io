@@ -4,6 +4,8 @@ title: "Research"
 permalink: /research/
 author_profile: true
 math: true
+toc: true
+toc_label: "Research"
 ---
 
 ### Halo-Cosmic Web Relation
@@ -24,7 +26,7 @@ Our research focus on the relation between the dark matter halo and the matter f
 - (*In preparation...*) Halo formation and distribution around cosmic web
   **Hongfei Yu**, Huiyuan Wang et al. | arXiv: 2610.xxxxx
 
-![](../assets/images/2610.png)
+<!-- ![](../assets/images/2610.png) -->
 
 ---
 
