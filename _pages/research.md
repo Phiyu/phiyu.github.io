@@ -16,14 +16,15 @@ $$
 
 Our research focus on the relation between the dark matter halo and the matter field, especially the tidal-field and the cosmic webs classified by it (T-web method). Till now, we've done several tests on:
 
-- Relation between halo mass, halo formation time and local density as well as cosmic web.
+- How local density and cosmic web affect the halo mass function and assembly bias.
 
 - Anisotropy of the halo-web cross-correlation function under tidal field eigen-frame.
 
 **Highlights**:
-- (*In preparation...*) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
-  **Hongfei Yu**, Huiyuan Wang | arXiv: 26xx.xxxxx
+- (*In preparation...*) Halo formation and distribution around cosmic web
+  **Hongfei Yu**, Huiyuan Wang et al. | arXiv: 2610.xxxxx
 
+![](../assets/images/2610.png)
 
 ---
 

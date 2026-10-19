@@ -38,7 +38,7 @@ I am an undergraduate studying astronomy at the [University of Science and Techn
 
 My research interests lie in **phenomenological cosmology**, particularly **large-scale structure (LSS), dark energy, and fundamental physics**. My current work focuses on:
 
-- Studying the statistics of halo and galaxy distributions to probe the halo model, under the supervision of [Prof. Huiyuan Wang](https://inspirehep.net/authors/1038276?ui-citation-summary=true).
+- Studying the relation between halo and cosmic webs, or tidal environment in general, under the supervision of [Prof. Huiyuan Wang](https://inspirehep.net/authors/1038276?ui-citation-summary=true).
 - Exploring neural network methods for constraining non-Gaussianity with cosmic shear, in collaboration with [Prof. Moritz Muenchmeyer](https://www.physics.wisc.edu/directory/munchmeyer-moritz/).
 
 I am also interested in effective field theory (EFT) approaches to large-scale structure and dark energy, which I see as promising tools for understanding the universe.
