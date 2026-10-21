@@ -115,7 +115,7 @@ Below is a selection of academic honors and scholarships I have received during 
 
 这可能是这个网站唯一一个全中文部分，展示了我学习过程中所写过的一些值得分享给大家且可能给大家带来帮助的文件. 
 
-> 实际上很多课程我都只写了一个自己看得懂的期末速记，就不放上来丢人了. 此外历年真题可能涉及侵权，有需要的同学可以[邮箱联系我](mailto:yuhongfei@mail.ustc.edu.cn)（请注明学号）.
+> 实际上很多课程我都只写了一个自己看得懂的期末速记，就不放上来丢人了. 此外历年真题可能涉及侵权，有需要的同学可以邮箱联系我：yuhongfei [at] mail.ustc.edu.cn（请注明学号）.
 
 - [力学期中大抄](/assets/notes/力学期中大抄.pdf)，[力学期末大抄](/assets/notes/力学期末大抄.pdf)
 - [电磁学期中复习题](/assets/notes/电磁学期中复习.pdf)，[电磁学期末复习题](/assets/notes/电磁学期末复习.pdf)
