@@ -85,6 +85,7 @@ I am also interested in effective field theory (EFT) approaches to large-scale s
 
 ## News
 
+- **2026.10.26**: My [first paper](https://github.com/Phiyu/pywccf) has been submitted to arXiv! [Click here](/research/) for a short introduce about this research.
 - **2026.7**: Arrived at UW–Madison and started a **summer research internship** with Prof. Moritz Muenchmeyer.
 - **2025.8**: Joined the Galaxy Cosmology Group at USTC, advised by Prof. Huiyuan Wang. Started another URP in December.
 - **2025.7**: Chose astronomy as a sub-major in the School of Physics and joined the Wang Shouguan Talent Program in Astronomy.

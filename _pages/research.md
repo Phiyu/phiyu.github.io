@@ -23,8 +23,11 @@ Our research focus on the relation between the dark matter halo and the matter f
 - Anisotropy of the halo-web cross-correlation function under tidal field eigen-frame.
 
 **Highlights**:
-- (*In preparation...*) Halo formation and distribution around cosmic web
-  **Hongfei Yu**, Huiyuan Wang et al. | arXiv: 2610.xxxxx
+- **Paper**: Halo formation and distribution around cosmic web
+
+  **Hongfei Yu**, Huiyuan Wang et al. | [arXiv: 2610.34042](https://arxiv.org/abs/2610.34042)
+
+- **PyPackage**: [`pywccf`](https://github.com/Phiyu/pywccf)
 
 <!-- ![](../assets/images/2610.png) -->
 
