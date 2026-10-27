@@ -39,7 +39,9 @@ I am also interested in effective field theory (EFT) approaches to large-scale s
 
 ## Publications
 
-- **Yu, H.**, Wang, H., et al. (2026). Halo formation and distribution around cosmic web. arXiv preprint arXiv:2610.34042.
+- **Hongfei Yu**, Huiyuan Wang, Yangyao Chen, Ziwen Zhang, Hao Li. Halo formation and distribution around cosmic web. (2026)
+  
+   arXiv preprint | arXiv:2610.34042 | [pdf](assets/pdf/2610.34042.pdf)
 
 
 > Learn more about my research and publications on the [Research](/research/) page.
