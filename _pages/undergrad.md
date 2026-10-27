@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Undergrad Education"
+title: "Undergrad"
 permalink: /undergrad/
 author_profile: true
 toc: true

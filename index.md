@@ -18,13 +18,6 @@ home_links:
     url: "/undergrad/"
     btn_label: "View"
     btn_class: "btn--primary"
-  # - title: "Simulations"
-  #   image_path: "/assets/images/icon-simulation.svg"
-  #   alt: "Simulation icon"
-  #   excerpt: "Tidal field datasets from cosmological simulations (TNG, ELUCID)."
-  #   url: "/simulation/"
-  #   btn_label: "View"
-  #   btn_class: "btn--primary"
   - title: "CV"
     image_path: "/assets/images/icon-cv.svg"
     alt: "CV icon"
@@ -43,42 +36,10 @@ My research interests lie in **phenomenological cosmology**, particularly **larg
 
 I am also interested in effective field theory (EFT) approaches to large-scale structure and dark energy, which I see as promising tools for understanding the universe.
 
-<!-- 
-## Current Research Focus
 
-- **LSS:** statistical modeling of halo and galaxy distributions, also galaxy-halo relations.
-- **Cosmological Parameter Constraint:** constructing phenomenological model to constrain cosmology parameters and models with simulation and observation.
-- **AI for Cosmology:** combining Machine Learning (ML) with theoretical and computational methods to probe fundamental physics with cosmological data. -->
+## Publications
 
-<!-- ## Highlights
-
-- **Research experience:** cosmology research at NAOC (2024–2025), an undergraduate research program at USTC (2025–2026), and a research internship at UW–Madison (2026–2027).
-- **Collaboration membership:** member of the DESI Cosmological Parameter Estimator (CPE) group.
-- **Academic training:** graduate-level coursework in general relativity and cosmology, large-scale structure, and AI for astrophysics, alongside a broad foundation in physics and mathematics.
-- **Teaching assistantships:** Theoretical Mechanics (Fall 2025) and Electrodynamics (Spring 2026). -->
-
-
-<!-- ## Quick Links
-
-<div style="display: flex; justify-content: center; gap: 40px; align-items: center; flex-wrap: wrap; margin: 30px 0;">
-  <a href="/research/" style="text-decoration: none;">
-    <img src="/assets/images/icon-research.svg" alt="Research icon" style="width: 200px; height: 100px;">
-  </a>
-  <a href="/undergrad/" style="text-decoration: none;">
-    <img src="/assets/images/icon-undergrad.svg" alt="Undergrad icon" style="width: 200px; height: 100px;">
-  </a>
-  <a href="/assets/pdf/CV_260106.pdf" style="text-decoration: none;">
-    <img src="/assets/images/icon-cv.svg" alt="CV icon" style="width: 200px; height: 100px;">
-  </a>
-</div> -->
-
-
-
-<!-- ## Publications
-
-- (*In preparation*) 3D Cosmic Web Cross-Correlation in Tidal Eigenspace I: Anisotropy of Cosmic Web-Halo Correlation and Assembly Bias
-
-  **Hongfei Yu**, Huiyuan Wang -->
+- **Yu, H.**, Wang, H., et al. (2026). Halo formation and distribution around cosmic web. arXiv preprint arXiv:2610.34042.
 
 
 > Learn more about my research and publications on the [Research](/research/) page.
