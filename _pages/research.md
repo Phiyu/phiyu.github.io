@@ -25,7 +25,7 @@ Our research focus on the relation between the dark matter halo and the matter f
 **Highlights**:
 - **Paper**: Halo formation and distribution around cosmic web
 
-  **Hongfei Yu**, Huiyuan Wang et al. |\| [arXiv: 2610.34042](https://arxiv.org/abs/2610.34042)
+  **Hongfei Yu**, Huiyuan Wang et al. |\|| [arXiv: 2610.34042](https://arxiv.org/abs/2610.34042)
 
 - **PyPackage**: [`pywccf`](https://github.com/Phiyu/pywccf)
 
