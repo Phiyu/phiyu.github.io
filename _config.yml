@@ -136,7 +136,7 @@ author:
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://inspirehep.net/authors/3218279"
     - label: "Google Scholar"
-      icon: "fas fa-fw fa-google-scholar"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=JutpkXQAAAAJ&hl=en"
     - label: "phiyuhf [AT] (outlook)"
       icon: "fas fa-fw fa-envelope"
